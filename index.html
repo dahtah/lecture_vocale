@@ -1,0 +1,862 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lecture vocale</title>
+<script src="https://js.puter.com/v2/"></script>
+<style>
+  :root {
+    --bg: #f4f7fb;
+    --card: #ffffff;
+    --primary: #4c7df0;
+    --primary-dark: #3a66d4;
+    --accent: #34c759;
+    --accent-dark: #2aa14a;
+    --stop: #ff5b5b;
+    --stop-dark: #e23c3c;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+    --highlight: #ffd966;
+    --highlight-text: #1a1a1a;
+    --read: #cde4ff;
+    --neural: #1a7f37;
+    --neural-bg: #e6f4ea;
+    --std: #9a6a00;
+    --std-bg: #fef3d6;
+    --cloud: #7c3aed;
+    --cloud-bg: #f3e8ff;
+    font-family: "Comic Sans MS", "Segoe UI Rounded", "Segoe UI", system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 40px;
+  }
+  header { text-align: center; margin-bottom: 18px; }
+  header h1 { font-size: 2rem; margin: 0 0 6px; color: var(--primary); }
+  header p { margin: 0; font-size: 1.05rem; color: var(--muted); }
+  .card {
+    width: 100%; max-width: 760px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+    padding: 22px;
+    display: flex; flex-direction: column; gap: 16px;
+  }
+
+  /* Zone de texte éditable avec surlignage */
+  .editor {
+    width: 100%; min-height: 180px;
+    font-family: inherit; font-size: 1.5rem; line-height: 2.1;
+    padding: 18px 20px;
+    border: 3px solid var(--border); border-radius: 14px;
+    color: var(--text); background: #fbfdff;
+    white-space: pre-wrap; word-break: break-word;
+    outline: none;
+    overflow-y: auto; max-height: 380px;
+  }
+  .editor:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 4px rgba(76,125,240,0.15);
+  }
+  .editor.reading { border-color: var(--accent); }
+  .editor .word {
+    padding: 1px 2px; border-radius: 4px;
+    transition: background 0.08s ease;
+  }
+  .editor .word.read { background: var(--read); }
+  .editor .word.active {
+    background: var(--highlight);
+    color: var(--highlight-text);
+    font-weight: 700;
+  }
+
+  .controls { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  @media (max-width: 520px) {
+    .controls { grid-template-columns: 1fr; }
+    .editor { font-size: 1.3rem; }
+  }
+  .field { display: flex; flex-direction: column; gap: 6px; }
+  .field label {
+    font-size: 0.95rem; font-weight: 700; color: var(--muted);
+    display: flex; align-items: center; gap: 6px;
+  }
+  select, input[type=range] { width: 100%; font-family: inherit; font-size: 1rem; }
+  select {
+    padding: 10px 12px; border: 2px solid var(--border);
+    border-radius: 10px; background: white; color: var(--text);
+  }
+  input[type=range] {
+    -webkit-appearance: none; height: 8px;
+    background: #e5e7eb; border-radius: 999px; outline: none;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 24px; height: 24px;
+    border-radius: 50%; background: var(--primary);
+    cursor: pointer; border: 3px solid white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  input[type=range]::-moz-range-thumb {
+    width: 24px; height: 24px; border-radius: 50%;
+    background: var(--primary); cursor: pointer; border: 3px solid white;
+  }
+  .speed-value { font-size: 0.9rem; color: var(--primary); font-weight: 700; }
+  .buttons { display: flex; gap: 12px; flex-wrap: wrap; }
+  button {
+    font-family: inherit; font-size: 1.15rem; font-weight: 700;
+    border: none; border-radius: 14px; padding: 14px 24px; cursor: pointer;
+    display: inline-flex; align-items: center; gap: 8px;
+    transition: transform 0.05s ease, background 0.15s ease;
+  }
+  button:active { transform: scale(0.97); }
+  button:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-play { background: var(--accent); color: white; flex: 1; min-width: 160px; }
+  .btn-play:hover:not(:disabled) { background: var(--accent-dark); }
+  .btn-pause { background: #ffb443; color: white; }
+  .btn-pause:hover:not(:disabled) { background: #e89a26; }
+  .btn-stop { background: var(--stop); color: white; }
+  .btn-stop:hover:not(:disabled) { background: var(--stop-dark); }
+  .btn-icon { font-size: 1.4rem; }
+  .status { font-size: 0.95rem; color: var(--muted); text-align: center; min-height: 1.2em; }
+
+  /* Sélecteur de moteur */
+  .engine-row {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    background: #f8faff; border: 1px solid var(--border);
+    border-radius: 12px; padding: 10px 12px;
+  }
+  .engine-btn {
+    flex: 1; min-width: 120px;
+    font-size: 0.9rem; font-weight: 700;
+    border: 2px solid var(--border); border-radius: 10px;
+    padding: 10px 14px; cursor: pointer; background: white; color: var(--text);
+    display: flex; align-items: center; justify-content: center; gap: 6px;
+    transition: all 0.15s ease;
+  }
+  .engine-btn:hover { border-color: var(--primary); }
+  .engine-btn.active {
+    border-color: var(--primary); background: var(--primary); color: white;
+  }
+  .engine-btn.disabled { opacity: 0.4; cursor: not-allowed; }
+  .engine-tag {
+    font-size: 0.65rem; font-weight: 700; padding: 1px 6px;
+    border-radius: 999px; white-space: nowrap;
+  }
+  .engine-tag.cloud { background: var(--cloud-bg); color: var(--cloud); }
+  .engine-tag.local { background: #e5e7eb; color: var(--muted); }
+
+  .toggle-row { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--muted); }
+  .toggle-row input { width: 18px; height: 18px; cursor: pointer; }
+  .toggle-row label { cursor: pointer; }
+
+  .info-banner {
+    font-size: 0.82rem; color: var(--muted); background: #f0f5ff;
+    border: 1px solid #dbe7ff; border-radius: 10px; padding: 8px 12px;
+    display: none; align-items: center; gap: 6px;
+  }
+  .info-banner.show { display: flex; }
+  .info-banner strong { color: var(--primary); }
+  .info-banner.cloud { background: var(--cloud-bg); border-color: #e9d5ff; }
+  .info-banner.cloud strong { color: var(--cloud); }
+
+  .error-banner {
+    font-size: 0.85rem; color: #991b1b; background: #fef2f2;
+    border: 1px solid #fecaca; border-radius: 10px; padding: 12px 14px;
+    display: none; flex-direction: column; gap: 8px;
+  }
+  .error-banner.show { display: flex; }
+  .error-banner .error-title { font-weight: 700; display: flex; align-items: center; gap: 6px; }
+  .error-banner .error-detail { font-size: 0.8rem; line-height: 1.5; color: #7f1d1d; }
+  .error-banner .error-detail code {
+    background: #fff; padding: 1px 5px; border-radius: 4px;
+    font-family: monospace; font-size: 0.78rem; border: 1px solid #e5e7eb;
+  }
+  .retry-btn {
+    align-self: flex-start; font-size: 0.85rem; font-weight: 700;
+    border: none; border-radius: 8px; padding: 6px 14px; cursor: pointer;
+    background: var(--primary); color: white; margin-top: 2px;
+  }
+  .retry-btn:hover { background: var(--primary-dark); }
+
+  footer { margin-top: 18px; font-size: 0.8rem; color: var(--muted); text-align: center; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>🔊 Lecture vocale</h1>
+    <p>Tape ou colle un texte, puis écoute-le être lu à voix haute.</p>
+  </header>
+
+  <main class="card">
+    <div class="info-banner" id="qualityBanner">
+      <span>✨</span>
+      <span id="qualityBannerText"></span>
+    </div>
+
+    <div class="info-banner cloud" id="cloudBanner">
+      <span>☁️</span>
+      <span id="cloudBannerText"></span>
+    </div>
+
+    <div class="error-banner" id="errorBanner">
+      <div class="error-title">⚠️ Aucune voix navigateur disponible</div>
+      <div class="error-detail" id="errorDetail"></div>
+      <button class="retry-btn" id="retryBtn">🔄 Réessayer</button>
+    </div>
+
+    <div class="engine-row">
+      <button class="engine-btn" id="engineLocal" data-engine="local">
+        🖥️ Voix du navigateur
+        <span class="engine-tag local">gratuit</span>
+      </button>
+      <button class="engine-btn" id="engineCloud" data-engine="cloud">
+        ☁️ Voix cloud (haute qualité)
+        <span class="engine-tag cloud">gratuit</span>
+      </button>
+    </div>
+
+    <div id="editor" class="editor" contenteditable="true" spellcheck="false"></div>
+
+    <div class="controls">
+      <div class="field">
+        <label for="voice">🗣️ Voix</label>
+        <select id="voice"></select>
+      </div>
+      <div class="field">
+        <label for="rate">⏱️ Vitesse <span class="speed-value" id="rateVal">Normale</span></label>
+        <input type="range" id="rate" min="0.5" max="1.5" step="0.1" value="1" />
+      </div>
+    </div>
+
+    <div class="toggle-row" id="onlyNeuralRow">
+      <input type="checkbox" id="onlyNeural" />
+      <label for="onlyNeural">Ne montrer que les voix haute qualité (neuronales)</label>
+    </div>
+
+    <div class="buttons">
+      <button class="btn-play" id="play" title="Lire le texte"><span class="btn-icon">▶️</span> Lire</button>
+      <button class="btn-pause" id="pause" title="Mettre en pause" disabled><span class="btn-icon">⏸️</span></button>
+      <button class="btn-stop" id="stop" title="Arrêter la lecture" disabled><span class="btn-icon">⏹️</span></button>
+    </div>
+
+    <div class="status" id="status"></div>
+  </main>
+
+  <footer>
+    Les voix cloud sont fournies par Puter.js (Amazon Polly, OpenAI…) — gratuites et sans clé API.<br />
+    Une connexion Internet est nécessaire pour les voix cloud.
+  </footer>
+
+<script>
+  const synth = window.speechSynthesis;
+  const editor = document.getElementById("editor");
+  const voiceEl = document.getElementById("voice");
+  const rateEl = document.getElementById("rate");
+  const rateVal = document.getElementById("rateVal");
+  const playBtn = document.getElementById("play");
+  const pauseBtn = document.getElementById("pause");
+  const stopBtn = document.getElementById("stop");
+  const statusEl = document.getElementById("status");
+  const onlyNeuralEl = document.getElementById("onlyNeural");
+  const onlyNeuralRow = document.getElementById("onlyNeuralRow");
+  const qualityBanner = document.getElementById("qualityBanner");
+  const qualityBannerText = document.getElementById("qualityBannerText");
+  const cloudBanner = document.getElementById("cloudBanner");
+  const cloudBannerText = document.getElementById("cloudBannerText");
+  const errorBanner = document.getElementById("errorBanner");
+  const errorDetail = document.getElementById("errorDetail");
+  const retryBtn = document.getElementById("retryBtn");
+  const engineLocal = document.getElementById("engineLocal");
+  const engineCloud = document.getElementById("engineCloud");
+
+  // État global
+  let currentEngine = "local";
+  let allVoices = [];
+  let filteredVoices = [];
+  let utterance = null;
+  let wordSpans = [];
+  let highlightTimer = null;
+  let activeWordIndex = -1;
+  let cloudAudio = null;
+  let isReading = false;       // true pendant la lecture
+  let cloudHighlightRAF = null;
+  let boundarySupported = false;
+
+  // Texte d'exemple initial
+  const DEFAULT_TEXT = "Bonjour ! Je suis là pour t'aider à lire. Écris ou colle ici le texte que tu veux écouter, puis appuie sur le gros bouton vert Lire.";
+
+  // ============================================================
+  // Gestion de l'éditeur contenteditable
+  // ============================================================
+  // Deux modes:
+  // 1. Mode édition (par défaut): l'utilisateur tape librement, pas de spans
+  // 2. Mode lecture: le texte est transformé en <span class="word"> pour le surlignage
+  // Toute édition en mode lecture → arrêter la lecture + revenir en mode texte brut
+
+  function getEditorText() {
+    // Récupérer le texte brut de l'éditeur (sans balises)
+    return editor.textContent || "";
+  }
+
+  function setEditorText(text) {
+    editor.textContent = text;
+  }
+
+  function stopReadingAndReset() {
+    // Arrêter toute lecture en cours
+    if (synth && synth.speaking) synth.cancel();
+    if (cloudAudio) { cloudAudio.pause(); cloudAudio = null; }
+    stopCloudHighlight();
+    if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+    clearHighlight();
+    isReading = false;
+    editor.classList.remove("reading");
+    pauseBtn.disabled = true;
+    stopBtn.disabled = true;
+    // Remettre l'éditeur en mode texte brut (supprimer les spans)
+    // On garde le texte actuel tel quel
+    const currentText = getEditorText();
+    setEditorText(currentText);
+  }
+
+  // Quand l'utilisateur édite → arrêter la lecture
+  editor.addEventListener("input", () => {
+    if (isReading) {
+      stopReadingAndReset();
+      setStatus("Lecture arrêtée — texte modifié. ✏️");
+    }
+  });
+
+  // ============================================================
+  // Construction des spans de mots dans l'éditeur (mode lecture)
+  // ============================================================
+  function buildWordSpans(text) {
+    // Remplacer le contenu de l'éditeur par des spans
+    editor.innerHTML = "";
+    wordSpans = [];
+    if (!text) return;
+    const regex = /(\S+|\s+)/g;
+    let charIndex = 0;
+    const tokens = text.match(regex) || [];
+    tokens.forEach(tok => {
+      if (/^\s+$/.test(tok)) {
+        editor.appendChild(document.createTextNode(tok));
+        charIndex += tok.length;
+      } else {
+        const span = document.createElement("span");
+        span.className = "word";
+        span.textContent = tok;
+        span.dataset.start = charIndex;
+        span.dataset.len = tok.length;
+        span.dataset.wordIndex = wordSpans.length;
+        wordSpans.push(span);
+        editor.appendChild(span);
+        charIndex += tok.length;
+      }
+    });
+  }
+
+  // ============================================================
+  // Surlignage synchrone
+  // ============================================================
+  function highlightByCharIndex(charIndex) {
+    for (let i = 0; i < wordSpans.length; i++) {
+      const start = parseInt(wordSpans[i].dataset.start, 10);
+      const len = parseInt(wordSpans[i].dataset.len, 10);
+      if (charIndex >= start && charIndex < start + len) {
+        setActiveWord(i);
+        return;
+      }
+    }
+  }
+
+  function startTimedHighlight(rate) {
+    if (!wordSpans.length) return;
+    const wordsPerSec = (rate || 1) * (150 / 60);
+    const interval = (1 / wordsPerSec) * 1000;
+    let idx = 0;
+    setActiveWord(0);
+    highlightTimer = setInterval(() => {
+      idx++;
+      if (idx < wordSpans.length) setActiveWord(idx);
+      else { clearInterval(highlightTimer); highlightTimer = null; }
+    }, interval);
+  }
+
+  // Surlignage cloud basé sur audio.currentTime
+  function startCloudHighlight(audio) {
+    if (!wordSpans.length) return;
+    const wordWeights = wordSpans.map(s => {
+      const text = s.textContent || "";
+      let w = text.length;
+      if (/[.,;:!?]$/.test(text)) w += 7;
+      return Math.max(1, w);
+    });
+    const totalWeight = wordWeights.reduce((a, b) => a + b, 0);
+    const wordPositions = [];
+    let cumul = 0;
+    for (let i = 0; i < wordSpans.length; i++) {
+      wordPositions.push(cumul / totalWeight);
+      cumul += wordWeights[i];
+    }
+    let lastIdx = -1;
+    function update() {
+      if (!audio || audio.ended) return;
+      if (audio.paused) { cloudHighlightRAF = requestAnimationFrame(update); return; }
+      const duration = audio.duration || 0;
+      const currentTime = audio.currentTime || 0;
+      if (duration > 0) {
+        const progress = Math.min(1, currentTime / duration);
+        let idx = 0;
+        for (let i = 0; i < wordPositions.length; i++) {
+          if (progress >= wordPositions[i]) idx = i; else break;
+        }
+        if (progress > 0.97) idx = wordSpans.length - 1;
+        if (idx !== lastIdx) { setActiveWord(idx); lastIdx = idx; }
+      }
+      if (!audio.ended) cloudHighlightRAF = requestAnimationFrame(update);
+    }
+    cloudHighlightRAF = requestAnimationFrame(update);
+  }
+
+  function stopCloudHighlight() {
+    if (cloudHighlightRAF) { cancelAnimationFrame(cloudHighlightRAF); cloudHighlightRAF = null; }
+  }
+
+  function setActiveWord(index) {
+    if (activeWordIndex >= 0 && activeWordIndex < wordSpans.length) {
+      wordSpans[activeWordIndex].classList.remove("active");
+      wordSpans[activeWordIndex].classList.add("read");
+    }
+    activeWordIndex = index;
+    if (index >= 0 && index < wordSpans.length) {
+      wordSpans[index].classList.add("active");
+      try { wordSpans[index].scrollIntoView({ block: "nearest", behavior: "smooth" }); } catch(e) {}
+    }
+  }
+
+  function clearHighlight() {
+    wordSpans.forEach(s => { s.classList.remove("active"); s.classList.remove("read"); });
+    activeWordIndex = -1;
+    if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+  }
+
+  function resetHighlight() { clearHighlight(); }
+
+  function setStatus(msg) { statusEl.textContent = msg; }
+
+  // ============================================================
+  // Voix cloud (Puter.js)
+  // ============================================================
+  const CLOUD_VOICES = [
+    { id: "auto-fr",    name: "Auto français (recommandé)",  voice: null,      engine: null,      lang: "fr-FR" },
+    { id: "Celine",     name: "Céline (fr, neuronale)",       voice: "Celine",  engine: "neural",  lang: "fr-FR" },
+    { id: "Lea",        name: "Léa (fr, neuronale)",          voice: "Lea",     engine: "neural",  lang: "fr-FR" },
+    { id: "Remi",       name: "Rémi (fr, neuronale)",         voice: "Remi",    engine: "neural",  lang: "fr-FR" },
+    { id: "Joanna-fr",  name: "Joanna (fr, standard)",        voice: "Joanna",  engine: "standard", lang: "fr-FR" },
+    { id: "auto-en",    name: "Auto anglais",                 voice: null,      engine: null,      lang: "en-US" },
+  ];
+
+  function hasPuter() {
+    return typeof puter !== "undefined" && puter.ai && typeof puter.ai.txt2speech === "function";
+  }
+
+  // ============================================================
+  // Détection de la qualité des voix locales
+  // ============================================================
+  function isNeuralVoice(v) {
+    const name = (v.name || "").toLowerCase();
+    const neuralKeywords = ["natural", "neural", "enhanced", "premium", "studio", "online"];
+    const googleKeywords = ["google"];
+    const applePremium = ["amélie", "thomas", "anna", "paulina", "sergio", "luca", "nora", "jorge", "marcos", "daniel", "fiona"];
+    if (neuralKeywords.some(k => name.includes(k))) return true;
+    if (googleKeywords.some(k => name.includes(k))) return true;
+    if (applePremium.some(k => name === k || name.includes(" " + k + " ") || name.startsWith(k + " ") || name.endsWith(" " + k))) return true;
+    if (name.includes("compact")) return false;
+    if (name.includes("microsoft") && !name.includes("desktop")) return true;
+    return false;
+  }
+
+  // ============================================================
+  // Chargement des voix du navigateur (avec retry)
+  // ============================================================
+  let voiceLoadAttempts = 0;
+  let voiceLoadTimer = null;
+
+  function loadVoices() {
+    if (voiceLoadTimer) { clearTimeout(voiceLoadTimer); voiceLoadTimer = null; }
+    allVoices = synth ? synth.getVoices() : [];
+    voiceLoadAttempts++;
+    if (allVoices.length === 0) {
+      qualityBanner.classList.remove("show");
+      if (voiceLoadAttempts < 6) {
+        voiceLoadTimer = setTimeout(() => loadVoices(), 500 * voiceLoadAttempts);
+      } else {
+        showNoVoicesError();
+        if (hasPuter()) switchEngine("cloud");
+      }
+      if (currentEngine === "local") refreshVoiceSelect();
+      return;
+    }
+    errorBanner.classList.remove("show");
+    updateQualityBanner();
+    if (currentEngine === "local") refreshVoiceSelect();
+    updateEngineButtons();
+  }
+
+  function showNoVoicesError() {
+    const ua = navigator.userAgent;
+    let detail = "";
+    if (ua.includes("Chrome") && !ua.includes("Edg") && ua.includes("Linux")) {
+      detail = "Chrome sur Linux ne fournit pas de voix par défaut. " +
+        "Solution : installe <code>sudo apt install speech-dispatcher espeak-ng</code>, " +
+        "ou utilise le moteur <strong>Voix cloud</strong> ci-dessus (gratuit, haute qualité).";
+    } else if (ua.includes("Chrome") && !ua.includes("Edg")) {
+      detail = "Aucune voix chargée. Vérifie ta connexion Internet " +
+        "ou utilise le moteur <strong>Voix cloud</strong> ci-dessus.";
+    } else {
+      detail = "Aucune voix de synthèse vocale détectée sur cet appareil.";
+    }
+    errorDetail.innerHTML = detail;
+    errorBanner.classList.add("show");
+  }
+
+  retryBtn.addEventListener("click", () => {
+    errorBanner.classList.remove("show");
+    voiceLoadAttempts = 0;
+    if (synth) { synth.getVoices(); voiceLoadTimer = setTimeout(() => loadVoices(), 800); }
+  });
+
+  // ============================================================
+  // Sélecteur de moteur (local / cloud)
+  // ============================================================
+  function switchEngine(engine) {
+    // Arrêter la lecture si on change de moteur
+    if (isReading) stopReadingAndReset();
+    currentEngine = engine;
+    updateEngineButtons();
+    if (engine === "local") {
+      onlyNeuralRow.style.display = "flex";
+      if (allVoices.length > 0) { errorBanner.classList.remove("show"); refreshVoiceSelect(); }
+      else { voiceEl.innerHTML = '<option disabled selected>Aucune voix locale</option>'; playBtn.disabled = true; }
+    } else {
+      onlyNeuralRow.style.display = "none";
+      errorBanner.classList.remove("show");
+      playBtn.disabled = false;
+      refreshCloudVoiceSelect();
+    }
+  }
+
+  function updateEngineButtons() {
+    engineLocal.classList.toggle("active", currentEngine === "local");
+    engineCloud.classList.toggle("active", currentEngine === "cloud");
+    if (allVoices.length === 0) engineLocal.classList.add("disabled");
+    else engineLocal.classList.remove("disabled");
+    if (!hasPuter()) engineCloud.classList.add("disabled");
+    else engineCloud.classList.remove("disabled");
+  }
+
+  engineLocal.addEventListener("click", () => { if (allVoices.length > 0) switchEngine("local"); });
+  engineCloud.addEventListener("click", () => { if (hasPuter()) switchEngine("cloud"); });
+
+  function refreshCloudVoiceSelect() {
+    voiceEl.innerHTML = "";
+    CLOUD_VOICES.forEach(v => {
+      const opt = document.createElement("option");
+      opt.value = v.id;
+      opt.textContent = v.name;
+      voiceEl.appendChild(opt);
+    });
+    voiceEl.selectedIndex = 0;
+  }
+
+  // ============================================================
+  // Sélecteur de voix locales
+  // ============================================================
+  function refreshVoiceSelect() {
+    if (currentEngine !== "local") return;
+    const showOnlyNeural = onlyNeuralEl.checked;
+    let sorted = allVoices.slice().sort((a, b) => {
+      const aFr = (a.lang || "").toLowerCase().startsWith("fr");
+      const bFr = (b.lang || "").toLowerCase().startsWith("fr");
+      if (aFr && !bFr) return -1;
+      if (!aFr && bFr) return 1;
+      const aN = isNeuralVoice(a) ? 0 : 1;
+      const bN = isNeuralVoice(b) ? 0 : 1;
+      if (aN !== bN) return aN - bN;
+      return (a.name || "").localeCompare(b.name || "");
+    });
+    if (showOnlyNeural) sorted = sorted.filter(isNeuralVoice);
+    filteredVoices = sorted;
+    const prevUri = (voiceEl.selectedOptions[0] && voiceEl.selectedOptions[0].dataset.voiceUri) || "";
+    voiceEl.innerHTML = "";
+    sorted.forEach((v) => {
+      const opt = document.createElement("option");
+      opt.value = v.voiceURI;
+      opt.dataset.voiceUri = v.voiceURI;
+      opt.textContent = v.name + " (" + v.lang + ")" + (isNeuralVoice(v) ? " ✨" : "");
+      voiceEl.appendChild(opt);
+    });
+    let bestIndex = 0;
+    if (prevUri) {
+      const idx = sorted.findIndex(v => v.voiceURI === prevUri);
+      if (idx >= 0) bestIndex = idx;
+    } else {
+      const frNeural = sorted.findIndex(v => (v.lang || "").toLowerCase().startsWith("fr") && isNeuralVoice(v));
+      const fr = sorted.findIndex(v => (v.lang || "").toLowerCase().startsWith("fr"));
+      if (frNeural >= 0) bestIndex = frNeural;
+      else if (fr >= 0) bestIndex = fr;
+    }
+    if (voiceEl.options[bestIndex]) voiceEl.selectedIndex = bestIndex;
+    playBtn.disabled = false;
+  }
+
+  function updateQualityBanner() {
+    const frNeuralCount = allVoices.filter(v => (v.lang || "").toLowerCase().startsWith("fr") && isNeuralVoice(v)).length;
+    const neuralCount = allVoices.filter(isNeuralVoice).length;
+    if (frNeuralCount > 0) {
+      qualityBannerText.innerHTML = "<strong>" + frNeuralCount + " voix française(s) haute qualité</strong> détectée(s) — sélectionnée(s) automatiquement.";
+      qualityBanner.classList.add("show");
+    } else if (neuralCount > 0) {
+      qualityBannerText.innerHTML = "<strong>" + neuralCount + " voix haute qualité</strong> dans d'autres langues.";
+      qualityBanner.classList.add("show");
+    } else { qualityBanner.classList.remove("show"); }
+    if (hasPuter()) {
+      cloudBannerText.innerHTML = "Moteur <strong>Voix cloud</strong> disponible (Amazon Polly, qualité neuronale) — gratuit, sans clé API.";
+      cloudBanner.classList.add("show");
+    }
+  }
+
+  // ============================================================
+  // LECTURE — moteur local (navigateur)
+  // ============================================================
+  function speakLocal() {
+    if (!synth) { setStatus("Synthèse vocale non disponible."); return; }
+    if (synth.speaking) synth.cancel();
+    const text = getEditorText().trim();
+    if (!text) { setStatus("Écris d'abord un texte à lire. ✏️"); return; }
+    resetHighlight();
+    buildWordSpans(text);
+    activeWordIndex = -1;
+    isReading = true;
+    editor.classList.add("reading");
+    editor.setAttribute("contenteditable", "false");
+
+    utterance = new SpeechSynthesisUtterance(text);
+    const selectedUri = voiceEl.value;
+    const selectedVoice = filteredVoices.find(v => v.voiceURI === selectedUri) || allVoices.find(v => v.voiceURI === selectedUri);
+    if (selectedVoice) { utterance.voice = selectedVoice; utterance.lang = selectedVoice.lang || "fr-FR"; }
+    else { utterance.lang = "fr-FR"; }
+    utterance.rate = parseFloat(rateEl.value) || 1;
+    utterance.pitch = 1;
+    boundarySupported = false;
+
+    utterance.onstart = () => {
+      setStatus("Lecture en cours… 🔊");
+      pauseBtn.disabled = false; stopBtn.disabled = false;
+      const rate = utterance.rate;
+      setTimeout(() => { if (!boundarySupported && synth.speaking) startTimedHighlight(rate); }, 200);
+    };
+    utterance.onboundary = (event) => {
+      if (event.name === "word" && typeof event.charIndex === "number") {
+        if (!boundarySupported) { boundarySupported = true; if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; } }
+        highlightByCharIndex(event.charIndex);
+      }
+    };
+    utterance.onend = () => {
+      setStatus("Lecture terminée ✅");
+      isReading = false;
+      editor.classList.remove("reading");
+      editor.setAttribute("contenteditable", "true");
+      pauseBtn.disabled = true; stopBtn.disabled = true;
+      if (activeWordIndex >= 0 && activeWordIndex < wordSpans.length) {
+        wordSpans[activeWordIndex].classList.remove("active");
+        wordSpans[activeWordIndex].classList.add("read");
+      }
+      if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+    };
+    utterance.onerror = () => {
+      setStatus("Lecture interrompue.");
+      isReading = false;
+      editor.classList.remove("reading");
+      editor.setAttribute("contenteditable", "true");
+      pauseBtn.disabled = true; stopBtn.disabled = true;
+      clearHighlight();
+    };
+    synth.speak(utterance);
+  }
+
+  // ============================================================
+  // LECTURE — moteur cloud (Puter.js)
+  // ============================================================
+  async function speakCloud() {
+    if (!hasPuter()) { setStatus("Moteur cloud non disponible."); return; }
+    if (synth && synth.speaking) synth.cancel();
+    if (cloudAudio) { cloudAudio.pause(); cloudAudio = null; }
+    stopCloudHighlight();
+    if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+
+    const text = getEditorText().trim();
+    if (!text) { setStatus("Écris d'abord un texte à lire. ✏️"); return; }
+
+    resetHighlight();
+    buildWordSpans(text);
+    activeWordIndex = -1;
+
+    const voiceId = voiceEl.value;
+    const cloudVoice = CLOUD_VOICES.find(v => v.id === voiceId) || CLOUD_VOICES[0];
+
+    setStatus("Génération de l'audio… ⏳");
+    playBtn.disabled = true;
+
+    try {
+      let audio;
+      if (cloudVoice.voice) {
+        audio = await puter.ai.txt2speech(text, { voice: cloudVoice.voice, engine: cloudVoice.engine, language: cloudVoice.lang });
+      } else {
+        audio = await puter.ai.txt2speech(text, cloudVoice.lang);
+      }
+      cloudAudio = audio;
+      // Appliquer la vitesse choisie (playbackRate côté client — l'API Puter n'a pas de paramètre rate)
+      const cloudRate = parseFloat(rateEl.value) || 1;
+      if (cloudRate !== 1) { try { audio.playbackRate = cloudRate; } catch(e) {} }
+      playBtn.disabled = false;
+      isReading = true;
+      editor.classList.add("reading");
+      editor.setAttribute("contenteditable", "false");
+      setStatus("Lecture en cours… 🔊");
+      pauseBtn.disabled = false; stopBtn.disabled = false;
+      startCloudHighlight(audio);
+
+      audio.onended = () => {
+        setStatus("Lecture terminée ✅");
+        isReading = false;
+        editor.classList.remove("reading");
+        editor.setAttribute("contenteditable", "true");
+        pauseBtn.disabled = true; stopBtn.disabled = true;
+        stopCloudHighlight();
+        if (activeWordIndex >= 0 && activeWordIndex < wordSpans.length) {
+          wordSpans[activeWordIndex].classList.remove("active");
+          wordSpans[activeWordIndex].classList.add("read");
+        }
+        if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+        cloudAudio = null;
+      };
+      audio.onerror = (e) => {
+        console.error("[Puter TTS] Erreur audio:", e);
+        isReading = false;
+        editor.classList.remove("reading");
+        editor.setAttribute("contenteditable", "true");
+        stopCloudHighlight();
+        setStatus("Erreur de lecture audio. Voir la console (F12).");
+      };
+      audio.play().catch(e => {
+        console.error("[Puter TTS] Erreur play():", e);
+        setStatus("Impossible de lancer la lecture. Voir la console (F12).");
+      });
+    } catch (err) {
+      console.error("[Puter TTS] Erreur:", err);
+      setStatus("Erreur lors de la génération: " + (err.message || err) + " (voir F12)");
+      playBtn.disabled = false;
+    }
+  }
+
+  // ============================================================
+  // Boutons de contrôle
+  // ============================================================
+  playBtn.addEventListener("click", () => {
+    if (currentEngine === "local") speakLocal();
+    else speakCloud();
+  });
+
+  pauseBtn.addEventListener("click", () => {
+    if (currentEngine === "local") {
+      if (!synth) return;
+      if (synth.speaking && !synth.paused) {
+        synth.pause();
+        if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+        setStatus("Pause ⏸️");
+      } else if (synth.paused) {
+        synth.resume();
+        if (!boundarySupported) {
+          const rate = parseFloat(rateEl.value) || 1;
+          const startIdx = Math.max(0, activeWordIndex);
+          const wordsPerSec = (rate || 1) * (150 / 60);
+          const interval = (1 / wordsPerSec) * 1000;
+          let idx = startIdx;
+          setActiveWord(idx);
+          highlightTimer = setInterval(() => {
+            idx++;
+            if (idx < wordSpans.length) setActiveWord(idx);
+            else { clearInterval(highlightTimer); highlightTimer = null; }
+          }, interval);
+        }
+        setStatus("Lecture en cours… 🔊");
+      }
+    } else {
+      if (cloudAudio) {
+        if (cloudAudio.paused) { cloudAudio.play().catch(e => console.error("[Puter TTS] play error:", e)); setStatus("Lecture en cours… 🔊"); }
+        else { cloudAudio.pause(); setStatus("Pause ⏸️"); }
+      }
+    }
+  });
+
+  stopBtn.addEventListener("click", () => {
+    stopReadingAndReset();
+    setStatus("Lecture arrêtée ⏹️");
+  });
+
+  // ============================================================
+  // Initialisation
+  // ============================================================
+  rateEl.addEventListener("input", () => {
+    const v = parseFloat(rateEl.value);
+    const labels = {0.5:"Très lente",0.6:"Lente",0.7:"Lente",0.8:"Lente",0.9:"Lente",
+      1.0:"Normale",1.1:"Rapide",1.2:"Rapide",1.3:"Rapide",1.4:"Très rapide",1.5:"Très rapide"};
+    rateVal.textContent = labels[v] || "Normale";
+    // Moteur cloud : appliquer en direct sur l'audio en cours de lecture
+    if (currentEngine === "cloud" && cloudAudio) {
+      try { cloudAudio.playbackRate = v; } catch(e) { console.warn("[Puter TTS] playbackRate:", e); }
+    }
+    // Moteur local en lecture timed : ajuster l'intervalle du surlignage
+    if (currentEngine === "local" && isReading && !boundarySupported && highlightTimer) {
+      clearInterval(highlightTimer);
+      const wordsPerSec = (v || 1) * (150 / 60);
+      const interval = (1 / wordsPerSec) * 1000;
+      let idx = Math.max(0, activeWordIndex);
+      highlightTimer = setInterval(() => {
+        idx++;
+        if (idx < wordSpans.length) setActiveWord(idx);
+        else { clearInterval(highlightTimer); highlightTimer = null; }
+      }, interval);
+    }
+  });
+
+  onlyNeuralEl.addEventListener("change", refreshVoiceSelect);
+
+  const ua = navigator.userAgent;
+  const isChromeLinux = ua.includes("Chrome") && !ua.includes("Edg") && ua.includes("Linux");
+
+  if (typeof synth !== "undefined" && synth && typeof synth.getVoices === "function") {
+    loadVoices();
+    synth.onvoiceschanged = loadVoices;
+  }
+
+  updateEngineButtons();
+  if (isChromeLinux && hasPuter()) switchEngine("cloud");
+  else switchEngine("local");
+
+  // Texte d'exemple
+  setEditorText(DEFAULT_TEXT);
+</script>
+</body>
+</html>
