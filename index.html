@@ -197,18 +197,8 @@
   </header>
 
   <main class="card">
-    <div class="info-banner" id="qualityBanner">
-      <span>✨</span>
-      <span id="qualityBannerText"></span>
-    </div>
-
-    <div class="info-banner cloud" id="cloudBanner">
-      <span>☁️</span>
-      <span id="cloudBannerText"></span>
-    </div>
-
     <div class="error-banner" id="errorBanner">
-      <div class="error-title">⚠️ Aucune voix navigateur disponible</div>
+      <div class="error-title">⚠️ Service vocal indisponible</div>
       <div class="error-detail" id="errorDetail"></div>
       <button class="retry-btn" id="retryBtn">🔄 Réessayer</button>
     </div>
@@ -264,17 +254,10 @@
   const statusEl = document.getElementById("status");
   const onlyNeuralEl = document.getElementById("onlyNeural");
   const onlyNeuralRow = document.getElementById("onlyNeuralRow");
-  const qualityBanner = document.getElementById("qualityBanner");
-  const qualityBannerText = document.getElementById("qualityBannerText");
-  const cloudBanner = document.getElementById("cloudBanner");
-  const cloudBannerText = document.getElementById("cloudBannerText");
   const textPresetEl = document.getElementById("textPreset");
   const errorBanner = document.getElementById("errorBanner");
   const errorDetail = document.getElementById("errorDetail");
   const retryBtn = document.getElementById("retryBtn");
-  const engineLocal = document.getElementById("engineLocal");
-  const engineCloud = document.getElementById("engineCloud");
-
   // État global
   let currentEngine = "local";
   let allVoices = [];
@@ -544,7 +527,6 @@
     allVoices = synth ? synth.getVoices() : [];
     voiceLoadAttempts++;
     if (allVoices.length === 0) {
-      qualityBanner.classList.remove("show");
       if (voiceLoadAttempts < 6) {
         voiceLoadTimer = setTimeout(() => loadVoices(), 500 * voiceLoadAttempts);
       } else {
@@ -561,19 +543,7 @@
   }
 
   function showNoVoicesError() {
-    const ua = navigator.userAgent;
-    let detail = "";
-    if (ua.includes("Chrome") && !ua.includes("Edg") && ua.includes("Linux")) {
-      detail = "Chrome sur Linux ne fournit pas de voix par défaut. " +
-        "Solution : installe <code>sudo apt install speech-dispatcher espeak-ng</code>, " +
-        "ou utilise le moteur <strong>Voix cloud</strong> ci-dessus (gratuit, haute qualité).";
-    } else if (ua.includes("Chrome") && !ua.includes("Edg")) {
-      detail = "Aucune voix chargée. Vérifie ta connexion Internet " +
-        "ou utilise le moteur <strong>Voix cloud</strong> ci-dessus.";
-    } else {
-      detail = "Aucune voix de synthèse vocale détectée sur cet appareil.";
-    }
-    errorDetail.innerHTML = detail;
+    errorDetail.innerHTML = "Le service vocal (Puter.js) n'est pas disponible. Vérifie ta connexion Internet.";
     errorBanner.classList.add("show");
   }
 
@@ -604,16 +574,8 @@
   }
 
   function updateEngineButtons() {
-    engineLocal.classList.toggle("active", currentEngine === "local");
-    engineCloud.classList.toggle("active", currentEngine === "cloud");
-    if (allVoices.length === 0) engineLocal.classList.add("disabled");
-    else engineLocal.classList.remove("disabled");
-    if (!hasPuter()) engineCloud.classList.add("disabled");
-    else engineCloud.classList.remove("disabled");
+    // Boutons de moteur supprimés, plus rien à faire ici
   }
-
-  engineLocal.addEventListener("click", () => { if (allVoices.length > 0) switchEngine("local"); });
-  engineCloud.addEventListener("click", () => { if (hasPuter()) switchEngine("cloud"); });
 
   function refreshCloudVoiceSelect() {
     voiceEl.innerHTML = "";
@@ -668,19 +630,7 @@
   }
 
   function updateQualityBanner() {
-    const frNeuralCount = allVoices.filter(v => (v.lang || "").toLowerCase().startsWith("fr") && isNeuralVoice(v)).length;
-    const neuralCount = allVoices.filter(isNeuralVoice).length;
-    if (frNeuralCount > 0) {
-      qualityBannerText.innerHTML = "<strong>" + frNeuralCount + " voix française(s) haute qualité</strong> détectée(s) — sélectionnée(s) automatiquement.";
-      qualityBanner.classList.add("show");
-    } else if (neuralCount > 0) {
-      qualityBannerText.innerHTML = "<strong>" + neuralCount + " voix haute qualité</strong> dans d'autres langues.";
-      qualityBanner.classList.add("show");
-    } else { qualityBanner.classList.remove("show"); }
-    if (hasPuter()) {
-      cloudBannerText.innerHTML = "Moteur <strong>Voix cloud</strong> disponible (Amazon Polly, qualité neuronale) — gratuit, sans clé API.";
-      cloudBanner.classList.add("show");
-    }
+    // Bannières supprimées - rien à faire
   }
 
   // ============================================================
