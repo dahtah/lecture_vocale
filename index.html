@@ -213,17 +213,6 @@
       <button class="retry-btn" id="retryBtn">🔄 Réessayer</button>
     </div>
 
-    <div class="engine-row">
-      <button class="engine-btn" id="engineLocal" data-engine="local">
-        🖥️ Voix du navigateur
-        <span class="engine-tag local">gratuit</span>
-      </button>
-      <button class="engine-btn" id="engineCloud" data-engine="cloud">
-        ☁️ Voix cloud (haute qualité)
-        <span class="engine-tag cloud">gratuit</span>
-      </button>
-    </div>
-
     <div class="field">
       <label for="textPreset">📚 Texte présélectionné</label>
       <select id="textPreset">
@@ -919,10 +908,12 @@
     synth.onvoiceschanged = loadVoices;
   }
 
-  // Charger les textes présélectionnés
-  loadPresetTexts();
-
   updateEngineButtons();
+
+  // Charger les textes présélectionnés une fois la page chargée
+  window.addEventListener('load', () => {
+    loadPresetTexts();
+  });
   if (hasPuter()) switchEngine("cloud");
   else switchEngine("local");
 
