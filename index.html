@@ -224,6 +224,13 @@
       </button>
     </div>
 
+    <div class="field">
+      <label for="textPreset">📚 Texte présélectionné</label>
+      <select id="textPreset">
+        <option value="">-- Choisir un texte --</option>
+      </select>
+    </div>
+
     <div id="editor" class="editor" contenteditable="true" spellcheck="false"></div>
 
     <div class="controls">
@@ -272,6 +279,7 @@
   const qualityBannerText = document.getElementById("qualityBannerText");
   const cloudBanner = document.getElementById("cloudBanner");
   const cloudBannerText = document.getElementById("cloudBannerText");
+  const textPresetEl = document.getElementById("textPreset");
   const errorBanner = document.getElementById("errorBanner");
   const errorDetail = document.getElementById("errorDetail");
   const retryBtn = document.getElementById("retryBtn");
@@ -282,6 +290,7 @@
   let currentEngine = "local";
   let allVoices = [];
   let filteredVoices = [];
+  let presetTexts = {};
   let utterance = null;
   let wordSpans = [];
   let highlightTimer = null;
@@ -290,9 +299,57 @@
   let isReading = false;       // true pendant la lecture
   let cloudHighlightRAF = null;
   let boundarySupported = false;
+  let speechStartTime = 0;
+  let speechPausedTime = 0;
+  let speechPausedAt = 0;
+  let pausedText = "";
+  let pausedCharIndex = 0;
+  let lastCharIndex = 0;
 
   // Texte d'exemple initial
   const DEFAULT_TEXT = "Bonjour ! Je suis là pour t'aider à lire. Écris ou colle ici le texte que tu veux écouter, puis appuie sur le gros bouton vert Lire.";
+
+  // ============================================================
+  // Chargement des textes présélectionnés
+  // ============================================================
+  async function loadPresetTexts() {
+    try {
+      const response = await fetch("textes.md");
+      if (!response.ok) throw new Error("Fichier non trouvé");
+      const text = await response.text();
+      const sections = text.split(/^#\s+/gm).slice(1);
+      sections.forEach((section) => {
+        const lines = section.trim().split('\n');
+        const title = lines[0].trim();
+        const content = lines.slice(1).join('\n').trim();
+        if (title && content) presetTexts[title] = content;
+      });
+      populateTextPresetSelect();
+    } catch (err) {
+      console.warn("[Preset Texts] Impossible de charger textes.md:", err);
+      textPresetEl.parentElement.style.display = 'none';
+    }
+  }
+
+  function populateTextPresetSelect() {
+    const titles = Object.keys(presetTexts);
+    if (titles.length === 0) return;
+    textPresetEl.innerHTML = '<option value="">-- Choisir un texte --</option>';
+    titles.forEach(title => {
+      const opt = document.createElement('option');
+      opt.value = title;
+      opt.textContent = title;
+      textPresetEl.appendChild(opt);
+    });
+  }
+
+  function loadPresetText(title) {
+    if (presetTexts[title]) {
+      setEditorText(presetTexts[title]);
+      setStatus("Texte chargé ✅");
+      if (isReading) stopReadingAndReset();
+    }
+  }
 
   // ============================================================
   // Gestion de l'éditeur contenteditable
@@ -326,6 +383,7 @@
     // On garde le texte actuel tel quel
     const currentText = getEditorText();
     setEditorText(currentText);
+    editor.setAttribute("contenteditable", "true");
   }
 
   // Quand l'utilisateur édite → arrêter la lecture
@@ -648,6 +706,12 @@
     buildWordSpans(text);
     activeWordIndex = -1;
     isReading = true;
+    isPaused = false;
+    pausedText = "";
+    pausedCharIndex = 0;
+    lastCharIndex = 0;
+    speechStartTime = Date.now();
+    speechPausedTime = 0;
     editor.classList.add("reading");
     editor.setAttribute("contenteditable", "false");
 
@@ -669,6 +733,7 @@
     utterance.onboundary = (event) => {
       if (event.name === "word" && typeof event.charIndex === "number") {
         if (!boundarySupported) { boundarySupported = true; if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; } }
+        lastCharIndex = event.charIndex;
         highlightByCharIndex(event.charIndex);
       }
     };
@@ -842,6 +907,9 @@
   });
 
   onlyNeuralEl.addEventListener("change", refreshVoiceSelect);
+  textPresetEl.addEventListener("change", () => {
+    if (textPresetEl.value) loadPresetText(textPresetEl.value);
+  });
 
   const ua = navigator.userAgent;
   const isChromeLinux = ua.includes("Chrome") && !ua.includes("Edg") && ua.includes("Linux");
@@ -851,8 +919,11 @@
     synth.onvoiceschanged = loadVoices;
   }
 
+  // Charger les textes présélectionnés
+  loadPresetTexts();
+
   updateEngineButtons();
-  if (isChromeLinux && hasPuter()) switchEngine("cloud");
+  if (hasPuter()) switchEngine("cloud");
   else switchEngine("local");
 
   // Texte d'exemple
