@@ -203,11 +203,14 @@
       <button class="retry-btn" id="retryBtn">🔄 Réessayer</button>
     </div>
 
-    <div class="field">
-      <label for="textPreset">📚 Texte présélectionné</label>
-      <select id="textPreset">
-        <option value="">-- Choisir un texte --</option>
-      </select>
+    <div style="display: flex; align-items: flex-end; gap: 8px;">
+      <div class="field" style="flex: 1;">
+        <label for="textPreset">📚 Texte présélectionné</label>
+        <select id="textPreset">
+          <option value="">-- Choisir un texte --</option>
+        </select>
+      </div>
+      <button id="helpBtn" title="Les voix sont fournies par Puter.js (gratuit, sans clé API). Une connexion Internet est nécessaire." style="font-size: 1.5rem; padding: 10px 16px; border: none; background: var(--primary); color: white; border-radius: 12px; cursor: help;">?</button>
     </div>
 
     <div id="editor" class="editor" contenteditable="true" spellcheck="false"></div>
@@ -255,6 +258,7 @@
   const onlyNeuralEl = document.getElementById("onlyNeural");
   const onlyNeuralRow = document.getElementById("onlyNeuralRow");
   const textPresetEl = document.getElementById("textPreset");
+  const helpBtn = document.getElementById("helpBtn");
   const errorBanner = document.getElementById("errorBanner");
   const errorDetail = document.getElementById("errorDetail");
   const retryBtn = document.getElementById("retryBtn");
