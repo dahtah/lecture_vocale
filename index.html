@@ -266,6 +266,7 @@
   let allVoices = [];
   let filteredVoices = [];
   let presetTexts = {};
+  let currentPresetTextTitle = null;
   let utterance = null;
   let wordSpans = [];
   let highlightTimer = null;
@@ -317,6 +318,12 @@
     });
   }
 
+  function getPresetAudioFilename(title) {
+    // Convertir un titre en nom de fichier sûr
+    if (!title) return null;
+    return title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.wav';
+  }
+
   function loadPresetText(title) {
     // Arrêter toute lecture en cours (sans restaurer le texte)
     if (isReading) {
@@ -341,11 +348,13 @@
       setEditorText("");
       editor.setAttribute("contenteditable", "true");
       setStatus("Écris ton texte ✏️");
+      currentPresetTextTitle = null;
     } else if (presetTexts[title]) {
       // Texte présélectionné : chargé et NON éditable
       setEditorText(presetTexts[title]);
       editor.setAttribute("contenteditable", "false");
       setStatus("Texte chargé ✅");
+      currentPresetTextTitle = title;
     }
   }
 
@@ -729,7 +738,6 @@
   // LECTURE — moteur cloud (Puter.js)
   // ============================================================
   async function speakCloud() {
-    if (!hasPuter()) { setStatus("Moteur cloud non disponible."); return; }
     if (synth && synth.speaking) synth.cancel();
     if (cloudAudio) { cloudAudio.pause(); cloudAudio = null; }
     stopCloudHighlight();
@@ -742,13 +750,69 @@
     buildWordSpans(text);
     activeWordIndex = -1;
 
-    const voiceId = voiceEl.value;
-    const cloudVoice = CLOUD_VOICES.find(v => v.id === voiceId) || CLOUD_VOICES[0];
+    // Vérifier si c'est un texte présélectionné avec fichier audio local
+    if (currentPresetTextTitle) {
+      const audioFilename = getPresetAudioFilename(currentPresetTextTitle);
+      const audioPath = `audio/${audioFilename}`;
+      
+      try {
+        const response = await fetch(audioPath);
+        if (response.ok) {
+          // Utiliser le fichier audio pré-généré
+          const audio = new Audio(audioPath);
+          const cloudRate = parseFloat(rateEl.value) || 1;
+          if (cloudRate !== 1) { try { audio.playbackRate = cloudRate; } catch(e) {} }
+          
+          cloudAudio = audio;
+          playBtn.disabled = false;
+          isReading = true;
+          editor.classList.add("reading");
+          editor.setAttribute("contenteditable", "false");
+          setStatus("Lecture en cours… 🔊");
+          pauseBtn.disabled = false; stopBtn.disabled = false;
+          startCloudHighlight(audio);
 
+          audio.onended = () => {
+            setStatus("Lecture terminée ✅");
+            isReading = false;
+            editor.classList.remove("reading");
+            editor.setAttribute("contenteditable", "true");
+            pauseBtn.disabled = true; stopBtn.disabled = true;
+            stopCloudHighlight();
+            if (activeWordIndex >= 0 && activeWordIndex < wordSpans.length) {
+              wordSpans[activeWordIndex].classList.remove("active");
+              wordSpans[activeWordIndex].classList.add("read");
+            }
+            if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+            cloudAudio = null;
+          };
+          audio.onerror = (e) => {
+            console.error("[Piper TTS] Erreur audio:", e);
+            isReading = false;
+            editor.classList.remove("reading");
+            editor.setAttribute("contenteditable", "true");
+            stopCloudHighlight();
+            setStatus("Erreur de lecture audio. Voir la console (F12).");
+          };
+          audio.play().catch(e => {
+            console.error("[Piper TTS] Erreur play():", e);
+            setStatus("Impossible de lancer la lecture. Voir la console (F12).");
+          });
+          return; // Sortir, on utilise le fichier local
+        }
+      } catch (e) {
+        console.warn("[Piper TTS] Fichier audio local non trouvé, fallback vers Puter.js:", e);
+      }
+    }
+
+    // Pas de fichier audio local trouvé ou texte non présélectionné, utiliser Puter.js
+    if (!hasPuter()) { setStatus("Moteur cloud non disponible."); return; }
     setStatus("Génération de l'audio… ⏳");
     playBtn.disabled = true;
 
     try {
+      const voiceId = voiceEl.value;
+      const cloudVoice = CLOUD_VOICES.find(v => v.id === voiceId) || CLOUD_VOICES[0];
       let audio;
       if (cloudVoice.voice) {
         audio = await puter.ai.txt2speech(text, { voice: cloudVoice.voice, engine: cloudVoice.engine, language: cloudVoice.lang });
