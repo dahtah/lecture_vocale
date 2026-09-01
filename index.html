@@ -193,7 +193,7 @@
 <body>
   <header>
     <h1>🔊 Lecture vocale</h1>
-    <p>Tape ou colle un texte, puis écoute-le être lu à voix haute.</p>
+    <p>Sélectionne un texte ou écris le tien, puis écoute-le à voix haute !</p>
   </header>
 
   <main class="card">
@@ -207,7 +207,7 @@
       <div class="field" style="flex: 1;">
         <label for="textPreset">📚 Texte présélectionné</label>
         <select id="textPreset">
-          <option value="">-- Choisir un texte --</option>
+          <option value="">-- Nouveau texte --</option>
         </select>
       </div>
       <button id="helpBtn" title="Les voix sont fournies par Puter.js (gratuit, sans clé API). Une connexion Internet est nécessaire." style="font-size: 1.5rem; padding: 10px 16px; border: none; background: var(--primary); color: white; border-radius: 12px; cursor: help;">?</button>
@@ -241,8 +241,7 @@
   </main>
 
   <footer>
-    Les voix cloud sont fournies par Puter.js (Amazon Polly, OpenAI…) — gratuites et sans clé API.<br />
-    Une connexion Internet est nécessaire pour les voix cloud.
+    <small>App de lecture vocale pour enfants — Gratuit ✨</small>
   </footer>
 
 <script>
@@ -309,8 +308,7 @@
 
   function populateTextPresetSelect() {
     const titles = Object.keys(presetTexts);
-    if (titles.length === 0) return;
-    textPresetEl.innerHTML = '<option value="">-- Choisir un texte --</option>';
+    textPresetEl.innerHTML = '<option value="">-- Nouveau texte --</option>';
     titles.forEach(title => {
       const opt = document.createElement('option');
       opt.value = title;
@@ -320,10 +318,34 @@
   }
 
   function loadPresetText(title) {
-    if (presetTexts[title]) {
+    // Arrêter toute lecture en cours (sans restaurer le texte)
+    if (isReading) {
+      if (synth && synth.speaking) synth.cancel();
+      if (cloudAudio) { cloudAudio.pause(); cloudAudio = null; }
+      stopCloudHighlight();
+      if (highlightTimer) { clearInterval(highlightTimer); highlightTimer = null; }
+      clearHighlight();
+      isReading = false;
+      editor.classList.remove("reading");
+      pauseBtn.disabled = true;
+      stopBtn.disabled = true;
+      speechPausedTime = 0;
+      speechPausedAt = 0;
+      pausedText = "";
+      pausedCharIndex = 0;
+      lastCharIndex = 0;
+    }
+    
+    if (title === "") {
+      // Nouveau texte : vide et éditable
+      setEditorText("");
+      editor.setAttribute("contenteditable", "true");
+      setStatus("Écris ton texte ✏️");
+    } else if (presetTexts[title]) {
+      // Texte présélectionné : chargé et NON éditable
       setEditorText(presetTexts[title]);
+      editor.setAttribute("contenteditable", "false");
       setStatus("Texte chargé ✅");
-      if (isReading) stopReadingAndReset();
     }
   }
 
@@ -851,7 +873,7 @@
 
   onlyNeuralEl.addEventListener("change", refreshVoiceSelect);
   textPresetEl.addEventListener("change", () => {
-    if (textPresetEl.value) loadPresetText(textPresetEl.value);
+    loadPresetText(textPresetEl.value);
   });
 
   const ua = navigator.userAgent;
