@@ -203,6 +203,15 @@
       <button class="retry-btn" id="retryBtn">🔄 Réessayer</button>
     </div>
 
+    <div style="display: flex; align-items: flex-end; gap: 8px; margin-bottom: 8px;">
+      <div class="field" style="flex: 1;">
+        <label for="schoolSelect">🏫 École</label>
+        <select id="schoolSelect">
+          <option value="Cachin">Cachin</option>
+          <option value="Robespierre">Robespierre</option>
+        </select>
+      </div>
+    </div>
     <div style="display: flex; align-items: flex-end; gap: 8px;">
       <div class="field" style="flex: 1;">
         <label for="textPreset">📚 Texte présélectionné</label>
@@ -256,6 +265,7 @@
   const statusEl = document.getElementById("status");
   const onlyNeuralEl = document.getElementById("onlyNeural");
   const onlyNeuralRow = document.getElementById("onlyNeuralRow");
+  const schoolSelectEl = document.getElementById("schoolSelect");
   const textPresetEl = document.getElementById("textPreset");
   const helpBtn = document.getElementById("helpBtn");
   const errorBanner = document.getElementById("errorBanner");
@@ -267,6 +277,7 @@
   let filteredVoices = [];
   let presetTexts = {};
   let currentPresetTextTitle = null;
+  let currentSchool = "Cachin";
   let utterance = null;
   let wordSpans = [];
   let highlightTimer = null;
@@ -288,12 +299,14 @@
   // ============================================================
   // Chargement des textes présélectionnés
   // ============================================================
-  async function loadPresetTexts() {
+  async function loadPresetTexts(school) {
+    currentSchool = school || "Cachin";
     try {
-      const response = await fetch("textes.md");
+      const response = await fetch(`donnees/${currentSchool}/textes.md`);
       if (!response.ok) throw new Error("Fichier non trouvé");
       const text = await response.text();
       const sections = text.split(/^#\s+/gm).slice(1);
+      presetTexts = {}; // Réinitialiser
       sections.forEach((section) => {
         const lines = section.trim().split('\n');
         const title = lines[0].trim();
@@ -302,7 +315,7 @@
       });
       populateTextPresetSelect();
     } catch (err) {
-      console.warn("[Preset Texts] Impossible de charger textes.md:", err);
+      console.warn(`[Preset Texts] Impossible de charger donnees/${currentSchool}/textes.md:`, err);
       textPresetEl.parentElement.style.display = 'none';
     }
   }
@@ -751,9 +764,9 @@
     activeWordIndex = -1;
 
     // Vérifier si c'est un texte présélectionné avec fichier audio local
-    if (currentPresetTextTitle) {
+    if (currentPresetTextTitle && currentSchool) {
       const audioFilename = getPresetAudioFilename(currentPresetTextTitle);
-      const audioPath = `audio/${audioFilename}`;
+      const audioPath = `donnees/${currentSchool}/audio/${audioFilename}`;
       
       try {
         const response = await fetch(audioPath);
@@ -936,6 +949,12 @@
   });
 
   onlyNeuralEl.addEventListener("change", refreshVoiceSelect);
+  schoolSelectEl.addEventListener("change", () => {
+    loadPresetTexts(schoolSelectEl.value);
+    // Réinitialiser la sélection de texte quand l'école change
+    textPresetEl.value = "";
+    loadPresetText("");
+  });
   textPresetEl.addEventListener("change", () => {
     loadPresetText(textPresetEl.value);
   });
@@ -952,7 +971,7 @@
 
   // Charger les textes présélectionnés une fois la page chargée
   window.addEventListener('load', () => {
-    loadPresetTexts();
+    loadPresetTexts(schoolSelectEl.value);
   });
   if (hasPuter()) switchEngine("cloud");
   else switchEngine("local");

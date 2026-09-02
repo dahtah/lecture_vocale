@@ -3,34 +3,38 @@
 Script pour générer des fichiers audio avec Piper TTS pour les textes présélectionnés.
 
 Utilisation:
-    python3 generate_audio.py
+    # Générer pour une école spécifique
+    python3 generate_audio.py Cachin
+
+    # Générer pour toutes les écoles
+    python3 generate_audio.py --all
 
 Prérequis:
     - Piper CLI accessible dans PATH ou PIPE_BINARY définie
     - Modèle Piper dans models/ (ex: fr_FR-gilles-low.onnx)
-    - Fichier textes.md avec des textes séparés par #
+    - Fichiers textes.md dans donnees/{ecole}/
 """
 
 import os
 import re
 import subprocess
 import sys
+import argparse
 from pathlib import Path
 
 # Configuration
 MODEL_PATH = Path("models/fr_FR-gilles-low.onnx")
-TEXTES_FILE = Path("textes.md")
-AUDIO_DIR = Path("audio")
+DONNEES_DIR = Path("donnees")
 PIPER_BINARY = os.getenv("PIPER_BINARY", "/tmp/piper/piper")
 
 
-def parse_textes_md():
-    """Parse textes.md et retourne un dict {titre: contenu}."""
-    if not TEXTES_FILE.exists():
-        print(f"Erreur: {TEXTES_FILE} introuvable")
-        sys.exit(1)
+def parse_textes_md(filepath):
+    """Parse un fichier textes.md et retourne un dict {titre: contenu}."""
+    if not filepath.exists():
+        print(f"Erreur: {filepath} introuvable")
+        return {}
     
-    with open(TEXTES_FILE, "r", encoding="utf-8") as f:
+    with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
     
     # Split par les titres # et ignorer la première partie (avant le premier #)
@@ -100,11 +104,42 @@ def generate_audio(text, output_path, model_path, piper_binary):
         return False
 
 
+def generate_for_school(school_name):
+    """Génère les fichiers audio pour une école."""
+    school_dir = DONNEES_DIR / school_name
+    textes_file = school_dir / "textes.md"
+    audio_dir = school_dir / "audio"
+    
+    if not textes_file.exists():
+        print(f"⚠️  {textes_file} introuvable, passage à l'école suivante")
+        return 0
+    
+    print(f"\n🏫 École: {school_name}")
+    textes = parse_textes_md(textes_file)
+    
+    if not textes:
+        print(f"  Aucun texte trouvé dans {textes_file}")
+        return 0
+    
+    success = 0
+    for safe_title, data in textes.items():
+        output_path = audio_dir / f"{safe_title}.wav"
+        print(f"  Génération de '{data['original_title']}'...")
+        
+        if generate_audio(data['content'], output_path, MODEL_PATH, PIPER_BINARY):
+            success += 1
+    
+    return success
+
+
 def main():
+    parser = argparse.ArgumentParser(description='Générer des fichiers audio avec Piper TTS')
+    parser.add_argument('school', nargs='?', default=None, help='Nom de l école (ex: Cachin)')
+    parser.add_argument('--all', action='store_true', help='Générer pour toutes les écoles')
+    args = parser.parse_args()
+    
     print("Génération des fichiers audio avec Piper TTS...")
     print(f"Modèle: {MODEL_PATH}")
-    print(f"Fichier source: {TEXTES_FILE}")
-    print(f"Dossier de sortie: {AUDIO_DIR}")
     print(f"Piper CLI: {PIPER_BINARY}")
     print()
     
@@ -117,31 +152,34 @@ def main():
         print(f"Erreur: Piper CLI introuvable à {PIPER_BINARY}")
         sys.exit(1)
     
-    # Parser textes.md
-    textes = parse_textes_md()
-    print(f"Trouvé {len(textes)} textes dans {TEXTES_FILE}")
-    print()
-    
-    # Générer les fichiers audio
-    success = 0
-    failed = 0
-    
-    for safe_title, data in textes.items():
-        output_path = AUDIO_DIR / f"{safe_title}.wav"
-        print(f"Génération de '{data['original_title']}'...")
-        
-        if generate_audio(data['content'], output_path, MODEL_PATH, PIPER_BINARY):
-            success += 1
-        else:
-            failed += 1
-    
-    print()
-    print(f"Résultat: {success} succès, {failed} échecs")
-    
-    if failed == 0:
-        print("\n✓ Tous les fichiers audio ont été générés!")
-    else:
+    if not DONNEES_DIR.exists():
+        print(f"Erreur: Dossier {DONNEES_DIR} introuvable")
         sys.exit(1)
+    
+    total_success = 0
+    
+    if args.all:
+        # Trouver tous les sous-dossiers dans donnees/
+        schools = [d.name for d in DONNEES_DIR.iterdir() if d.is_dir()]
+        if not schools:
+            print(f"Erreur: Aucun sous-dossier trouvé dans {DONNEES_DIR}")
+            sys.exit(1)
+        
+        for school in schools:
+            total_success += generate_for_school(school)
+    elif args.school:
+        total_success += generate_for_school(args.school)
+    else:
+        # Par défaut : première école trouvée
+        schools = [d.name for d in DONNEES_DIR.iterdir() if d.is_dir()]
+        if schools:
+            total_success += generate_for_school(schools[0])
+        else:
+            print("Erreur: Aucune école trouvée")
+            sys.exit(1)
+    
+    print()
+    print(f"✅ Résultat: {total_success} fichiers audio générés")
 
 
 if __name__ == "__main__":
