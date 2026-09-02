@@ -140,10 +140,6 @@ def main():
     
     if failed == 0:
         print("\n✓ Tous les fichiers audio ont été générés!")
-        print(f"\nPour utiliser ces fichiers, ajoutez ce code à index.html:")
-        print("  - Détecter si le texte sélectionné est un texte présélectionné")
-        print("  - Si oui: utiliser <audio src=\"audio/{nom}.wav\"> au lieu de Puter.js")
-        print("  - Conserver un fallback vers Puter.js au cas où")
     else:
         sys.exit(1)
 
