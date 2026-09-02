@@ -470,7 +470,97 @@
     }, interval);
   }
 
-  // Surlignage cloud basé sur audio.currentTime
+  // ============================================================
+  // SURLIGNAGE AVEC TIMINGS PRÉCIS (Option B : estimation améliorée)
+  // ============================================================
+
+  function estimateWordDurations(text, audioDuration) {
+    // Découper le texte en mots
+    const words = text.split(/\s+/);
+    if (words.length === 0) return [];
+    
+    // Calculer la longueur totale en caractères (sans espaces)
+    const totalChars = text.replace(/\s+/g, '').length;
+    
+    // Facteur : secondes par caractère
+    // Ajouter un peu de marge pour les pauses
+    const charsPerSecond = totalChars / (audioDuration * 0.95);
+    
+    let currentTime = 0;
+    return words.map(word => {
+      // Durées des mots plus longues pour les mots avec ponctuation
+      let wordLength = word.length;
+      if (/[.,;:!?]$/.test(word)) wordLength += 2;
+      
+      const duration = wordLength / charsPerSecond;
+      const result = {
+        text: word,
+        start: currentTime,
+        end: currentTime + duration
+      };
+      currentTime += duration;
+      return result;
+    });
+  }
+
+  function startTimingsHighlight(audio, wordTimings, playbackRate = 1) {
+    // Surlignage basé sur des timings précis (en secondes)
+    if (!wordSpans.length || !wordTimings || wordTimings.length === 0) {
+      return startCloudHighlight(audio); // Fallback
+    }
+    
+    // Ajuster les timings pour le playbackRate
+    const adjustedTimings = wordTimings.map(w => ({
+      text: w.text,
+      start: w.start / playbackRate,
+      end: w.end / playbackRate
+    }));
+    
+    let lastIdx = -1;
+    
+    function update() {
+      if (!audio || audio.ended) return;
+      if (audio.paused) { 
+        cloudHighlightRAF = requestAnimationFrame(update); 
+        return; 
+      }
+      
+      const currentTime = audio.currentTime || 0;
+      
+      // Trouver l'index du mot actif
+      let idx = 0;
+      for (let i = 0; i < adjustedTimings.length; i++) {
+        if (currentTime >= adjustedTimings[i].start && 
+            currentTime < adjustedTimings[i].end) {
+          idx = i;
+          break;
+        }
+        // Si on a dépassé ce mot
+        if (currentTime >= adjustedTimings[i].end) {
+          idx = i;
+        }
+      }
+      
+      // Forcer le dernier mot si on est à la fin
+      if (currentTime >= adjustedTimings[adjustedTimings.length - 1].start) {
+        idx = adjustedTimings.length - 1;
+      }
+      
+      // Mettre à jour uniquement si changement
+      if (idx !== lastIdx) {
+        setActiveWord(idx);
+        lastIdx = idx;
+      }
+      
+      if (!audio.ended) {
+        cloudHighlightRAF = requestAnimationFrame(update);
+      }
+    }
+    
+    cloudHighlightRAF = requestAnimationFrame(update);
+  }
+
+  // Surlignage cloud basé sur audio.currentTime (méthode originale)
   function startCloudHighlight(audio) {
     if (!wordSpans.length) return;
     const wordWeights = wordSpans.map(s => {
@@ -776,6 +866,15 @@
           const cloudRate = parseFloat(rateEl.value) || 1;
           if (cloudRate !== 1) { try { audio.playbackRate = cloudRate; } catch(e) {} }
           
+          // Attendre que l'audio soit chargé pour avoir la durée
+          await new Promise((resolve, reject) => {
+            audio.addEventListener('loadedmetadata', resolve);
+            audio.addEventListener('error', reject);
+          });
+          
+          // Générer les timings estimés pour chaque mot
+          const wordTimings = estimateWordDurations(text, audio.duration);
+          
           cloudAudio = audio;
           playBtn.disabled = false;
           isReading = true;
@@ -783,7 +882,7 @@
           editor.setAttribute("contenteditable", "false");
           setStatus("Lecture en cours… 🔊");
           pauseBtn.disabled = false; stopBtn.disabled = false;
-          startCloudHighlight(audio);
+          startTimingsHighlight(audio, wordTimings, cloudRate);
 
           audio.onended = () => {
             setStatus("Lecture terminée ✅");
