@@ -1,8 +1,8 @@
-# Ajoutez vos textes ici
+# Texte 1
 
-Ce fichier contient les textes pour l'école Robespierre.
+Test test
 
-Exemple de format :
-# Titre du texte
 
-Contenu du texte ici...
+# Texte 2
+
+Test test
