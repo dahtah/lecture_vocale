@@ -598,20 +598,60 @@ def generate_timings_with_aeneas(text, audio_path, output_path):
                                 "end": end
                             })
             
-            # Corriger les mots avec une durée nulle (start == end)
-            # Cela peut arriver quand aeneas aligne plusieurs mots au même moment
-            MIN_DURATION = 0.01  # Durée minimale en secondes
-            for i in range(len(aeneas_words)):
-                if aeneas_words[i]['start'] == aeneas_words[i]['end']:
-                    # Si c'est le premier mot, on étend sa fin
-                    if i == 0 and len(aeneas_words) > 1:
-                        aeneas_words[i]['end'] = aeneas_words[i]['start'] + MIN_DURATION
-                    # Sinon, on prend la fin du mot précédent + une petite durée
-                    elif i > 0:
-                        aeneas_words[i]['end'] = aeneas_words[i]['start'] + MIN_DURATION
-                    # Si c'est le seul mot
-                    else:
-                        aeneas_words[i]['end'] = aeneas_words[i]['start'] + MIN_DURATION
+            # Corriger les séquences de mots avec des timings problématiques
+            # aeneas peut produire des groupes de mots qui partagent le même point de départ
+            # mais ont des fins différentes, créant des durées anormalement courtes
+            # Exemple: "qui", "ont", "du", "givre" à [5.76, 5.77] + "à" à [5.76, 6.40]
+            # Solution: 
+            # 1. Regrouper tous les mots consécutifs avec le même start
+            # 2. Si au moins un mot dans le groupe a une durée < seuil, redistribuer
+            #    l'intervalle jusqu'au prochain mot avec un start différent
+            
+            MIN_DURATION_THRESHOLD = 0.05  # Seuil de durée minimale
+            
+            i = 0
+            while i < len(aeneas_words):
+                current_start = aeneas_words[i]['start']
+                
+                # Trouver tous les mots consécutifs qui partagent ce même start
+                group_members = [i]
+                j = i + 1
+                while j < len(aeneas_words) and aeneas_words[j]['start'] == current_start:
+                    group_members.append(j)
+                    j += 1
+                
+                # Si on a un groupe (2+ mots avec le même start)
+                if len(group_members) > 1:
+                    # Vérifier si ce groupe contient des mots avec des durées trop courtes
+                    has_short_durations = any(
+                        aeneas_words[k]['end'] - aeneas_words[k]['start'] < MIN_DURATION_THRESHOLD
+                        for k in group_members
+                    )
+                    
+                    if has_short_durations:
+                        # Trouver la fin maximale dans le groupe
+                        group_max_end = max(aeneas_words[k]['end'] for k in group_members)
+                        
+                        # Trouver le prochain mot avec un start différent
+                        next_idx = j
+                        if next_idx < len(aeneas_words):
+                            next_normal_start = aeneas_words[next_idx]['start']
+                            
+                            # Calculer l'intervalle total disponible
+                            start_time = current_start
+                            available_duration = next_normal_start - start_time
+                            num_words = len(group_members)
+                            
+                            # Répartir équitablement
+                            sub_duration = available_duration / num_words
+                            for idx, member_idx in enumerate(group_members):
+                                aeneas_words[member_idx]['start'] = start_time + idx * sub_duration
+                                aeneas_words[member_idx]['end'] = start_time + (idx + 1) * sub_duration
+                            
+                            i = next_idx
+                            continue
+                
+                i += 1
             
             # Nettoyer le fichier temporaire txtm
             if os.path.exists("/tmp/aeneas_temp.txtm"):

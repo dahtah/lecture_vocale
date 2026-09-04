@@ -23,7 +23,8 @@ import argparse
 from pathlib import Path
 
 # Configuration
-MODEL_PATH = Path("models/fr_FR-gilles-low.onnx")
+#MODEL_PATH = Path("models/fr_FR-gilles-low.onnx")
+MODEL_PATH = Path("models/fr_FR-siwis-medium.onnx")
 DONNEES_DIR = Path("donnees")
 PIPER_BINARY = os.getenv("PIPER_BINARY", "/tmp/piper/piper")
 
