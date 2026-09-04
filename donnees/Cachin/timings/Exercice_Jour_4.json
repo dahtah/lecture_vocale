@@ -1,0 +1,780 @@
+{
+  "words": [
+    {
+      "text": "Lis",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "text": "chaque",
+      "start": 0.32,
+      "end": 0.6
+    },
+    {
+      "text": "phrase",
+      "start": 0.6,
+      "end": 1.28
+    },
+    {
+      "text": "puis",
+      "start": 1.28,
+      "end": 1.44
+    },
+    {
+      "text": "choisis",
+      "start": 1.44,
+      "end": 2.0
+    },
+    {
+      "text": "la",
+      "start": 2.0,
+      "end": 2.08
+    },
+    {
+      "text": "bonne",
+      "start": 2.08,
+      "end": 2.28
+    },
+    {
+      "text": "réponse.",
+      "start": 2.28,
+      "end": 3.6
+    },
+    {
+      "text": "Note",
+      "start": 3.6,
+      "end": 3.88
+    },
+    {
+      "text": "les",
+      "start": 3.88,
+      "end": 4.2
+    },
+    {
+      "text": "indices",
+      "start": 4.2,
+      "end": 4.64
+    },
+    {
+      "text": "qui",
+      "start": 4.64,
+      "end": 4.6499999999999995
+    },
+    {
+      "text": "t’ont",
+      "start": 4.64,
+      "end": 4.84
+    },
+    {
+      "text": "permis",
+      "start": 4.84,
+      "end": 5.2
+    },
+    {
+      "text": "de",
+      "start": 5.2,
+      "end": 5.28
+    },
+    {
+      "text": "faire",
+      "start": 5.28,
+      "end": 5.56
+    },
+    {
+      "text": "ton",
+      "start": 5.56,
+      "end": 5.76
+    },
+    {
+      "text": "choix.",
+      "start": 5.76,
+      "end": 6.12
+    },
+    {
+      "text": "4",
+      "start": 6.12,
+      "end": 7.08
+    },
+    {
+      "text": "C’était",
+      "start": 7.08,
+      "end": 7.44
+    },
+    {
+      "text": "une",
+      "start": 7.44,
+      "end": 7.48
+    },
+    {
+      "text": "toute",
+      "start": 7.48,
+      "end": 7.76
+    },
+    {
+      "text": "petite",
+      "start": 7.76,
+      "end": 8.24
+    },
+    {
+      "text": "maison",
+      "start": 8.24,
+      "end": 8.76
+    },
+    {
+      "text": "aux",
+      "start": 8.76,
+      "end": 8.92
+    },
+    {
+      "text": "murs",
+      "start": 8.92,
+      "end": 9.36
+    },
+    {
+      "text": "gris",
+      "start": 9.36,
+      "end": 9.68
+    },
+    {
+      "text": "et",
+      "start": 9.68,
+      "end": 9.84
+    },
+    {
+      "text": "aux",
+      "start": 9.84,
+      "end": 9.88
+    },
+    {
+      "text": "volets",
+      "start": 9.88,
+      "end": 10.16
+    },
+    {
+      "text": "verts.",
+      "start": 10.16,
+      "end": 11.0
+    },
+    {
+      "text": "Elle",
+      "start": 11.0,
+      "end": 11.28
+    },
+    {
+      "text": "se",
+      "start": 11.28,
+      "end": 11.56
+    },
+    {
+      "text": "trouvait",
+      "start": 11.56,
+      "end": 12.12
+    },
+    {
+      "text": "à",
+      "start": 12.12,
+      "end": 12.16
+    },
+    {
+      "text": "l’écart",
+      "start": 12.16,
+      "end": 12.44
+    },
+    {
+      "text": "du",
+      "start": 12.44,
+      "end": 12.56
+    },
+    {
+      "text": "village",
+      "start": 12.56,
+      "end": 13.12
+    },
+    {
+      "text": "que",
+      "start": 13.12,
+      "end": 13.2
+    },
+    {
+      "text": "l’on",
+      "start": 13.2,
+      "end": 13.4
+    },
+    {
+      "text": "devinait",
+      "start": 13.4,
+      "end": 13.84
+    },
+    {
+      "text": "à",
+      "start": 13.84,
+      "end": 14.12
+    },
+    {
+      "text": "peine,",
+      "start": 14.12,
+      "end": 14.72
+    },
+    {
+      "text": "ce",
+      "start": 14.72,
+      "end": 14.96
+    },
+    {
+      "text": "matin-là,",
+      "start": 14.96,
+      "end": 15.4
+    },
+    {
+      "text": "très",
+      "start": 15.4,
+      "end": 15.52
+    },
+    {
+      "text": "loin,",
+      "start": 15.52,
+      "end": 15.84
+    },
+    {
+      "text": "au",
+      "start": 15.84,
+      "end": 16.16
+    },
+    {
+      "text": "bord",
+      "start": 16.16,
+      "end": 16.44
+    },
+    {
+      "text": "de",
+      "start": 16.44,
+      "end": 16.6
+    },
+    {
+      "text": "la",
+      "start": 16.6,
+      "end": 16.96
+    },
+    {
+      "text": "rivière",
+      "start": 16.96,
+      "end": 17.48
+    },
+    {
+      "text": "gelée.",
+      "start": 17.48,
+      "end": 17.88
+    },
+    {
+      "text": "On",
+      "start": 17.88,
+      "end": 18.16
+    },
+    {
+      "text": "ne",
+      "start": 18.16,
+      "end": 18.64
+    },
+    {
+      "text": "voyait",
+      "start": 18.64,
+      "end": 19.08
+    },
+    {
+      "text": "même",
+      "start": 19.08,
+      "end": 19.28
+    },
+    {
+      "text": "plus",
+      "start": 19.28,
+      "end": 19.48
+    },
+    {
+      "text": "le",
+      "start": 19.48,
+      "end": 19.6
+    },
+    {
+      "text": "chemin",
+      "start": 19.6,
+      "end": 19.88
+    },
+    {
+      "text": "qui",
+      "start": 19.88,
+      "end": 20.04
+    },
+    {
+      "text": "court",
+      "start": 20.04,
+      "end": 20.44
+    },
+    {
+      "text": "entre",
+      "start": 20.44,
+      "end": 20.72
+    },
+    {
+      "text": "les",
+      "start": 20.72,
+      "end": 20.92
+    },
+    {
+      "text": "champs",
+      "start": 20.92,
+      "end": 21.2
+    },
+    {
+      "text": "et",
+      "start": 21.2,
+      "end": 21.28
+    },
+    {
+      "text": "traverse",
+      "start": 21.28,
+      "end": 21.96
+    },
+    {
+      "text": "la",
+      "start": 21.96,
+      "end": 22.0
+    },
+    {
+      "text": "prairie.",
+      "start": 22.0,
+      "end": 22.44
+    },
+    {
+      "text": "Dans",
+      "start": 22.44,
+      "end": 23.24
+    },
+    {
+      "text": "cette",
+      "start": 23.24,
+      "end": 23.48
+    },
+    {
+      "text": "phrase,",
+      "start": 23.48,
+      "end": 24.0
+    },
+    {
+      "text": "le",
+      "start": 24.0,
+      "end": 24.32
+    },
+    {
+      "text": "mot",
+      "start": 24.32,
+      "end": 24.64
+    },
+    {
+      "text": "«",
+      "start": 24.64,
+      "end": 24.650000000000002
+    },
+    {
+      "text": "court",
+      "start": 24.64,
+      "end": 24.650000000000002
+    },
+    {
+      "text": "»",
+      "start": 24.64,
+      "end": 24.84
+    },
+    {
+      "text": "signifie",
+      "start": 24.84,
+      "end": 25.44
+    },
+    {
+      "text": ":",
+      "start": 25.44,
+      "end": 25.450000000000003
+    },
+    {
+      "text": "choisis",
+      "start": 25.44,
+      "end": 26.4
+    },
+    {
+      "text": "ta",
+      "start": 26.4,
+      "end": 26.68
+    },
+    {
+      "text": "réponse",
+      "start": 26.68,
+      "end": 27.16
+    },
+    {
+      "text": "aller",
+      "start": 27.16,
+      "end": 27.4
+    },
+    {
+      "text": "dans",
+      "start": 27.4,
+      "end": 27.8
+    },
+    {
+      "text": "une",
+      "start": 27.8,
+      "end": 27.810000000000002
+    },
+    {
+      "text": "direction",
+      "start": 27.8,
+      "end": 28.44
+    },
+    {
+      "text": "déterminéee",
+      "start": 28.44,
+      "end": 28.8
+    },
+    {
+      "text": "se",
+      "start": 28.8,
+      "end": 29.04
+    },
+    {
+      "text": "déplacer",
+      "start": 29.04,
+      "end": 29.64
+    },
+    {
+      "text": "rapidement",
+      "start": 29.64,
+      "end": 30.12
+    },
+    {
+      "text": "faire",
+      "start": 30.12,
+      "end": 30.4
+    },
+    {
+      "text": "trop",
+      "start": 30.4,
+      "end": 30.56
+    },
+    {
+      "text": "vite",
+      "start": 30.56,
+      "end": 30.76
+    },
+    {
+      "text": "Les",
+      "start": 30.76,
+      "end": 31.08
+    },
+    {
+      "text": "indices",
+      "start": 31.08,
+      "end": 31.4
+    },
+    {
+      "text": ":",
+      "start": 31.4,
+      "end": 31.48
+    },
+    {
+      "text": "écris",
+      "start": 31.48,
+      "end": 32.12
+    },
+    {
+      "text": "ta",
+      "start": 32.12,
+      "end": 32.2
+    },
+    {
+      "text": "réponse",
+      "start": 32.2,
+      "end": 32.56
+    },
+    {
+      "text": "5",
+      "start": 32.56,
+      "end": 32.92
+    },
+    {
+      "text": "—",
+      "start": 32.92,
+      "end": 33.28
+    },
+    {
+      "text": "Entrez",
+      "start": 33.28,
+      "end": 33.72
+    },
+    {
+      "text": "!",
+      "start": 33.72,
+      "end": 34.04
+    },
+    {
+      "text": "La",
+      "start": 34.04,
+      "end": 34.2
+    },
+    {
+      "text": "porte",
+      "start": 34.2,
+      "end": 34.52
+    },
+    {
+      "text": "s’ouvrit",
+      "start": 34.52,
+      "end": 35.08
+    },
+    {
+      "text": "lentement,",
+      "start": 35.08,
+      "end": 35.64
+    },
+    {
+      "text": "et",
+      "start": 35.64,
+      "end": 36.08
+    },
+    {
+      "text": "ce",
+      "start": 36.08,
+      "end": 36.52
+    },
+    {
+      "text": "fut",
+      "start": 36.52,
+      "end": 36.84
+    },
+    {
+      "text": "tout",
+      "start": 36.84,
+      "end": 36.85
+    },
+    {
+      "text": "d’abord",
+      "start": 36.84,
+      "end": 37.28
+    },
+    {
+      "text": "une",
+      "start": 37.28,
+      "end": 37.32
+    },
+    {
+      "text": "large",
+      "start": 37.32,
+      "end": 37.88
+    },
+    {
+      "text": "bouffée",
+      "start": 37.88,
+      "end": 38.2
+    },
+    {
+      "text": "de",
+      "start": 38.2,
+      "end": 38.32
+    },
+    {
+      "text": "bise",
+      "start": 38.32,
+      "end": 38.8
+    },
+    {
+      "text": "qui",
+      "start": 38.8,
+      "end": 38.809999999999995
+    },
+    {
+      "text": "pénétra",
+      "start": 38.8,
+      "end": 39.52
+    },
+    {
+      "text": "dans",
+      "start": 39.52,
+      "end": 39.53
+    },
+    {
+      "text": "la",
+      "start": 39.52,
+      "end": 39.53
+    },
+    {
+      "text": "cuisine.",
+      "start": 39.52,
+      "end": 40.2
+    },
+    {
+      "text": "Dans",
+      "start": 40.2,
+      "end": 40.56
+    },
+    {
+      "text": "cette",
+      "start": 40.56,
+      "end": 40.96
+    },
+    {
+      "text": "phrase,",
+      "start": 40.96,
+      "end": 41.6
+    },
+    {
+      "text": "le",
+      "start": 41.6,
+      "end": 41.76
+    },
+    {
+      "text": "mot",
+      "start": 41.76,
+      "end": 42.04
+    },
+    {
+      "text": "«",
+      "start": 42.04,
+      "end": 42.05
+    },
+    {
+      "text": "bise",
+      "start": 42.04,
+      "end": 42.05
+    },
+    {
+      "text": "»",
+      "start": 42.04,
+      "end": 42.12
+    },
+    {
+      "text": "signifie",
+      "start": 42.12,
+      "end": 42.88
+    },
+    {
+      "text": ":",
+      "start": 42.88,
+      "end": 42.89
+    },
+    {
+      "text": "choisis",
+      "start": 42.88,
+      "end": 44.2
+    },
+    {
+      "text": "ta",
+      "start": 44.2,
+      "end": 44.44
+    },
+    {
+      "text": "réponse",
+      "start": 44.44,
+      "end": 44.76
+    },
+    {
+      "text": "un",
+      "start": 44.76,
+      "end": 44.84
+    },
+    {
+      "text": "baiser",
+      "start": 44.84,
+      "end": 45.2
+    },
+    {
+      "text": "sur",
+      "start": 45.2,
+      "end": 45.4
+    },
+    {
+      "text": "la",
+      "start": 45.4,
+      "end": 45.56
+    },
+    {
+      "text": "joue",
+      "start": 45.56,
+      "end": 45.76
+    },
+    {
+      "text": "un",
+      "start": 45.76,
+      "end": 45.92
+    },
+    {
+      "text": "vent",
+      "start": 45.92,
+      "end": 46.08
+    },
+    {
+      "text": "sec",
+      "start": 46.08,
+      "end": 46.36
+    },
+    {
+      "text": "et",
+      "start": 46.36,
+      "end": 46.4
+    },
+    {
+      "text": "froid",
+      "start": 46.4,
+      "end": 46.96
+    },
+    {
+      "text": "le",
+      "start": 46.96,
+      "end": 47.08
+    },
+    {
+      "text": "nom",
+      "start": 47.08,
+      "end": 47.4
+    },
+    {
+      "text": "d’un",
+      "start": 47.4,
+      "end": 47.56
+    },
+    {
+      "text": "champignon",
+      "start": 47.56,
+      "end": 48.24
+    },
+    {
+      "text": "Les",
+      "start": 48.24,
+      "end": 48.44
+    },
+    {
+      "text": "indices",
+      "start": 48.44,
+      "end": 48.84
+    },
+    {
+      "text": ":",
+      "start": 48.84,
+      "end": 48.85
+    },
+    {
+      "text": "écris",
+      "start": 48.84,
+      "end": 49.48
+    },
+    {
+      "text": "ta",
+      "start": 49.48,
+      "end": 49.76
+    },
+    {
+      "text": "réponse",
+      "start": 49.76,
+      "end": 50.72
+    }
+  ],
+  "audio_duration": 50.72
+}

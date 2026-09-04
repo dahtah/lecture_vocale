@@ -1,0 +1,695 @@
+{
+  "words": [
+    {
+      "text": "Lis",
+      "start": 0.0,
+      "end": 0.24
+    },
+    {
+      "text": "chaque",
+      "start": 0.24,
+      "end": 0.52
+    },
+    {
+      "text": "texte",
+      "start": 0.52,
+      "end": 1.04
+    },
+    {
+      "text": "puis",
+      "start": 1.04,
+      "end": 1.36
+    },
+    {
+      "text": "écris",
+      "start": 1.36,
+      "end": 1.64
+    },
+    {
+      "text": "ta",
+      "start": 1.64,
+      "end": 1.96
+    },
+    {
+      "text": "réponse.",
+      "start": 1.96,
+      "end": 3.36
+    },
+    {
+      "text": "Note",
+      "start": 3.36,
+      "end": 3.64
+    },
+    {
+      "text": "aussi",
+      "start": 3.64,
+      "end": 4.08
+    },
+    {
+      "text": "les",
+      "start": 4.08,
+      "end": 4.24
+    },
+    {
+      "text": "indices",
+      "start": 4.24,
+      "end": 4.64
+    },
+    {
+      "text": "que",
+      "start": 4.64,
+      "end": 4.96
+    },
+    {
+      "text": "tu",
+      "start": 4.96,
+      "end": 4.97
+    },
+    {
+      "text": "as",
+      "start": 4.96,
+      "end": 5.0
+    },
+    {
+      "text": "utilisés",
+      "start": 5.0,
+      "end": 5.44
+    },
+    {
+      "text": "pour",
+      "start": 5.44,
+      "end": 5.52
+    },
+    {
+      "text": "trouver",
+      "start": 5.52,
+      "end": 5.84
+    },
+    {
+      "text": "ce",
+      "start": 5.84,
+      "end": 5.96
+    },
+    {
+      "text": "que",
+      "start": 5.96,
+      "end": 6.08
+    },
+    {
+      "text": "veut",
+      "start": 6.08,
+      "end": 6.2
+    },
+    {
+      "text": "dire",
+      "start": 6.2,
+      "end": 6.44
+    },
+    {
+      "text": "ce",
+      "start": 6.44,
+      "end": 6.68
+    },
+    {
+      "text": "mot.",
+      "start": 6.68,
+      "end": 7.36
+    },
+    {
+      "text": "5",
+      "start": 7.36,
+      "end": 8.04
+    },
+    {
+      "text": "—",
+      "start": 8.04,
+      "end": 8.48
+    },
+    {
+      "text": "Ils",
+      "start": 8.48,
+      "end": 8.64
+    },
+    {
+      "text": "n’auront",
+      "start": 8.64,
+      "end": 9.04
+    },
+    {
+      "text": "jamais",
+      "start": 9.04,
+      "end": 9.48
+    },
+    {
+      "text": "assez",
+      "start": 9.48,
+      "end": 9.8
+    },
+    {
+      "text": "de",
+      "start": 9.8,
+      "end": 10.12
+    },
+    {
+      "text": "graines,",
+      "start": 10.12,
+      "end": 10.32
+    },
+    {
+      "text": "dit",
+      "start": 10.32,
+      "end": 10.6
+    },
+    {
+      "text": "Isabelle.",
+      "start": 10.6,
+      "end": 11.52
+    },
+    {
+      "text": "Il",
+      "start": 11.52,
+      "end": 11.88
+    },
+    {
+      "text": "en",
+      "start": 11.88,
+      "end": 12.0
+    },
+    {
+      "text": "vient",
+      "start": 12.0,
+      "end": 12.36
+    },
+    {
+      "text": "de",
+      "start": 12.36,
+      "end": 12.37
+    },
+    {
+      "text": "plus",
+      "start": 12.36,
+      "end": 12.68
+    },
+    {
+      "text": "en",
+      "start": 12.68,
+      "end": 12.8
+    },
+    {
+      "text": "plus.",
+      "start": 12.8,
+      "end": 13.04
+    },
+    {
+      "text": "—",
+      "start": 13.04,
+      "end": 13.92
+    },
+    {
+      "text": "Mais",
+      "start": 13.92,
+      "end": 14.2
+    },
+    {
+      "text": "si,",
+      "start": 14.2,
+      "end": 14.8
+    },
+    {
+      "text": "mais",
+      "start": 14.8,
+      "end": 15.0
+    },
+    {
+      "text": "si",
+      "start": 15.0,
+      "end": 15.56
+    },
+    {
+      "text": "!",
+      "start": 15.56,
+      "end": 15.57
+    },
+    {
+      "text": "cria",
+      "start": 15.56,
+      "end": 16.28
+    },
+    {
+      "text": "Grand-mère.",
+      "start": 16.28,
+      "end": 17.84
+    },
+    {
+      "text": "Si",
+      "start": 17.84,
+      "end": 18.08
+    },
+    {
+      "text": "tu",
+      "start": 18.08,
+      "end": 18.24
+    },
+    {
+      "text": "leur",
+      "start": 18.24,
+      "end": 18.44
+    },
+    {
+      "text": "donnes",
+      "start": 18.44,
+      "end": 18.68
+    },
+    {
+      "text": "tout,",
+      "start": 18.68,
+      "end": 19.36
+    },
+    {
+      "text": "ce",
+      "start": 19.36,
+      "end": 19.6
+    },
+    {
+      "text": "sont",
+      "start": 19.6,
+      "end": 20.0
+    },
+    {
+      "text": "mes",
+      "start": 20.0,
+      "end": 20.2
+    },
+    {
+      "text": "poules",
+      "start": 20.2,
+      "end": 20.64
+    },
+    {
+      "text": "qui",
+      "start": 20.64,
+      "end": 20.8
+    },
+    {
+      "text": "n’auront",
+      "start": 20.8,
+      "end": 21.12
+    },
+    {
+      "text": "plus",
+      "start": 21.12,
+      "end": 21.44
+    },
+    {
+      "text": "rien",
+      "start": 21.44,
+      "end": 21.68
+    },
+    {
+      "text": "!",
+      "start": 21.68,
+      "end": 21.69
+    },
+    {
+      "text": "—",
+      "start": 21.68,
+      "end": 22.64
+    },
+    {
+      "text": "Et",
+      "start": 22.64,
+      "end": 22.68
+    },
+    {
+      "text": "si",
+      "start": 22.68,
+      "end": 23.04
+    },
+    {
+      "text": "tu",
+      "start": 23.04,
+      "end": 23.05
+    },
+    {
+      "text": "continues,",
+      "start": 23.04,
+      "end": 23.68
+    },
+    {
+      "text": "tu",
+      "start": 23.68,
+      "end": 23.72
+    },
+    {
+      "text": "finiras",
+      "start": 23.72,
+      "end": 24.36
+    },
+    {
+      "text": "par",
+      "start": 24.36,
+      "end": 24.52
+    },
+    {
+      "text": "attirer",
+      "start": 24.52,
+      "end": 24.76
+    },
+    {
+      "text": "tous",
+      "start": 24.76,
+      "end": 25.24
+    },
+    {
+      "text": "les",
+      "start": 25.24,
+      "end": 25.4
+    },
+    {
+      "text": "oiseaux",
+      "start": 25.4,
+      "end": 26.0
+    },
+    {
+      "text": "de",
+      "start": 26.0,
+      "end": 26.24
+    },
+    {
+      "text": "la",
+      "start": 26.24,
+      "end": 26.25
+    },
+    {
+      "text": "forêt,",
+      "start": 26.24,
+      "end": 26.48
+    },
+    {
+      "text": "renchérit",
+      "start": 26.48,
+      "end": 26.84
+    },
+    {
+      "text": "Grand-père.",
+      "start": 26.84,
+      "end": 27.32
+    },
+    {
+      "text": "renchérit",
+      "start": 27.32,
+      "end": 27.8
+    },
+    {
+      "text": "signifie",
+      "start": 27.8,
+      "end": 28.32
+    },
+    {
+      "text": ":",
+      "start": 28.32,
+      "end": 28.330000000000002
+    },
+    {
+      "text": "écris",
+      "start": 28.32,
+      "end": 28.88
+    },
+    {
+      "text": "ta",
+      "start": 28.88,
+      "end": 29.24
+    },
+    {
+      "text": "réponse",
+      "start": 29.24,
+      "end": 29.52
+    },
+    {
+      "text": "Les",
+      "start": 29.52,
+      "end": 29.72
+    },
+    {
+      "text": "indices",
+      "start": 29.72,
+      "end": 30.0
+    },
+    {
+      "text": ":",
+      "start": 30.0,
+      "end": 30.01
+    },
+    {
+      "text": "écris",
+      "start": 30.0,
+      "end": 30.4
+    },
+    {
+      "text": "ta",
+      "start": 30.4,
+      "end": 30.41
+    },
+    {
+      "text": "réponse",
+      "start": 30.4,
+      "end": 31.12
+    },
+    {
+      "text": "6",
+      "start": 31.12,
+      "end": 31.4
+    },
+    {
+      "text": "Il",
+      "start": 31.4,
+      "end": 31.6
+    },
+    {
+      "text": "ressemblait",
+      "start": 31.6,
+      "end": 32.2
+    },
+    {
+      "text": "beaucoup",
+      "start": 32.2,
+      "end": 32.48
+    },
+    {
+      "text": "au",
+      "start": 32.48,
+      "end": 32.64
+    },
+    {
+      "text": "petit",
+      "start": 32.64,
+      "end": 32.88
+    },
+    {
+      "text": "lapin",
+      "start": 32.88,
+      "end": 33.16
+    },
+    {
+      "text": "mécanique",
+      "start": 33.16,
+      "end": 33.56
+    },
+    {
+      "text": "que",
+      "start": 33.56,
+      "end": 33.8
+    },
+    {
+      "text": "le",
+      "start": 33.8,
+      "end": 33.809999999999995
+    },
+    {
+      "text": "Père",
+      "start": 33.8,
+      "end": 34.0
+    },
+    {
+      "text": "Noël",
+      "start": 34.0,
+      "end": 34.32
+    },
+    {
+      "text": "avait",
+      "start": 34.32,
+      "end": 34.52
+    },
+    {
+      "text": "apporté",
+      "start": 34.52,
+      "end": 34.56
+    },
+    {
+      "text": "à",
+      "start": 34.56,
+      "end": 34.72
+    },
+    {
+      "text": "Gérard",
+      "start": 34.72,
+      "end": 35.48
+    },
+    {
+      "text": "quelques",
+      "start": 35.48,
+      "end": 35.88
+    },
+    {
+      "text": "années",
+      "start": 35.88,
+      "end": 36.04
+    },
+    {
+      "text": "plus",
+      "start": 36.04,
+      "end": 36.24
+    },
+    {
+      "text": "tôt.",
+      "start": 36.24,
+      "end": 36.52
+    },
+    {
+      "text": "Comme",
+      "start": 36.52,
+      "end": 37.24
+    },
+    {
+      "text": "le",
+      "start": 37.24,
+      "end": 37.56
+    },
+    {
+      "text": "jouet,",
+      "start": 37.56,
+      "end": 37.84
+    },
+    {
+      "text": "il",
+      "start": 37.84,
+      "end": 37.85
+    },
+    {
+      "text": "sautillait,",
+      "start": 37.84,
+      "end": 38.32
+    },
+    {
+      "text": "vacillait",
+      "start": 38.32,
+      "end": 38.84
+    },
+    {
+      "text": "de",
+      "start": 38.84,
+      "end": 39.0
+    },
+    {
+      "text": "droite",
+      "start": 39.0,
+      "end": 39.4
+    },
+    {
+      "text": "à",
+      "start": 39.4,
+      "end": 40.16
+    },
+    {
+      "text": "gauche",
+      "start": 40.16,
+      "end": 40.169999999999995
+    },
+    {
+      "text": "et",
+      "start": 40.16,
+      "end": 40.169999999999995
+    },
+    {
+      "text": "s’arrêtait",
+      "start": 40.16,
+      "end": 40.44
+    },
+    {
+      "text": "à",
+      "start": 40.44,
+      "end": 40.68
+    },
+    {
+      "text": "chaque",
+      "start": 40.68,
+      "end": 40.76
+    },
+    {
+      "text": "instant.",
+      "start": 40.76,
+      "end": 41.24
+    },
+    {
+      "text": "vacillait",
+      "start": 41.24,
+      "end": 41.72
+    },
+    {
+      "text": "signifie",
+      "start": 41.72,
+      "end": 42.44
+    },
+    {
+      "text": ":",
+      "start": 42.44,
+      "end": 42.68
+    },
+    {
+      "text": "écris",
+      "start": 42.68,
+      "end": 43.0
+    },
+    {
+      "text": "ta",
+      "start": 43.0,
+      "end": 43.01
+    },
+    {
+      "text": "réponse",
+      "start": 43.0,
+      "end": 43.64
+    },
+    {
+      "text": "Les",
+      "start": 43.64,
+      "end": 43.84
+    },
+    {
+      "text": "indices",
+      "start": 43.84,
+      "end": 44.2
+    },
+    {
+      "text": ":",
+      "start": 44.2,
+      "end": 44.21
+    },
+    {
+      "text": "écris",
+      "start": 44.2,
+      "end": 44.88
+    },
+    {
+      "text": "ta",
+      "start": 44.88,
+      "end": 44.92
+    },
+    {
+      "text": "réponse",
+      "start": 44.92,
+      "end": 45.96
+    }
+  ],
+  "audio_duration": 45.96
+}

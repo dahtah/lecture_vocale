@@ -310,7 +310,15 @@
       sections.forEach((section) => {
         const lines = section.trim().split('\n');
         const title = lines[0].trim();
-        const content = lines.slice(1).join('\n').trim();
+        // Filtrer les séparateurs markdown et lignes vides (même logique que generate_timings.py)
+        const contentLines = [];
+        for (const line of lines.slice(1)) {
+          const stripped = line.trim();
+          if (stripped && !['---', '***', '___'].includes(stripped)) {
+            contentLines.push(stripped);
+          }
+        }
+        const content = contentLines.join('\n').trim();
         if (title && content) presetTexts[title] = content;
       });
       populateTextPresetSelect();
@@ -335,6 +343,36 @@
     // Convertir un titre en nom de fichier sûr
     if (!title) return null;
     return title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.wav';
+  }
+
+  function getPresetTimingsFilename(title) {
+    // Convertir un titre en nom de fichier de timings JSON
+    if (!title) return null;
+    return title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.json';
+  }
+
+  async function loadTimings(school, title) {
+    // Charger les timings depuis le fichier JSON
+    if (!school || !title) return null;
+    
+    const timingsFilename = getPresetTimingsFilename(title);
+    if (!timingsFilename) return null;
+    
+    const timingsPath = `donnees/${school}/timings/${timingsFilename}`;
+    
+    try {
+      const response = await fetch(timingsPath);
+      if (response.ok) {
+        const data = await response.json();
+        // Le format attendu: {words: [{text, start, end}], audio_duration}
+        if (data && data.words) {
+          return data.words;
+        }
+      }
+    } catch (e) {
+      console.warn(`[Timings] Impossible de charger ${timingsPath}:`, e);
+    }
+    return null;
   }
 
   function loadPresetText(title) {
@@ -872,8 +910,16 @@
             audio.addEventListener('error', reject);
           });
           
-          // Générer les timings estimés pour chaque mot
-          const wordTimings = estimateWordDurations(text, audio.duration);
+          // Essayer de charger les timings pré-générés depuis le fichier JSON
+          let wordTimings = await loadTimings(currentSchool, currentPresetTextTitle);
+          
+          // Si pas de timings chargés, générer des timings estimés
+          if (!wordTimings) {
+            wordTimings = estimateWordDurations(text, audio.duration);
+            console.log("[Timings] Utilisation de l'estimation pour:", currentPresetTextTitle);
+          } else {
+            console.log("[Timings] Timings précis chargés pour:", currentPresetTextTitle);
+          }
           
           cloudAudio = audio;
           playBtn.disabled = false;

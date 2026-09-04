@@ -1,3 +1,25 @@
 
 # Modèles Piper TTS (trop volumineux pour git - 61 Mo)
 models/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Fichiers temporaires et logs
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Fichiers de verrouillage des gestionnaires de paquets
+uv.lock
+poetry.lock
+
+# Fichiers de configuration IDE
+.idea/
+.vscode/
+
+# Fichiers de session Firefox (générés automatiquement)
+.mozilla/

@@ -1,0 +1,20 @@
+[project]
+name = "lecture_vocale"
+version = "0.1.0"
+description = "Application web pour la lecture vocale avec surlignage mot-par-mot synchronisé"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "whisperx>=1.6.0",
+    "torch>=2.0.0",
+    "piper-tts>=0.0.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "numpy",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
