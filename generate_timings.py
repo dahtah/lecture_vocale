@@ -526,8 +526,16 @@ def generate_timings_with_aeneas(text, audio_path, output_path):
         print(f"  Traitement avec aeneas: '{text[:50]}...'")
         
         # Segmenter le texte en mots (un mot par ligne)
+        # Filtrer les séparateurs markdown et lignes vides
         original_words = split_text_into_words(text)
-        text_with_words = '\n'.join(original_words)
+        # Supprimer les tokens qui sont des séparateurs markdown
+        filtered_words = []
+        for word in original_words:
+            if word.strip() in ['---', '***', '___', '~~~']:
+                continue
+            filtered_words.append(word)
+        text_with_words = '\n'.join(filtered_words)
+        original_words = filtered_words
         
         # Créer un fichier texte temporaire
         with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False, encoding='utf-8') as txt_file:
@@ -603,12 +611,13 @@ def generate_timings_with_aeneas(text, audio_path, output_path):
             # mais ont des fins différentes, créant des durées anormalement courtes
             # Exemple: "qui", "ont", "du", "givre" à [5.76, 5.77] + "à" à [5.76, 6.40]
             # Solution: 
-            # 1. Regrouper tous les mots consécutifs avec le même start
-            # 2. Si au moins un mot dans le groupe a une durée < seuil, redistribuer
-            #    l'intervalle jusqu'au prochain mot avec un start différent
+            # 1. D'abord, regrouper tous les mots consécutifs avec le même start et redistribuer
+            # 2. Ensuite, corriger les mots isolés avec une durée < 20ms
             
-            MIN_DURATION_THRESHOLD = 0.05  # Seuil de durée minimale
+            MIN_DURATION_THRESHOLD = 0.05  # Seuil pour déclencher la redistribution de groupe
+            MIN_DURATION_ABSOLUTE = 0.02  # Durée minimale absolue pour un mot (20ms)
             
+            # Étape 1: Corriger les groupes de mots avec le même start
             i = 0
             while i < len(aeneas_words):
                 current_start = aeneas_words[i]['start']
@@ -650,6 +659,41 @@ def generate_timings_with_aeneas(text, audio_path, output_path):
                             
                             i = next_idx
                             continue
+                
+                i += 1
+            
+            # Étape 2: Corriger les mots isolés avec une durée < 20ms
+            # Étendre le mot pour qu'il ait au moins MIN_DURATION_ABSOLUTE
+            # en empiétant sur l'intervalle suivant si nécessaire
+            i = 0
+            while i < len(aeneas_words):
+                duration = aeneas_words[i]['end'] - aeneas_words[i]['start']
+                if duration > 0 and duration < MIN_DURATION_ABSOLUTE:
+                    needed_extension = MIN_DURATION_ABSOLUTE - duration
+                    
+                    if i + 1 < len(aeneas_words):
+                        next_start = aeneas_words[i+1]['start']
+                        available_before_next = next_start - aeneas_words[i]['end']
+                        
+                        if available_before_next >= needed_extension:
+                            # Assez d'espace avant le prochain mot, étendre
+                            aeneas_words[i]['end'] += needed_extension
+                        else:
+                            # Pas assez d'espace, prendre ce qui est disponible
+                            # et réduire la durée du mot suivant si nécessaire
+                            aeneas_words[i]['end'] = next_start
+                            
+                            # Si on a quand même pas assez, empiéter sur le mot suivant
+                            if aeneas_words[i]['end'] - aeneas_words[i]['start'] < MIN_DURATION_ABSOLUTE:
+                                extra_needed = MIN_DURATION_ABSOLUTE - (aeneas_words[i]['end'] - aeneas_words[i]['start'])
+                                aeneas_words[i]['end'] += extra_needed
+                                # Déplacer le start du mot suivant
+                                aeneas_words[i+1]['start'] += extra_needed
+                                # Et ajuster son end aussi
+                                aeneas_words[i+1]['end'] += extra_needed
+                    else:
+                        # Dernier mot, étendre à MIN_DURATION_ABSOLUTE
+                        aeneas_words[i]['end'] = aeneas_words[i]['start'] + MIN_DURATION_ABSOLUTE
                 
                 i += 1
             

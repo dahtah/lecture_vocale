@@ -543,16 +543,15 @@
 
   function startTimingsHighlight(audio, wordTimings, playbackRate = 1) {
     // Surlignage basé sur des timings précis (en secondes)
+    // Note: playbackRate est géré par audio.playbackRate, pas besoin d'ajuster les timings
     if (!wordSpans.length || !wordTimings || wordTimings.length === 0) {
       return startCloudHighlight(audio); // Fallback
     }
     
-    // Ajuster les timings pour le playbackRate
-    const adjustedTimings = wordTimings.map(w => ({
-      text: w.text,
-      start: w.start / playbackRate,
-      end: w.end / playbackRate
-    }));
+    // Les timings sont en secondes réelles dans l'audio.
+    // audio.currentTime donne la position actuelle (déjà affectée par playbackRate)
+    // Donc pas besoin d'ajuster les timings.
+    const adjustedTimings = wordTimings;
     
     let lastIdx = -1;
     

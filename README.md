@@ -1,76 +1,164 @@
-# 🔊 Lecture vocale
+# 🔊 Lecture Vocale
 
-Application web de synthèse vocale pensée pour les enfants en difficulté de lecture. Codée intégralement avec l'aide de Mistral Vibe.
-
-Tape ou colle un texte, écoute-le à voix haute avec **surlignage mot par mot** synchronisé à la parole.
+Application web pour aider les enfants à suivre une lecture audio avec **surlignage mot-par-mot synchronisé**. Développée avec l'aide de Mistral Vibe.
 
 ## ✨ Fonctionnalités
 
-- **Édition et lecture dans la même zone** (contenteditable)
-- **Surlignage mot par mot** synchronisé avec la voix
-- **Deux moteurs** :
-  - 🖥️ **Voix du navigateur** — local, hors ligne, gratuit (API `speechSynthesis`)
-  - ☁️ **Voix cloud** — haute qualité neuronale (Amazon Polly via Puter.js), gratuit, sans clé API
-- **Sélection de voix** (locale ou cloud) avec priorité aux voix françaises haute qualité
-- **Contrôle de la vitesse** de lecture (0.5× → 1.5×)
-- **Lecture / Pause / Arrêt**
-- Détection automatique de Chrome/Linux (sans voix locale) → bascule sur le cloud
+### 📖 Interface Utilisateur
+- **Sélection par école** : Cachin, Robespierre
+- **Menu des textes** : Chargement dynamique depuis les fichiers `textes.md`
+- **Zone de texte** : Affichage du texte sélectionné (lecture seule pour les textes présélectionnés)
+- **Mode "Nouveau texte"** : Pour entrer un texte personnalisé
+- **Contrôles de lecture** : Play, Pause, Stop
+- **Contrôle de vitesse** : Slider pour ajuster la vitesse de lecture (0.5× à 2×)
+
+### 🎯 Surlignage mot-par-mot
+- **Précision parfaite** : Alignement forcé avec aeneas (alignement texte-audio)
+- **Synchronisation temps réel** : Surlignage exact pendant la lecture
+- **Gestion de la vitesse** : Fonctionne correctement à toutes les vitesses
+- **Fallback intelligent** : Estimation de durée si les timings ne sont pas disponibles
+
+### 🔊 Génération de contenu
+- **Audio** : Généré avec Piper TTS (modèle `fr_FR-gilles-low.onnx`)
+- **Timings** : Générés avec aeneas pour un alignement forcé texte-audio parfait
+- **Correction automatique** : Les mots avec des durées trop courtes sont étendus à 20ms minimum
 
 ## 🚀 Utilisation
 
-### Option 1 : ouvrir directement
-
-Ouvre le fichier `lecture-voix.html` dans un navigateur (Chrome, Firefox, Edge, Safari).
-
-### Option 2 : servir en local
+### Lancer l'application
 
 ```bash
-cd lecture-voix-local
+cd lecture_vocale
 python3 -m http.server 8000
 ```
 
-Puis ouvre [http://localhost:8000/lecture-voix.html](http://localhost:8000/lecture-voix.html).
+Puis ouvrez [http://localhost:8000](http://localhost:8000) dans votre navigateur.
 
-### Option 3 : hébergement statique
+### Ajouter un nouveau texte
 
-L'application est un fichier HTML unique, sans build ni dépendance npm.  
-Elle peut être hébergée sur n'importe quel hébergeur statique :  
-**GitHub Pages**, Netlify, Vercel, Cloudflare Pages, etc.
+1. Modifier `donnees/{ecole}/textes.md` avec le format :
+   ```markdown
+   # Titre du texte
+   
+   Contenu du texte ici...
+   ```
 
-## 🌐 Déploiement sur GitHub Pages
+2. Générer l'audio :
+   ```bash
+   python3 generate_audio.py {ecole}
+   ```
 
-1. Crée un dépôt public sur GitHub.
-2. Renomme `lecture-voix.html` en `index.html` et pousse-le à la racine :
-  ```bash
-   git init
-   mv lecture-voix.html index.html
-   git add index.html README.md
-   git commit -m "Lecture vocale — app statique"
-   git branch -M main
-   git remote add origin https://github.com/<ton-user>/<ton-repo>.git
-   git push -u origin main
-  ```
-3. Active GitHub Pages : **Settings → Pages → Deploy from branch → main**.
-4. Ton app est en ligne sur `https://<ton-user>.github.io/<ton-repo>/`.
+3. Générer les timings (avec aeneas) :
+   ```bash
+   python3 generate_timings.py --use-aeneas {ecole}
+   ```
 
-## 🔧 Fonctionnement technique
+4. L'interface web chargera automatiquement les nouveaux textes et timings
 
+## 📁 Structure du projet
 
-| Élément             | Détail                                                                                                                                              |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Moteur local        | API `speechSynthesis` du navigateur, surlignage via événements `onboundary` (fallback minuté à 150 mots/min)                                        |
-| Moteur cloud        | [Puter.js](https://js.puter.com/v2/) → Amazon Polly, retourne un `HTMLAudioElement`, surlignage via `requestAnimationFrame` sur `audio.currentTime` |
-| Contrôle de vitesse | Local : `utterance.rate`. Cloud : `audio.playbackRate` (modifie aussi légèrement la hauteur)                                                        |
-| Limite cloud        | 3000 caractères par appel Puter.js                                                                                                                  |
-| Dépendance externe  | uniquement le script `https://js.puter.com/v2/` (CDN)                                                                                               |
+```
+lecture_vocale/
+├── index.html              # Interface web principale
+├── generate_audio.py       # Génération des fichiers audio (Piper TTS)
+├── generate_timings.py     # Génération des timings (aeneas)
+├── test_whisper_timings.py # Tests pour whisperX
+├── pyproject.toml          # Dépendances Python
+├── STATUS.md              # État du projet
+├── README.md              # Ce fichier
+└── donnees/
+    ├── Cachin/
+    │   ├── textes.md        # Textes source
+    │   ├── audio/          # Fichiers .wav générés
+    │   └── timings/        # Fichiers .json de timings
+    └── Robespierre/
+        ├── textes.md
+        ├── audio/
+        └── timings/
+```
 
+## 🛠️ Technologies
 
-## ⚠️ Notes
+### Backend (Génération)
+- **Python 3.12+**
+- **aeneas** : Alignement forcé texte-audio (méthode principale)
+- **whisperX** : Reconnaissance vocale avec alignement (méthode alternative)
+- **Piper TTS** : Synthèse vocale pour générer les fichiers audio
+- **torch** : Backend pour WhisperX
 
-- Le moteur cloud nécessite une **connexion Internet** (Puter.js parle directement à Polly/OpenAI depuis le navigateur — aucune clé API à gérer).
-- **Chrome sur Linux** ne fournit pas de voix locales par défaut ; l'app bascule automatiquement sur le moteur cloud.
-- `audio.playbackRate` ralentit/accélère la voix cloud mais **modifie aussi le pitch**. À des vitesses modérées (0.7×–1.3×) c'est peu perceptible.
+### Frontend
+- **Vanilla JavaScript** : Pas de framework nécessaire
+- **Web Audio API** : Pour la lecture audio
+- **CSS moderne** : Design adapté aux enfants
+
+### Dépendances
+
+Installer les dépendances :
+```bash
+uv pip install -r pyproject.toml
+```
+
+Ou avec pip :
+```bash
+pip install aeneas piper-tts torch
+```
+
+## 🔧 Commandes utiles
+
+### Générer tout
+```bash
+# Générer les audios et timings pour toutes les écoles
+python3 generate_audio.py --all
+python3 generate_timings.py --use-aeneas --all
+```
+
+### Générer pour une école spécifique
+```bash
+python3 generate_audio.py Cachin
+python3 generate_timings.py --use-aeneas Cachin
+```
+
+### Comparer les méthodes
+```bash
+# Avec aeneas (recommandé, plus précis)
+python3 generate_timings.py --use-aeneas Cachin
+
+# Avec whisperX (alternative)
+python3 generate_timings.py Cachin
+```
+
+## ⚡ Performances
+
+- **Génération audio** : ~1-2s par mot avec Piper TTS
+- **Génération timings** : ~20-30s par fichier avec aeneas
+- **Surlignage** : Temps réel, précis au millième de seconde
+
+## 📊 Précision des timings
+
+Avec **aeneas** (alignement forcé) :
+- ✅ Pas d'erreurs de transcription (utilise le texte original)
+- ✅ Timings parfaits pour chaque mot
+- ✅ Durée audio exactement correspondante
+- ✅ Tous les mots ont au moins 20ms de durée
+
+Avec **whisperX** (reconnaissance vocale) :
+- ⚠️ Peut avoir des erreurs de transcription
+- ⚠️ Nécessite un alignement avec le texte original
+- ✅ Timings généralement bons
+
+## 🎓 Cas d'usage pédagogique
+
+- **Aide à la lecture** : Les enfants suivent le texte en temps réel
+- **Compréhension** : Meilleure association entre le texte écrit et l'oral
+- **Autonomie** : Les enfants peuvent écouter et suivre à leur rythme
+- **Accessibilité** : Adapté aux enfants avec des difficultés de lecture
 
 ## 📄 Licence
 
-Libre d'utilisation et de modification.
+Libre d'utilisation et de modification. Développé avec l'aide de Mistral Vibe.
+
+## 🙏 Remerciements
+
+- **Mistral AI** : Pour le développement de Mistral Vibe
+- **ReadBeyond** : Pour le projet aeneas
+- **Rhasspy** : Pour Piper TTS

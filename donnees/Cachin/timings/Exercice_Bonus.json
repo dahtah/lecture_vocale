@@ -8,1053 +8,1053 @@
     {
       "text": "pour",
       "start": 0.52,
-      "end": 0.8
+      "end": 0.72
     },
     {
       "text": "chaque",
-      "start": 0.8,
-      "end": 1.12
+      "start": 0.72,
+      "end": 1.08
     },
     {
       "text": "mot",
-      "start": 1.12,
-      "end": 1.36
+      "start": 1.08,
+      "end": 1.24
     },
     {
       "text": "ou",
-      "start": 1.36,
-      "end": 1.52
+      "start": 1.24,
+      "end": 1.32
     },
     {
       "text": "expression",
-      "start": 1.52,
-      "end": 2.2
+      "start": 1.32,
+      "end": 2.32
     },
     {
       "text": "en",
-      "start": 2.2,
-      "end": 2.48
+      "start": 2.32,
+      "end": 2.6
     },
     {
       "text": "gris",
-      "start": 2.48,
-      "end": 2.72
+      "start": 2.6,
+      "end": 2.656
     },
     {
       "text": "un",
-      "start": 2.72,
-      "end": 2.84
+      "start": 2.656,
+      "end": 2.712
     },
     {
       "text": "mot",
-      "start": 2.84,
-      "end": 3.08
+      "start": 2.712,
+      "end": 2.768
     },
     {
       "text": "ou",
-      "start": 3.08,
-      "end": 3.16
+      "start": 2.768,
+      "end": 2.824
     },
     {
       "text": "une",
-      "start": 3.16,
-      "end": 3.4
+      "start": 2.824,
+      "end": 2.88
     },
     {
       "text": "expression",
-      "start": 3.4,
-      "end": 4.16
+      "start": 2.88,
+      "end": 3.56
     },
     {
       "text": "qui",
-      "start": 4.16,
-      "end": 4.28
+      "start": 3.56,
+      "end": 3.8
     },
     {
       "text": "veut",
-      "start": 4.28,
-      "end": 4.4
+      "start": 3.8,
+      "end": 3.853333333333333
     },
     {
       "text": "dire",
-      "start": 4.4,
-      "end": 4.6
+      "start": 3.853333333333333,
+      "end": 3.9066666666666667
     },
     {
       "text": "la",
-      "start": 4.6,
-      "end": 4.76
+      "start": 3.9066666666666667,
+      "end": 3.96
     },
     {
       "text": "même",
-      "start": 4.76,
-      "end": 5.04
+      "start": 3.96,
+      "end": 4.48
     },
     {
       "text": "chose.",
-      "start": 5.04,
-      "end": 5.92
+      "start": 4.48,
+      "end": 5.32
     },
     {
       "text": "Explique",
-      "start": 5.92,
-      "end": 6.52
+      "start": 5.32,
+      "end": 5.84
     },
     {
       "text": "ton",
-      "start": 6.52,
-      "end": 6.8
+      "start": 5.84,
+      "end": 6.08
     },
     {
       "text": "raisonnement.",
-      "start": 6.8,
-      "end": 7.92
+      "start": 6.08,
+      "end": 7.0
     },
     {
       "text": "1",
-      "start": 7.92,
-      "end": 8.16
+      "start": 7.0,
+      "end": 7.28
     },
     {
       "text": "En",
-      "start": 8.16,
-      "end": 8.6
+      "start": 7.28,
+      "end": 7.4
     },
     {
       "text": "entrant",
-      "start": 8.6,
-      "end": 8.76
+      "start": 7.4,
+      "end": 7.84
     },
     {
       "text": "dans",
-      "start": 8.76,
-      "end": 8.92
+      "start": 7.84,
+      "end": 7.88
     },
     {
       "text": "la",
-      "start": 8.92,
-      "end": 9.32
+      "start": 7.88,
+      "end": 8.24
     },
     {
       "text": "grande",
-      "start": 9.32,
-      "end": 9.52
+      "start": 8.24,
+      "end": 8.56
     },
     {
       "text": "salle",
-      "start": 9.52,
-      "end": 9.84
+      "start": 8.56,
+      "end": 8.76
     },
     {
       "text": "du",
-      "start": 9.84,
-      "end": 9.88
+      "start": 8.76,
+      "end": 8.8
     },
     {
       "text": "château,",
-      "start": 9.88,
-      "end": 10.2
+      "start": 8.8,
+      "end": 8.96
     },
     {
       "text": "le",
-      "start": 10.2,
-      "end": 10.88
+      "start": 8.96,
+      "end": 9.12
     },
     {
       "text": "valet",
-      "start": 10.88,
-      "end": 11.56
+      "start": 9.12,
+      "end": 9.36
     },
     {
       "text": "alluma",
-      "start": 11.56,
-      "end": 12.16
+      "start": 9.36,
+      "end": 9.72
     },
     {
       "text": "les",
-      "start": 12.16,
-      "end": 12.32
+      "start": 9.72,
+      "end": 10.0
     },
     {
       "text": "candélabres.",
-      "start": 12.32,
-      "end": 13.76
+      "start": 10.0,
+      "end": 11.16
     },
     {
       "text": "Aussitôt",
-      "start": 13.76,
-      "end": 14.64
+      "start": 11.16,
+      "end": 11.6
     },
     {
       "text": "une",
-      "start": 14.64,
-      "end": 14.88
+      "start": 11.6,
+      "end": 11.96
     },
     {
       "text": "douce",
-      "start": 14.88,
-      "end": 15.24
+      "start": 11.96,
+      "end": 12.28
     },
     {
       "text": "lumière",
-      "start": 15.24,
-      "end": 15.56
+      "start": 12.28,
+      "end": 12.72
     },
     {
       "text": "tremblotante",
-      "start": 15.56,
-      "end": 16.32
+      "start": 12.72,
+      "end": 13.36
     },
     {
       "text": "éclaira",
-      "start": 16.32,
-      "end": 16.76
+      "start": 13.36,
+      "end": 13.88
     },
     {
       "text": "la",
-      "start": 16.76,
-      "end": 16.8
+      "start": 13.88,
+      "end": 13.92
     },
     {
       "text": "pièce.",
-      "start": 16.8,
-      "end": 17.28
+      "start": 13.92,
+      "end": 14.36
     },
     {
       "text": "Candelabres",
-      "start": 17.28,
-      "end": 18.4
+      "start": 14.36,
+      "end": 15.4
     },
     {
       "text": "signifie",
-      "start": 18.4,
-      "end": 19.16
+      "start": 15.4,
+      "end": 16.0
     },
     {
       "text": ":",
-      "start": 19.16,
-      "end": 19.28
+      "start": 16.0,
+      "end": 16.24
     },
     {
       "text": "écris",
-      "start": 19.28,
-      "end": 19.48
+      "start": 16.24,
+      "end": 16.36
     },
     {
       "text": "ta",
-      "start": 19.48,
-      "end": 19.52
+      "start": 16.36,
+      "end": 16.6
     },
     {
       "text": "réponse",
-      "start": 19.52,
-      "end": 20.52
+      "start": 16.6,
+      "end": 16.88
     },
     {
       "text": "Les",
-      "start": 20.52,
-      "end": 20.64
+      "start": 16.88,
+      "end": 17.36
     },
     {
       "text": "indices",
-      "start": 20.64,
-      "end": 21.04
+      "start": 17.36,
+      "end": 17.88
     },
     {
       "text": ":",
-      "start": 21.04,
-      "end": 21.52
+      "start": 17.88,
+      "end": 18.08
     },
     {
       "text": "écris",
-      "start": 21.52,
-      "end": 21.8
+      "start": 18.08,
+      "end": 18.36
     },
     {
       "text": "ta",
-      "start": 21.8,
-      "end": 22.12
+      "start": 18.36,
+      "end": 18.64
     },
     {
       "text": "réponse",
-      "start": 22.12,
-      "end": 22.44
+      "start": 18.64,
+      "end": 19.04
     },
     {
       "text": "2",
-      "start": 22.44,
-      "end": 22.52
+      "start": 19.04,
+      "end": 19.12
     },
     {
       "text": "Le",
-      "start": 22.52,
-      "end": 22.76
+      "start": 19.12,
+      "end": 19.24
     },
     {
       "text": "voleur",
-      "start": 22.76,
-      "end": 23.4
+      "start": 19.24,
+      "end": 19.76
     },
     {
       "text": "entra",
-      "start": 23.4,
-      "end": 23.64
+      "start": 19.76,
+      "end": 20.04
     },
     {
       "text": "par",
-      "start": 23.64,
-      "end": 23.84
+      "start": 20.04,
+      "end": 20.28
     },
     {
       "text": "une",
-      "start": 23.84,
-      "end": 24.119999999999997
+      "start": 20.28,
+      "end": 20.520000000000003
     },
     {
       "text": "fenêtre",
-      "start": 24.119999999999997,
-      "end": 24.4
+      "start": 20.520000000000003,
+      "end": 20.76
     },
     {
       "text": "laissée",
-      "start": 24.4,
-      "end": 24.84
+      "start": 20.76,
+      "end": 21.2
     },
     {
       "text": "ouverte.",
-      "start": 24.84,
-      "end": 25.32
+      "start": 21.2,
+      "end": 22.12
     },
     {
       "text": "Il",
-      "start": 25.32,
-      "end": 25.44
+      "start": 22.12,
+      "end": 22.32
     },
     {
       "text": "cassa",
-      "start": 25.44,
-      "end": 26.68
+      "start": 22.32,
+      "end": 22.92
     },
     {
       "text": "une",
-      "start": 26.68,
-      "end": 26.88
+      "start": 22.92,
+      "end": 23.44
     },
     {
       "text": "vitrine",
-      "start": 26.88,
-      "end": 27.08
+      "start": 23.44,
+      "end": 23.8
     },
     {
       "text": "et",
-      "start": 27.08,
-      "end": 27.56
+      "start": 23.8,
+      "end": 24.04
     },
     {
       "text": "subtilisa",
-      "start": 27.56,
-      "end": 28.44
+      "start": 24.04,
+      "end": 24.28
     },
     {
       "text": "la",
-      "start": 28.44,
-      "end": 28.56
+      "start": 24.28,
+      "end": 24.48
     },
     {
       "text": "couronne",
-      "start": 28.56,
-      "end": 28.96
+      "start": 24.48,
+      "end": 24.68
     },
     {
       "text": "de",
-      "start": 28.96,
-      "end": 29.16
+      "start": 24.68,
+      "end": 24.84
     },
     {
       "text": "diamants",
-      "start": 29.16,
-      "end": 29.52
+      "start": 24.84,
+      "end": 25.12
     },
     {
       "text": "qui",
-      "start": 29.52,
-      "end": 29.8
+      "start": 25.12,
+      "end": 25.240000000000002
     },
     {
       "text": "se",
-      "start": 29.8,
-      "end": 30.04
+      "start": 25.240000000000002,
+      "end": 25.36
     },
     {
       "text": "trouvait",
-      "start": 30.04,
-      "end": 30.28
+      "start": 25.36,
+      "end": 25.44
     },
     {
       "text": "à",
-      "start": 30.28,
-      "end": 30.48
+      "start": 25.44,
+      "end": 25.92
     },
     {
       "text": "l'intérieur.",
-      "start": 30.48,
-      "end": 31.04
+      "start": 25.92,
+      "end": 26.48
     },
     {
       "text": "Toutes",
-      "start": 31.04,
-      "end": 31.44
+      "start": 26.48,
+      "end": 26.72
     },
     {
       "text": "les",
-      "start": 31.44,
-      "end": 31.6
+      "start": 26.72,
+      "end": 26.96
     },
     {
       "text": "sirènes",
-      "start": 31.6,
-      "end": 32.12
+      "start": 26.96,
+      "end": 27.08
     },
     {
       "text": "se",
-      "start": 32.12,
-      "end": 32.28
+      "start": 27.08,
+      "end": 27.1
     },
     {
       "text": "mirent",
-      "start": 32.28,
-      "end": 32.48
+      "start": 27.1,
+      "end": 27.12
     },
     {
       "text": "à",
-      "start": 32.48,
-      "end": 33.24
+      "start": 27.12,
+      "end": 27.76
     },
     {
       "text": "hurler",
-      "start": 33.24,
-      "end": 33.32
+      "start": 27.76,
+      "end": 28.12
     },
     {
       "text": "en",
-      "start": 33.32,
-      "end": 33.56
+      "start": 28.12,
+      "end": 28.6
     },
     {
       "text": "même",
-      "start": 33.56,
-      "end": 33.64
+      "start": 28.6,
+      "end": 29.0
     },
     {
       "text": "temps,",
-      "start": 33.64,
-      "end": 33.74
+      "start": 29.0,
+      "end": 29.4
     },
     {
       "text": "mais",
-      "start": 33.74,
-      "end": 33.84
+      "start": 29.4,
+      "end": 29.72
     },
     {
       "text": "c'était",
-      "start": 33.84,
-      "end": 34.2
+      "start": 29.72,
+      "end": 30.0
     },
     {
       "text": "déjà",
-      "start": 34.2,
-      "end": 34.52
+      "start": 30.0,
+      "end": 30.24
     },
     {
       "text": "trop",
-      "start": 34.52,
-      "end": 34.64
+      "start": 30.24,
+      "end": 30.44
     },
     {
       "text": "tard,",
-      "start": 34.64,
-      "end": 35.08
+      "start": 30.44,
+      "end": 30.88
     },
     {
       "text": "il",
-      "start": 35.08,
-      "end": 35.28
+      "start": 30.88,
+      "end": 31.12
     },
     {
       "text": "avait",
-      "start": 35.28,
-      "end": 35.58
+      "start": 31.12,
+      "end": 31.36
     },
     {
       "text": "disparu",
-      "start": 35.58,
-      "end": 35.88
+      "start": 31.36,
+      "end": 31.96
     },
     {
       "text": "et",
-      "start": 35.88,
-      "end": 36.08
+      "start": 31.96,
+      "end": 32.24
     },
     {
       "text": "les",
-      "start": 36.08,
-      "end": 36.28
+      "start": 32.24,
+      "end": 32.52
     },
     {
       "text": "diamants",
-      "start": 36.28,
-      "end": 36.68
+      "start": 32.52,
+      "end": 32.72
     },
     {
       "text": "avec",
-      "start": 36.68,
-      "end": 36.84
+      "start": 32.72,
+      "end": 32.92
     },
     {
       "text": "lui.",
-      "start": 36.84,
-      "end": 37.0
+      "start": 32.92,
+      "end": 33.08
     },
     {
       "text": "subtilisa",
-      "start": 37.0,
-      "end": 37.8
+      "start": 33.08,
+      "end": 33.72
     },
     {
       "text": "signifie",
-      "start": 37.8,
-      "end": 38.68
+      "start": 33.72,
+      "end": 34.36
     },
     {
       "text": ":",
-      "start": 38.68,
-      "end": 38.72
+      "start": 34.36,
+      "end": 34.64
     },
     {
       "text": "écris",
-      "start": 38.72,
-      "end": 38.96
+      "start": 34.64,
+      "end": 34.92
     },
     {
       "text": "ta",
-      "start": 38.96,
-      "end": 39.2
+      "start": 34.92,
+      "end": 35.24
     },
     {
       "text": "réponse",
-      "start": 39.2,
-      "end": 39.6
+      "start": 35.24,
+      "end": 35.52
     },
     {
       "text": "Les",
-      "start": 39.6,
-      "end": 39.8
+      "start": 35.52,
+      "end": 35.68
     },
     {
       "text": "indices",
-      "start": 39.8,
-      "end": 40.28
+      "start": 35.68,
+      "end": 36.32
     },
     {
       "text": ":",
-      "start": 40.28,
-      "end": 40.32
+      "start": 36.32,
+      "end": 36.52
     },
     {
       "text": "écris",
-      "start": 40.32,
-      "end": 40.56
+      "start": 36.52,
+      "end": 36.88
     },
     {
       "text": "ta",
-      "start": 40.56,
-      "end": 40.88
+      "start": 36.88,
+      "end": 37.2
     },
     {
       "text": "réponse",
-      "start": 40.88,
-      "end": 41.12
+      "start": 37.2,
+      "end": 37.56
     },
     {
       "text": "3",
-      "start": 41.12,
-      "end": 41.32
+      "start": 37.56,
+      "end": 37.8
     },
     {
       "text": "Chaque",
-      "start": 41.32,
-      "end": 41.6
+      "start": 37.8,
+      "end": 38.24
     },
     {
       "text": "jour,",
-      "start": 41.6,
-      "end": 42.04
+      "start": 38.24,
+      "end": 38.44
     },
     {
       "text": "sans",
-      "start": 42.04,
-      "end": 42.12
+      "start": 38.44,
+      "end": 38.72
     },
     {
       "text": "jamais",
-      "start": 42.12,
-      "end": 42.6
+      "start": 38.72,
+      "end": 39.08
     },
     {
       "text": "être",
-      "start": 42.6,
-      "end": 42.92
+      "start": 39.08,
+      "end": 39.28
     },
     {
       "text": "rassasiée,",
-      "start": 42.92,
-      "end": 43.64
+      "start": 39.28,
+      "end": 39.88
     },
     {
       "text": "la",
-      "start": 43.64,
-      "end": 43.76
+      "start": 39.88,
+      "end": 40.24
     },
     {
       "text": "baleine",
-      "start": 43.76,
-      "end": 44.08
+      "start": 40.24,
+      "end": 40.76
     },
     {
       "text": "avale",
-      "start": 44.08,
-      "end": 44.4
+      "start": 40.76,
+      "end": 41.12
     },
     {
       "text": "des",
-      "start": 44.4,
-      "end": 44.52
+      "start": 41.12,
+      "end": 41.28
     },
     {
       "text": "tonnes",
-      "start": 44.52,
-      "end": 44.74666666666667
+      "start": 41.28,
+      "end": 41.52
     },
     {
       "text": "de",
-      "start": 44.74666666666667,
-      "end": 44.973333333333336
+      "start": 41.52,
+      "end": 41.64
     },
     {
       "text": "crevettes.",
-      "start": 44.973333333333336,
-      "end": 45.2
+      "start": 41.64,
+      "end": 42.04
     },
     {
       "text": "rassasiée",
-      "start": 45.2,
-      "end": 46.12
+      "start": 42.04,
+      "end": 42.4
     },
     {
       "text": "signifie",
-      "start": 46.12,
-      "end": 46.6
+      "start": 42.4,
+      "end": 42.92
     },
     {
       "text": ":",
-      "start": 46.6,
-      "end": 46.78
+      "start": 42.92,
+      "end": 43.28
     },
     {
       "text": "écris",
-      "start": 46.78,
-      "end": 46.96
+      "start": 43.28,
+      "end": 43.64
     },
     {
       "text": "ta",
-      "start": 46.96,
-      "end": 47.28
+      "start": 43.64,
+      "end": 43.88
     },
     {
       "text": "réponse",
-      "start": 47.28,
-      "end": 47.8
+      "start": 43.88,
+      "end": 44.16
     },
     {
       "text": "Les",
-      "start": 47.8,
-      "end": 47.88
+      "start": 44.16,
+      "end": 44.28
     },
     {
       "text": "indices",
-      "start": 47.88,
-      "end": 48.16
+      "start": 44.28,
+      "end": 44.88
     },
     {
       "text": ":",
-      "start": 48.16,
-      "end": 48.239999999999995
+      "start": 44.88,
+      "end": 45.1
     },
     {
       "text": "écris",
-      "start": 48.239999999999995,
-      "end": 48.32
+      "start": 45.1,
+      "end": 45.32
     },
     {
       "text": "ta",
-      "start": 48.32,
-      "end": 48.36
+      "start": 45.32,
+      "end": 45.56
     },
     {
       "text": "réponse",
-      "start": 48.36,
-      "end": 48.88
+      "start": 45.56,
+      "end": 45.92
     },
     {
       "text": "4",
-      "start": 48.88,
-      "end": 49.4
+      "start": 45.92,
+      "end": 46.08
     },
     {
       "text": "La",
-      "start": 49.4,
-      "end": 49.7
+      "start": 46.08,
+      "end": 46.24
     },
     {
       "text": "chèvre",
-      "start": 49.7,
-      "end": 50.0
+      "start": 46.24,
+      "end": 46.76
     },
     {
       "text": "blanche,",
-      "start": 50.0,
-      "end": 50.48
+      "start": 46.76,
+      "end": 47.28
     },
     {
       "text": "heureuse,",
-      "start": 50.48,
-      "end": 51.16
+      "start": 47.28,
+      "end": 47.84
     },
     {
       "text": "se",
-      "start": 51.16,
-      "end": 51.56
+      "start": 47.84,
+      "end": 48.0
     },
     {
       "text": "vautrait",
-      "start": 51.56,
-      "end": 52.0
+      "start": 48.0,
+      "end": 48.44
     },
     {
       "text": "dans",
-      "start": 52.0,
-      "end": 52.16
+      "start": 48.44,
+      "end": 48.72
     },
     {
       "text": "l'herbe",
-      "start": 52.16,
-      "end": 52.4
+      "start": 48.72,
+      "end": 49.12
     },
     {
       "text": "fine",
-      "start": 52.4,
-      "end": 52.64
+      "start": 49.12,
+      "end": 49.64
     },
     {
       "text": "et",
-      "start": 52.64,
-      "end": 52.68
+      "start": 49.64,
+      "end": 50.120000000000005
     },
     {
       "text": "savoureuse,",
-      "start": 52.68,
-      "end": 53.6
+      "start": 50.120000000000005,
+      "end": 50.6
     },
     {
       "text": "les",
-      "start": 53.6,
-      "end": 54.0
+      "start": 50.6,
+      "end": 50.92
     },
     {
       "text": "pattes",
-      "start": 54.0,
-      "end": 54.24
+      "start": 50.92,
+      "end": 50.96
     },
     {
       "text": "en",
+      "start": 50.96,
+      "end": 51.12
+    },
+    {
+      "text": "l'air,",
+      "start": 51.12,
+      "end": 51.68
+    },
+    {
+      "text": "et",
+      "start": 51.68,
+      "end": 52.08
+    },
+    {
+      "text": "roulait",
+      "start": 52.08,
+      "end": 52.36
+    },
+    {
+      "text": "le",
+      "start": 52.36,
+      "end": 52.64
+    },
+    {
+      "text": "long",
+      "start": 52.64,
+      "end": 52.7
+    },
+    {
+      "text": "des",
+      "start": 52.7,
+      "end": 52.76
+    },
+    {
+      "text": "talus.",
+      "start": 52.76,
+      "end": 53.0
+    },
+    {
+      "text": "se",
+      "start": 53.0,
+      "end": 53.2
+    },
+    {
+      "text": "vautrait",
+      "start": 53.2,
+      "end": 53.68
+    },
+    {
+      "text": "signifie",
+      "start": 53.68,
+      "end": 53.88
+    },
+    {
+      "text": ":",
+      "start": 53.88,
+      "end": 54.06
+    },
+    {
+      "text": "écris",
+      "start": 54.06,
+      "end": 54.24
+    },
+    {
+      "text": "ta",
       "start": 54.24,
       "end": 54.52
     },
     {
-      "text": "l'air,",
+      "text": "réponse",
       "start": 54.52,
+      "end": 54.8
+    },
+    {
+      "text": "Les",
+      "start": 54.8,
       "end": 54.96
     },
     {
-      "text": "et",
-      "start": 54.96,
-      "end": 55.2
-    },
-    {
-      "text": "roulait",
-      "start": 55.2,
-      "end": 55.92
-    },
-    {
-      "text": "le",
-      "start": 55.92,
-      "end": 56.12
-    },
-    {
-      "text": "long",
-      "start": 56.12,
-      "end": 56.306666666666665
-    },
-    {
-      "text": "des",
-      "start": 56.306666666666665,
-      "end": 56.49333333333333
-    },
-    {
-      "text": "talus.",
-      "start": 56.49333333333333,
-      "end": 56.68
-    },
-    {
-      "text": "se",
-      "start": 56.68,
-      "end": 57.04
-    },
-    {
-      "text": "vautrait",
-      "start": 57.04,
-      "end": 57.4
-    },
-    {
-      "text": "signifie",
-      "start": 57.4,
-      "end": 57.64
-    },
-    {
-      "text": ":",
-      "start": 57.64,
-      "end": 57.74
-    },
-    {
-      "text": "écris",
-      "start": 57.74,
-      "end": 57.84
-    },
-    {
-      "text": "ta",
-      "start": 57.84,
-      "end": 58.12
-    },
-    {
-      "text": "réponse",
-      "start": 58.12,
-      "end": 58.48
-    },
-    {
-      "text": "Les",
-      "start": 58.48,
-      "end": 58.68
-    },
-    {
       "text": "indices",
-      "start": 58.68,
-      "end": 59.0
+      "start": 54.96,
+      "end": 55.36
     },
     {
       "text": ":",
-      "start": 59.0,
-      "end": 59.120000000000005
+      "start": 55.36,
+      "end": 55.46
     },
     {
       "text": "écris",
-      "start": 59.120000000000005,
-      "end": 59.24
+      "start": 55.46,
+      "end": 55.56
     },
     {
       "text": "ta",
-      "start": 59.24,
-      "end": 59.52
+      "start": 55.56,
+      "end": 55.84
     },
     {
       "text": "réponse",
-      "start": 59.52,
-      "end": 59.96
+      "start": 55.84,
+      "end": 56.0
     },
     {
       "text": "5",
-      "start": 59.96,
-      "end": 60.48
+      "start": 56.0,
+      "end": 56.36
     },
     {
       "text": "La",
-      "start": 60.48,
-      "end": 60.62
+      "start": 56.36,
+      "end": 56.48
     },
     {
       "text": "neige",
-      "start": 60.62,
-      "end": 60.76
+      "start": 56.48,
+      "end": 56.8
     },
     {
       "text": "est",
-      "start": 60.76,
-      "end": 60.9
+      "start": 56.8,
+      "end": 57.06
     },
     {
       "text": "tombée",
-      "start": 60.9,
-      "end": 61.04
+      "start": 57.06,
+      "end": 57.32
     },
     {
       "text": "en",
-      "start": 61.04,
-      "end": 61.24
+      "start": 57.32,
+      "end": 57.64
     },
     {
       "text": "grande",
-      "start": 61.24,
-      "end": 61.6
+      "start": 57.64,
+      "end": 58.0
     },
     {
       "text": "quantité,",
-      "start": 61.6,
-      "end": 61.88
+      "start": 58.0,
+      "end": 58.28
     },
     {
       "text": "elle",
-      "start": 61.88,
-      "end": 62.16
+      "start": 58.28,
+      "end": 58.8
     },
     {
       "text": "recouvre",
-      "start": 62.16,
-      "end": 62.8
+      "start": 58.8,
+      "end": 59.2
     },
     {
       "text": "tout",
-      "start": 62.8,
-      "end": 62.9
+      "start": 59.2,
+      "end": 59.48
     },
     {
       "text": "le",
-      "start": 62.9,
-      "end": 63.0
+      "start": 59.48,
+      "end": 59.84
     },
     {
       "text": "paysage,",
-      "start": 63.0,
-      "end": 63.8
+      "start": 59.84,
+      "end": 60.2
     },
     {
       "text": "tout",
-      "start": 63.8,
-      "end": 64.08
+      "start": 60.2,
+      "end": 60.48
     },
     {
       "text": "est",
-      "start": 64.08,
-      "end": 64.28
+      "start": 60.48,
+      "end": 60.64
     },
     {
       "text": "blanc,",
-      "start": 64.28,
-      "end": 64.68
+      "start": 60.64,
+      "end": 60.92
     },
     {
       "text": "sans",
-      "start": 64.68,
-      "end": 65.0
+      "start": 60.92,
+      "end": 61.36
     },
     {
       "text": "trace.",
-      "start": 65.0,
-      "end": 65.64
+      "start": 61.36,
+      "end": 61.88
     },
     {
       "text": "J'aimais",
-      "start": 65.64,
-      "end": 66.48
+      "start": 61.88,
+      "end": 62.88
     },
     {
       "text": "admirer",
-      "start": 66.48,
-      "end": 67.2
+      "start": 62.88,
+      "end": 63.44
     },
     {
       "text": "ce",
-      "start": 67.2,
-      "end": 67.44
+      "start": 63.44,
+      "end": 63.6
     },
     {
       "text": "paysage",
-      "start": 67.44,
-      "end": 68.08
+      "start": 63.6,
+      "end": 64.24
     },
     {
       "text": "immaculé.",
-      "start": 68.08,
-      "end": 68.8
+      "start": 64.24,
+      "end": 64.6
     },
     {
       "text": "immaculé",
-      "start": 68.8,
-      "end": 69.36
+      "start": 64.6,
+      "end": 65.08
     },
     {
       "text": "signifie",
-      "start": 69.36,
-      "end": 70.04
+      "start": 65.08,
+      "end": 65.72
     },
     {
       "text": ":",
-      "start": 70.04,
-      "end": 70.54
+      "start": 65.72,
+      "end": 66.0
     },
     {
       "text": "écris",
-      "start": 70.54,
-      "end": 71.04
+      "start": 66.0,
+      "end": 66.28
     },
     {
       "text": "ta",
-      "start": 71.04,
-      "end": 71.36
+      "start": 66.28,
+      "end": 66.52
     },
     {
       "text": "réponse",
-      "start": 71.36,
-      "end": 71.72
+      "start": 66.52,
+      "end": 66.8
     },
     {
       "text": "Les",
-      "start": 71.72,
-      "end": 71.92
+      "start": 66.8,
+      "end": 66.88
     },
     {
       "text": "indices",
-      "start": 71.92,
-      "end": 72.32
+      "start": 66.88,
+      "end": 67.56
     },
     {
       "text": ":",
-      "start": 72.32,
-      "end": 72.66
+      "start": 67.56,
+      "end": 67.80000000000001
     },
     {
       "text": "écris",
-      "start": 72.66,
-      "end": 73.0
+      "start": 67.80000000000001,
+      "end": 68.04
     },
     {
       "text": "ta",
-      "start": 73.0,
-      "end": 73.28
+      "start": 68.04,
+      "end": 68.32
     },
     {
       "text": "réponse",
-      "start": 73.28,
-      "end": 74.2
+      "start": 68.32,
+      "end": 69.16
     }
   ],
-  "audio_duration": 74.2
+  "audio_duration": 69.16
 }
