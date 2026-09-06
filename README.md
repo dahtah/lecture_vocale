@@ -5,7 +5,7 @@ Application web pour aider les enfants à suivre une lecture audio avec **surlig
 ## ✨ Fonctionnalités
 
 ### 📖 Interface Utilisateur
-- **Sélection par école** : Cachin, Robespierre
+- **Sélection par école** 
 - **Menu des textes** : Chargement dynamique depuis les fichiers `textes.md`
 - **Zone de texte** : Affichage du texte sélectionné (lecture seule pour les textes présélectionnés)
 - **Mode "Nouveau texte"** : Pour entrer un texte personnalisé
@@ -13,13 +13,13 @@ Application web pour aider les enfants à suivre une lecture audio avec **surlig
 - **Contrôle de vitesse** : Slider pour ajuster la vitesse de lecture (0.5× à 2×)
 
 ### 🎯 Surlignage mot-par-mot
-- **Précision parfaite** : Alignement forcé avec aeneas (alignement texte-audio)
+- **Alignement automatique** : Alignement forcé avec aeneas (alignement texte-audio)
 - **Synchronisation temps réel** : Surlignage exact pendant la lecture
 - **Gestion de la vitesse** : Fonctionne correctement à toutes les vitesses
 - **Fallback intelligent** : Estimation de durée si les timings ne sont pas disponibles
 
 ### 🔊 Génération de contenu
-- **Audio** : Généré avec Piper TTS (modèle `fr_FR-gilles-low.onnx`)
+- **Audio** : Généré avec Piper TTS
 - **Timings** : Générés avec aeneas pour un alignement forcé texte-audio parfait
 - **Correction automatique** : Les mots avec des durées trop courtes sont étendus à 20ms minimum
 
