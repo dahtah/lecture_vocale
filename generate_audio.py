@@ -30,6 +30,14 @@ DONNEES_DIR = Path("donnees")
 # Piper voice object (loaded once)
 piper_voice = None
 
+# Default synthesis config
+# Note: In Piper, length_scale works inversely to speed:
+# - length_scale=1.0 = normal speed
+# - length_scale > 1.0 = slower speech
+# - length_scale < 1.0 = faster speech
+DEFAULT_SPEED = 1.2  # Default slower speed (1.0 = normal, > 1.0 = slower)
+synthesis_config = None
+
 
 def parse_textes_md(filepath):
     """Parse un fichier textes.md et retourne un dict {titre: contenu}."""
@@ -78,7 +86,16 @@ def load_piper_voice(model_path):
     return piper_voice
 
 
-def generate_audio(text, output_path, model_path):
+def get_synthesis_config(speed):
+    """Crée une configuration de synthèse avec la vitesse spécifiée."""
+    global synthesis_config
+    if synthesis_config is None or synthesis_config.length_scale != speed:
+        import piper
+        synthesis_config = piper.SynthesisConfig(length_scale=speed)
+    return synthesis_config
+
+
+def generate_audio(text, output_path, model_path, speed=DEFAULT_SPEED):
     """Génère un fichier audio avec Piper TTS en utilisant l'API Python."""
     global piper_voice
     
@@ -89,11 +106,15 @@ def generate_audio(text, output_path, model_path):
         # Charger le modèle si ce n'est pas déjà fait
         voice = load_piper_voice(model_path)
         
+        # Obtenir la configuration de synthèse avec la vitesse spécifiée
+        syn_config = get_synthesis_config(speed)
+        
         # Générer l'audio directement avec l'API Python
         with wave.open(str(output_path), 'wb') as wav_file:
             voice.synthesize_wav(
                 text=text,
                 wav_file=wav_file,
+                syn_config=syn_config,
                 set_wav_format=True
             )
         
@@ -111,7 +132,7 @@ def generate_audio(text, output_path, model_path):
         return False
 
 
-def generate_for_school(school_name):
+def generate_for_school(school_name, speed=DEFAULT_SPEED):
     """Génère les fichiers audio pour une école."""
     school_dir = DONNEES_DIR / school_name
     textes_file = school_dir / "textes.md"
@@ -133,7 +154,7 @@ def generate_for_school(school_name):
         output_path = audio_dir / f"{safe_title}.wav"
         print(f"  Génération de '{data['original_title']}'...")
         
-        if generate_audio(data['content'], output_path, MODEL_PATH):
+        if generate_audio(data['content'], output_path, MODEL_PATH, speed):
             success += 1
     
     return success
@@ -143,10 +164,13 @@ def main():
     parser = argparse.ArgumentParser(description='Générer des fichiers audio avec Piper TTS')
     parser.add_argument('school', nargs='?', default=None, help='Nom de l école (ex: Cachin)')
     parser.add_argument('--all', action='store_true', help='Générer pour toutes les écoles')
+    parser.add_argument('--speed', type=float, default=DEFAULT_SPEED, 
+                        help=f'Vitesse de lecture (1.0 = normal, > 1.0 = plus lent, < 1.0 = plus rapide). Défaut: {DEFAULT_SPEED}')
     args = parser.parse_args()
     
     print("Génération des fichiers audio avec Piper TTS...")
     print(f"Modèle: {MODEL_PATH}")
+    print(f"Vitesse: {args.speed}")
     print()
     
     # Vérifications
@@ -178,14 +202,14 @@ def main():
             sys.exit(1)
         
         for school in schools:
-            total_success += generate_for_school(school)
+            total_success += generate_for_school(school, args.speed)
     elif args.school:
-        total_success += generate_for_school(args.school)
+        total_success += generate_for_school(args.school, args.speed)
     else:
         # Par défaut : première école trouvée
         schools = [d.name for d in DONNEES_DIR.iterdir() if d.is_dir()]
         if schools:
-            total_success += generate_for_school(schools[0])
+            total_success += generate_for_school(schools[0], args.speed)
         else:
             print("Erreur: Aucune école trouvée")
             sys.exit(1)

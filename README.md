@@ -45,7 +45,7 @@ Puis ouvrez [http://localhost:8000](http://localhost:8000) dans votre navigateur
 
 2. Générer l'audio :
    ```bash
-   python3 generate_audio.py {ecole}
+   uv run python3 generate_audio.py {ecole}
    ```
 
 3. Générer les timings (avec aeneas) :
