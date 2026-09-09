@@ -10,23 +10,25 @@ Utilisation:
     python3 generate_audio.py --all
 
 Prérequis:
-    - Piper CLI accessible dans PATH ou PIPE_BINARY définie
+    - Package piper-tts installé
     - Modèle Piper dans models/ (ex: fr_FR-gilles-low.onnx)
     - Fichiers textes.md dans donnees/{ecole}/
 """
 
 import os
 import re
-import subprocess
 import sys
 import argparse
+import wave
 from pathlib import Path
 
 # Configuration
 #MODEL_PATH = Path("models/fr_FR-gilles-low.onnx")
 MODEL_PATH = Path("models/fr_FR-siwis-medium.onnx")
 DONNEES_DIR = Path("donnees")
-PIPER_BINARY = os.getenv("PIPER_BINARY", "/tmp/piper/piper")
+
+# Piper voice object (loaded once)
+piper_voice = None
 
 
 def parse_textes_md(filepath):
@@ -60,35 +62,40 @@ def parse_textes_md(filepath):
     return textes
 
 
-def generate_audio(text, output_path, model_path, piper_binary):
-    """Génère un fichier audio avec Piper TTS."""
+def load_piper_voice(model_path):
+    """Charge le modèle Piper une fois."""
+    global piper_voice
+    if piper_voice is None:
+        import piper
+        config_path = model_path.with_suffix(".onnx.json")
+        if not config_path.exists():
+            config_path = None
+        piper_voice = piper.PiperVoice.load(
+            model_path=str(model_path),
+            config_path=str(config_path) if config_path else None,
+            use_cuda=False
+        )
+    return piper_voice
+
+
+def generate_audio(text, output_path, model_path):
+    """Génère un fichier audio avec Piper TTS en utilisant l'API Python."""
+    global piper_voice
+    
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    # Écrire le texte dans un fichier temporaire
-    with open("/tmp/piper_input.txt", "w", encoding="utf-8") as f:
-        f.write(text)
-    
-    cmd = [
-        piper_binary,
-        "-m", str(model_path),
-        "-f", str(output_path),
-    ]
-    
     try:
-        with open("/tmp/piper_input.txt", "r", encoding="utf-8") as fin:
-            result = subprocess.run(
-                cmd,
-                stdin=fin,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                text=True,
-                timeout=300
-            )
+        # Charger le modèle si ce n'est pas déjà fait
+        voice = load_piper_voice(model_path)
         
-        if result.returncode != 0:
-            print(f"Erreur Piper: {result.stderr}")
-            return False
+        # Générer l'audio directement avec l'API Python
+        with wave.open(str(output_path), 'wb') as wav_file:
+            voice.synthesize_wav(
+                text=text,
+                wav_file=wav_file,
+                set_wav_format=True
+            )
         
         if not output_path.exists():
             print(f"Erreur: {output_path} non généré")
@@ -97,11 +104,10 @@ def generate_audio(text, output_path, model_path, piper_binary):
         print(f"✓ Généré: {output_path} ({output_path.stat().st_size / 1024:.1f} Ko)")
         return True
         
-    except subprocess.TimeoutExpired:
-        print(f"Timeout pour {output_path}")
-        return False
     except Exception as e:
         print(f"Erreur: {e}")
+        import traceback
+        traceback.print_exc()
         return False
 
 
@@ -127,7 +133,7 @@ def generate_for_school(school_name):
         output_path = audio_dir / f"{safe_title}.wav"
         print(f"  Génération de '{data['original_title']}'...")
         
-        if generate_audio(data['content'], output_path, MODEL_PATH, PIPER_BINARY):
+        if generate_audio(data['content'], output_path, MODEL_PATH):
             success += 1
     
     return success
@@ -141,7 +147,6 @@ def main():
     
     print("Génération des fichiers audio avec Piper TTS...")
     print(f"Modèle: {MODEL_PATH}")
-    print(f"Piper CLI: {PIPER_BINARY}")
     print()
     
     # Vérifications
@@ -149,12 +154,18 @@ def main():
         print(f"Erreur: Modèle introuvable à {MODEL_PATH}")
         sys.exit(1)
     
-    if not Path(PIPER_BINARY).exists():
-        print(f"Erreur: Piper CLI introuvable à {PIPER_BINARY}")
-        sys.exit(1)
-    
     if not DONNEES_DIR.exists():
         print(f"Erreur: Dossier {DONNEES_DIR} introuvable")
+        sys.exit(1)
+    
+    # Charger le modèle Piper
+    try:
+        load_piper_voice(MODEL_PATH)
+        print("Modèle Piper chargé avec succès")
+    except Exception as e:
+        print(f"Erreur lors du chargement du modèle Piper: {e}")
+        import traceback
+        traceback.print_exc()
         sys.exit(1)
     
     total_success = 0

@@ -1,5 +1,8 @@
-- Améliorer le front-end: mots trop courts sautent lors de la lecture.
+- Améliorer le front-end: 
+    - mots trop courts sautent lors de la lecture.
+    - bug sous Firefox Android: lecture peut démarrer 2 fois? 
 - Back-end:
+    - ralentir rythme par défaut
     - Evaluer stable-ts (https://pypi.org/project/stable-ts/#user-content-alignment) pour l'alignement
     - Faire une image docker avec piper+aeneas? 
     - Petit GUI pour rajouter/éditer des textes?

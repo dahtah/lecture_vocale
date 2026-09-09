@@ -125,3 +125,72 @@ Les  indices : écris ta réponse
 immaculé signifie : écris ta réponse
 Les  indices : écris ta réponse
 
+# L'arbre qui chante II
+
+Gérard leva les yeux. Là-bas, plus loin que le gros érable mort, un animal curieux avançait dans la neige. Il ressemblait beaucoup au petit lapin mécanique que le Père Noël avait apporté à Gérard quelques années plus tôt. Comme le jouet, il sautillait, vacillait de droite à gauche et s’arrêtait à chaque instant. Toujours comme le lapin, il était vêtu de poils gris et portait de longues oreilles qui se rejoignaient au sommet de son crâne.
+Cette apparition était tellement surprenante que les enfants oublièrent les oiseaux. Ils restaient bouche bée, observant sans mot dire cet animal étrange dont les yeux, par moments, lançaient des éclats de lumière.
+Quand le lapin, qui marchait uniquement sur ses pattes de derrière, eut atteint la haie bordant le jardin, les enfants ne virent plus que sa tête.
+— On dirait qu’il vient ici, murmura Gérard.
+— C’est vrai, il fait le tour du jardin.
+Le lapin disparut et il y eut un long silence un peu angoissant. Les enfants retenaient leur souffle, l’oreille tendue. Bientôt, des pas sonnèrent sur les marches de pierre, et les oiseaux s’envolèrent si brutalement que les enfants sursautèrent.
+— Vous n’avez rien entendu ? demanda Grand-père.
+Les deux petits hochèrent la tête.
+— Qu’est-ce que ça peut bien être ? dit Grand-mère.
+À cette heure-ci, le facteur était encore loin.
+Les grands-parents n’avaient rien vu, et les enfants n’osaient répondre. Ils ne pouvaient tout de même pas dire : « C’est un lapin mécanique grand comme un homme qui arrive tout seul et bat de la semelle sur le palier ! »
+Il y eut encore un frottement contre la pierre, puis on entendit frapper à la porte. Les grands-parents se regardèrent, puis regardèrent la porte. Enfin, comme on frappait plus fort, Grand-père cria :
+— Entrez !
+La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine. Cette fois, c’était le lapin qui apportait l’hiver dans son poil gris. Car c’était bien lui qui se tenait là, debout sur le seuil, tout surpris par la chaleur et l’odeur du feu de bois où cuisait la pâtée des vrais lapins.
+Grand-mère se précipite pour fermer la porte. Et voilà que le lapin se met à parler :
+— Bonjour, bonjour, dit-il. Je viens très tôt, il faut m’excuser, mais…
+Les poils gris s’écartent à la hauteur du visage, de grosses lunettes paraissent, puis un nez tout rouge, puis des moustaches raides comme un balai de crin, puis un visage piqueté de barbe blanche pareille à celle de Grand-père.
+— Mais c’est Vincendon ! s’exclame Grand-père. C’est Vincendon !
+Et c’était vrai ! C’était bien Vincendon. Et ce fut seulement quand il eut ôté son bonnet à oreilles relevées et quitté sa pelisse dont le col montait à hauteur de ses yeux que les enfants eurent la certitude que le lapin mécanique était un homme. Ils ne l’avaient jamais vu, mais Grand-père leur avait souvent parlé de ce vieil ami.
+Le père Vincendon essuyait ses lunettes, il essuyait les larmes qui coulaient de ses yeux en répétant :
+— Je vous vois à peine. La chaleur après le froid me fait toujours pleurer. Et mes lunettes sont couvertes de buée.
+Il n’y voyait pas, mais il pouvait parler et écouter. Bientôt, assis au coin du feu à côté de Grand-père, il se mit à raconter des histoires de sa jeunesse. Grand-père en racontait aussi. Ils parlaient en même temps, personne ne les écoutait, mais ils semblaient heureux tous les deux.
+
+# L'arbre qui chante II - Fiche 1
+
+Stratégie  du  bibliothécaire
+
+
+Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
+
+1. Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
+Dans cette phrase, le mot pied a le sens de :
+a) partie du corps humain située à l’extrémité des jambes
+b)  ensemble d’une plante
+c) partie le plus bas d’un endroit
+
+Les  indices :  
+
+2. Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
+Dans cette phrase, le mot endormie a le sens de :
+a) qui est lent, paresseux. 
+b) qui se trouve dans un état de sommeil.
+Les  indices :  
+
+3. Grand-mère se mit à tousser et souleva les cercles de fonte de la cuisinière pour enfourner une énorme bûche dans le foyer.
+Dans cette phrase, le mot cuisinière a le sens de :
+a) la personne qui cuisine, qui prépare, qui cuit la nourriture.
+b) l’épouse d’un cuisinier
+c) le fourneau de cuisine servant à chauffer ou faire cuire les aliments. 
+Les  indices :  
+
+# L'arbre qui chante II - Fiche 2
+
+Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
+4. C’était une toute petite maison aux murs gris et aux volets verts. Elle se trouvait à l’écart du village que l’on devinait à peine, ce matin-là, très loin, au bord de la rivière gelée. On ne voyait même plus le chemin qui court entre les champs et traverse la prairie.
+Dans cette phrase, le mot « court » signifie :
+a) aller dans une direction déterminéee
+b) se déplacer rapidement
+c) faire trop vite
+Les  indices :  
+
+5. — Entrez ! La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine.
+Dans cette phrase, le mot « bise » signifie :
+a)  un baiser sur la joue
+b)  un vent sec et froid
+c) le nom d’un champignon
+Les  indices :  
