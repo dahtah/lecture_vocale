@@ -1,0 +1,815 @@
+{
+  "words": [
+    {
+      "text": "Je",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "text": "fais",
+      "start": 0.28,
+      "end": 0.84
+    },
+    {
+      "text": "attention,",
+      "start": 0.84,
+      "end": 2.36
+    },
+    {
+      "text": "un",
+      "start": 2.36,
+      "end": 2.68
+    },
+    {
+      "text": "mot",
+      "start": 2.68,
+      "end": 2.88
+    },
+    {
+      "text": "peut",
+      "start": 2.88,
+      "end": 3.16
+    },
+    {
+      "text": "avoir",
+      "start": 3.16,
+      "end": 3.68
+    },
+    {
+      "text": "plusieurs",
+      "start": 3.68,
+      "end": 4.28
+    },
+    {
+      "text": "sens.",
+      "start": 4.28,
+      "end": 5.76
+    },
+    {
+      "text": "Le",
+      "start": 5.76,
+      "end": 6.04
+    },
+    {
+      "text": "Bibliothécaire",
+      "start": 6.04,
+      "end": 7.48
+    },
+    {
+      "text": "-",
+      "start": 7.48,
+      "end": 7.98
+    },
+    {
+      "text": "Stratégie",
+      "start": 7.98,
+      "end": 8.48
+    },
+    {
+      "text": "2",
+      "start": 8.48,
+      "end": 9.64
+    },
+    {
+      "text": "Entoure",
+      "start": 9.64,
+      "end": 10.76
+    },
+    {
+      "text": "les",
+      "start": 10.76,
+      "end": 10.96
+    },
+    {
+      "text": "quatre",
+      "start": 10.96,
+      "end": 11.6
+    },
+    {
+      "text": "mots",
+      "start": 11.6,
+      "end": 11.84
+    },
+    {
+      "text": "qui",
+      "start": 11.84,
+      "end": 12.52
+    },
+    {
+      "text": "apparaissent",
+      "start": 12.52,
+      "end": 13.92
+    },
+    {
+      "text": "avec",
+      "start": 13.92,
+      "end": 14.44
+    },
+    {
+      "text": "deux",
+      "start": 14.44,
+      "end": 14.64
+    },
+    {
+      "text": "sens",
+      "start": 14.64,
+      "end": 15.24
+    },
+    {
+      "text": "différents",
+      "start": 15.24,
+      "end": 16.0
+    },
+    {
+      "text": "dans",
+      "start": 16.0,
+      "end": 16.36
+    },
+    {
+      "text": "le",
+      "start": 16.36,
+      "end": 16.44
+    },
+    {
+      "text": "texte.",
+      "start": 16.44,
+      "end": 17.04
+    },
+    {
+      "text": "Complète",
+      "start": 17.04,
+      "end": 18.68
+    },
+    {
+      "text": "le",
+      "start": 18.68,
+      "end": 18.92
+    },
+    {
+      "text": "tableau.",
+      "start": 18.92,
+      "end": 20.32
+    },
+    {
+      "text": "Après",
+      "start": 20.32,
+      "end": 20.68
+    },
+    {
+      "text": "avoir",
+      "start": 20.68,
+      "end": 21.2
+    },
+    {
+      "text": "fait",
+      "start": 21.2,
+      "end": 21.64
+    },
+    {
+      "text": "mes",
+      "start": 21.64,
+      "end": 21.72
+    },
+    {
+      "text": "courses,",
+      "start": 21.72,
+      "end": 22.84
+    },
+    {
+      "text": "je",
+      "start": 22.84,
+      "end": 23.52
+    },
+    {
+      "text": "sortis",
+      "start": 23.52,
+      "end": 23.72
+    },
+    {
+      "text": "du",
+      "start": 23.72,
+      "end": 23.88
+    },
+    {
+      "text": "centre",
+      "start": 23.88,
+      "end": 24.68
+    },
+    {
+      "text": "commercial",
+      "start": 24.68,
+      "end": 26.24
+    },
+    {
+      "text": "avec",
+      "start": 26.24,
+      "end": 26.6
+    },
+    {
+      "text": "mon",
+      "start": 26.6,
+      "end": 26.84
+    },
+    {
+      "text": "charriot",
+      "start": 26.84,
+      "end": 27.68
+    },
+    {
+      "text": "débordant",
+      "start": 27.68,
+      "end": 28.36
+    },
+    {
+      "text": "d'articles",
+      "start": 28.36,
+      "end": 29.04
+    },
+    {
+      "text": "variés.",
+      "start": 29.04,
+      "end": 30.48
+    },
+    {
+      "text": "Déjà",
+      "start": 30.48,
+      "end": 31.16
+    },
+    {
+      "text": "deux",
+      "start": 31.16,
+      "end": 31.48
+    },
+    {
+      "text": "jours",
+      "start": 31.48,
+      "end": 32.04
+    },
+    {
+      "text": "que",
+      "start": 32.04,
+      "end": 32.16
+    },
+    {
+      "text": "je",
+      "start": 32.16,
+      "end": 32.4
+    },
+    {
+      "text": "me",
+      "start": 32.4,
+      "end": 32.8
+    },
+    {
+      "text": "nourrissais",
+      "start": 32.8,
+      "end": 33.32
+    },
+    {
+      "text": "des",
+      "start": 33.32,
+      "end": 33.52
+    },
+    {
+      "text": "restes",
+      "start": 33.52,
+      "end": 33.88
+    },
+    {
+      "text": "encore",
+      "start": 33.88,
+      "end": 34.48
+    },
+    {
+      "text": "présents",
+      "start": 34.48,
+      "end": 35.12
+    },
+    {
+      "text": "au",
+      "start": 35.12,
+      "end": 35.32
+    },
+    {
+      "text": "fond",
+      "start": 35.32,
+      "end": 35.72
+    },
+    {
+      "text": "de",
+      "start": 35.72,
+      "end": 36.0
+    },
+    {
+      "text": "mes",
+      "start": 36.0,
+      "end": 36.24
+    },
+    {
+      "text": "placards,",
+      "start": 36.24,
+      "end": 37.56
+    },
+    {
+      "text": "il",
+      "start": 37.56,
+      "end": 38.0
+    },
+    {
+      "text": "était",
+      "start": 38.0,
+      "end": 38.12
+    },
+    {
+      "text": "temps",
+      "start": 38.12,
+      "end": 38.4
+    },
+    {
+      "text": "de",
+      "start": 38.4,
+      "end": 38.52
+    },
+    {
+      "text": "faire",
+      "start": 38.52,
+      "end": 38.88
+    },
+    {
+      "text": "des",
+      "start": 38.88,
+      "end": 39.12
+    },
+    {
+      "text": "achats.",
+      "start": 39.12,
+      "end": 40.52
+    },
+    {
+      "text": "J'avais",
+      "start": 40.52,
+      "end": 40.76
+    },
+    {
+      "text": "garé",
+      "start": 40.76,
+      "end": 40.92
+    },
+    {
+      "text": "ma",
+      "start": 40.92,
+      "end": 41.36
+    },
+    {
+      "text": "voiture",
+      "start": 41.36,
+      "end": 41.84
+    },
+    {
+      "text": "à",
+      "start": 41.84,
+      "end": 42.36
+    },
+    {
+      "text": "peu",
+      "start": 42.36,
+      "end": 42.56
+    },
+    {
+      "text": "près",
+      "start": 42.56,
+      "end": 42.76
+    },
+    {
+      "text": "au",
+      "start": 42.76,
+      "end": 43.08
+    },
+    {
+      "text": "centre",
+      "start": 43.08,
+      "end": 43.68
+    },
+    {
+      "text": "du",
+      "start": 43.68,
+      "end": 43.84
+    },
+    {
+      "text": "parking",
+      "start": 43.84,
+      "end": 45.44
+    },
+    {
+      "text": "mais",
+      "start": 45.44,
+      "end": 46.04
+    },
+    {
+      "text": "impossible",
+      "start": 46.04,
+      "end": 46.6
+    },
+    {
+      "text": "de",
+      "start": 46.6,
+      "end": 46.96
+    },
+    {
+      "text": "savoir",
+      "start": 46.96,
+      "end": 47.92
+    },
+    {
+      "text": "exactement",
+      "start": 47.92,
+      "end": 49.12
+    },
+    {
+      "text": "où",
+      "start": 49.12,
+      "end": 49.48
+    },
+    {
+      "text": "elle",
+      "start": 49.48,
+      "end": 49.8
+    },
+    {
+      "text": "était.",
+      "start": 49.8,
+      "end": 50.24
+    },
+    {
+      "text": "Pourtant,",
+      "start": 50.24,
+      "end": 51.44
+    },
+    {
+      "text": "je",
+      "start": 51.44,
+      "end": 52.16
+    },
+    {
+      "text": "devais",
+      "start": 52.16,
+      "end": 52.48
+    },
+    {
+      "text": "la",
+      "start": 52.48,
+      "end": 52.84
+    },
+    {
+      "text": "retrouver",
+      "start": 52.84,
+      "end": 53.6
+    },
+    {
+      "text": "rapidement",
+      "start": 53.6,
+      "end": 54.28
+    },
+    {
+      "text": "car",
+      "start": 54.28,
+      "end": 54.8
+    },
+    {
+      "text": "mon",
+      "start": 54.8,
+      "end": 54.96
+    },
+    {
+      "text": "journal",
+      "start": 54.96,
+      "end": 55.76
+    },
+    {
+      "text": "m'avait",
+      "start": 55.76,
+      "end": 56.16
+    },
+    {
+      "text": "chargé",
+      "start": 56.16,
+      "end": 57.08
+    },
+    {
+      "text": "d'écrire",
+      "start": 57.08,
+      "end": 57.76
+    },
+    {
+      "text": "un",
+      "start": 57.76,
+      "end": 58.08
+    },
+    {
+      "text": "article",
+      "start": 58.08,
+      "end": 58.28
+    },
+    {
+      "text": "sur",
+      "start": 58.28,
+      "end": 58.8
+    },
+    {
+      "text": "la",
+      "start": 58.8,
+      "end": 59.04
+    },
+    {
+      "text": "course",
+      "start": 59.04,
+      "end": 59.96
+    },
+    {
+      "text": "dont",
+      "start": 59.96,
+      "end": 60.76
+    },
+    {
+      "text": "le",
+      "start": 60.76,
+      "end": 60.96
+    },
+    {
+      "text": "départ",
+      "start": 60.96,
+      "end": 61.52
+    },
+    {
+      "text": "devait",
+      "start": 61.52,
+      "end": 61.96
+    },
+    {
+      "text": "être",
+      "start": 61.96,
+      "end": 62.48
+    },
+    {
+      "text": "donné",
+      "start": 62.48,
+      "end": 62.88
+    },
+    {
+      "text": "dans",
+      "start": 62.88,
+      "end": 63.56
+    },
+    {
+      "text": "moins",
+      "start": 63.56,
+      "end": 64.28
+    },
+    {
+      "text": "d'une",
+      "start": 64.28,
+      "end": 64.53333333333333
+    },
+    {
+      "text": "heure.",
+      "start": 64.53333333333333,
+      "end": 64.78666666666668
+    },
+    {
+      "text": "Je",
+      "start": 64.78666666666668,
+      "end": 65.04
+    },
+    {
+      "text": "faisais",
+      "start": 65.04,
+      "end": 65.72
+    },
+    {
+      "text": "le",
+      "start": 65.72,
+      "end": 65.76
+    },
+    {
+      "text": "tour",
+      "start": 65.76,
+      "end": 66.16
+    },
+    {
+      "text": "du",
+      "start": 66.16,
+      "end": 66.2
+    },
+    {
+      "text": "parking",
+      "start": 66.2,
+      "end": 67.2
+    },
+    {
+      "text": "depuis",
+      "start": 67.2,
+      "end": 67.64
+    },
+    {
+      "text": "dix",
+      "start": 67.64,
+      "end": 68.12
+    },
+    {
+      "text": "minutes",
+      "start": 68.12,
+      "end": 68.56
+    },
+    {
+      "text": "quand",
+      "start": 68.56,
+      "end": 68.88
+    },
+    {
+      "text": "enfin",
+      "start": 68.88,
+      "end": 69.88
+    },
+    {
+      "text": "je",
+      "start": 69.88,
+      "end": 70.32
+    },
+    {
+      "text": "la",
+      "start": 70.32,
+      "end": 70.72
+    },
+    {
+      "text": "vis.",
+      "start": 70.72,
+      "end": 70.8
+    },
+    {
+      "text": "Je",
+      "start": 70.8,
+      "end": 71.0
+    },
+    {
+      "text": "jetai",
+      "start": 71.0,
+      "end": 72.08
+    },
+    {
+      "text": "mes",
+      "start": 72.08,
+      "end": 72.52
+    },
+    {
+      "text": "achats",
+      "start": 72.52,
+      "end": 73.0
+    },
+    {
+      "text": "dans",
+      "start": 73.0,
+      "end": 73.32
+    },
+    {
+      "text": "le",
+      "start": 73.32,
+      "end": 73.36
+    },
+    {
+      "text": "coffre",
+      "start": 73.36,
+      "end": 74.04
+    },
+    {
+      "text": "et",
+      "start": 74.04,
+      "end": 74.32
+    },
+    {
+      "text": "sautai",
+      "start": 74.32,
+      "end": 75.08
+    },
+    {
+      "text": "derrière",
+      "start": 75.08,
+      "end": 75.44
+    },
+    {
+      "text": "le",
+      "start": 75.44,
+      "end": 75.92
+    },
+    {
+      "text": "volant.",
+      "start": 75.92,
+      "end": 76.48
+    },
+    {
+      "text": "Même",
+      "start": 76.48,
+      "end": 77.32
+    },
+    {
+      "text": "si",
+      "start": 77.32,
+      "end": 77.92
+    },
+    {
+      "text": "la",
+      "start": 77.92,
+      "end": 78.2
+    },
+    {
+      "text": "route",
+      "start": 78.2,
+      "end": 78.56
+    },
+    {
+      "text": "était",
+      "start": 78.56,
+      "end": 78.76
+    },
+    {
+      "text": "dégagée,",
+      "start": 78.76,
+      "end": 79.52
+    },
+    {
+      "text": "il",
+      "start": 79.52,
+      "end": 80.16
+    },
+    {
+      "text": "faudrait",
+      "start": 80.16,
+      "end": 80.8
+    },
+    {
+      "text": "un",
+      "start": 80.8,
+      "end": 81.08
+    },
+    {
+      "text": "véritable",
+      "start": 81.08,
+      "end": 81.96
+    },
+    {
+      "text": "tour",
+      "start": 81.96,
+      "end": 82.24
+    },
+    {
+      "text": "de",
+      "start": 82.24,
+      "end": 82.52
+    },
+    {
+      "text": "magie",
+      "start": 82.52,
+      "end": 83.08
+    },
+    {
+      "text": "pour",
+      "start": 83.08,
+      "end": 83.12
+    },
+    {
+      "text": "que",
+      "start": 83.12,
+      "end": 83.68
+    },
+    {
+      "text": "j'arrive",
+      "start": 83.68,
+      "end": 84.84
+    },
+    {
+      "text": "avant",
+      "start": 84.84,
+      "end": 85.76
+    },
+    {
+      "text": "le",
+      "start": 85.76,
+      "end": 86.0
+    },
+    {
+      "text": "départ",
+      "start": 86.0,
+      "end": 86.48
+    },
+    {
+      "text": "des",
+      "start": 86.48,
+      "end": 86.48
+    },
+    {
+      "text": "coureurs.",
+      "start": 86.48,
+      "end": 87.68
+    }
+  ],
+  "audio_duration": 87.68
+}

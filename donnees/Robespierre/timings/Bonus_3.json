@@ -1,0 +1,940 @@
+{
+  "words": [
+    {
+      "text": "Je",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "text": "fais",
+      "start": 0.68,
+      "end": 1.24
+    },
+    {
+      "text": "attention,",
+      "start": 1.24,
+      "end": 2.92
+    },
+    {
+      "text": "un",
+      "start": 2.92,
+      "end": 3.28
+    },
+    {
+      "text": "mot",
+      "start": 3.28,
+      "end": 3.48
+    },
+    {
+      "text": "peut",
+      "start": 3.48,
+      "end": 3.76
+    },
+    {
+      "text": "avoir",
+      "start": 3.76,
+      "end": 4.24
+    },
+    {
+      "text": "plusieurs",
+      "start": 4.24,
+      "end": 4.92
+    },
+    {
+      "text": "sens.",
+      "start": 4.92,
+      "end": 6.4
+    },
+    {
+      "text": "Le",
+      "start": 6.4,
+      "end": 6.68
+    },
+    {
+      "text": "Bibliothécaire",
+      "start": 6.68,
+      "end": 8.2
+    },
+    {
+      "text": "-",
+      "start": 8.2,
+      "end": 8.68
+    },
+    {
+      "text": "Stratégie",
+      "start": 8.68,
+      "end": 9.16
+    },
+    {
+      "text": "2",
+      "start": 9.16,
+      "end": 10.36
+    },
+    {
+      "text": "Entoure",
+      "start": 10.36,
+      "end": 11.44
+    },
+    {
+      "text": "les",
+      "start": 11.44,
+      "end": 11.64
+    },
+    {
+      "text": "quatre",
+      "start": 11.64,
+      "end": 12.32
+    },
+    {
+      "text": "mots",
+      "start": 12.32,
+      "end": 12.6
+    },
+    {
+      "text": "qui",
+      "start": 12.6,
+      "end": 13.04
+    },
+    {
+      "text": "apparaissent",
+      "start": 13.04,
+      "end": 14.48
+    },
+    {
+      "text": "avec",
+      "start": 14.48,
+      "end": 15.04
+    },
+    {
+      "text": "deux",
+      "start": 15.04,
+      "end": 15.24
+    },
+    {
+      "text": "sens",
+      "start": 15.24,
+      "end": 15.72
+    },
+    {
+      "text": "différents",
+      "start": 15.72,
+      "end": 16.6
+    },
+    {
+      "text": "dans",
+      "start": 16.6,
+      "end": 16.92
+    },
+    {
+      "text": "le",
+      "start": 16.92,
+      "end": 17.0
+    },
+    {
+      "text": "texte.",
+      "start": 17.0,
+      "end": 17.6
+    },
+    {
+      "text": "Complète",
+      "start": 17.6,
+      "end": 19.24
+    },
+    {
+      "text": "le",
+      "start": 19.24,
+      "end": 19.48
+    },
+    {
+      "text": "tableau.",
+      "start": 19.48,
+      "end": 20.16
+    },
+    {
+      "text": "Pierre",
+      "start": 20.16,
+      "end": 21.36
+    },
+    {
+      "text": "commença",
+      "start": 21.36,
+      "end": 22.08
+    },
+    {
+      "text": "par",
+      "start": 22.08,
+      "end": 22.24
+    },
+    {
+      "text": "son",
+      "start": 22.24,
+      "end": 22.64
+    },
+    {
+      "text": "exercice",
+      "start": 22.64,
+      "end": 23.48
+    },
+    {
+      "text": "de",
+      "start": 23.48,
+      "end": 23.68
+    },
+    {
+      "text": "géométrie.",
+      "start": 23.68,
+      "end": 25.16
+    },
+    {
+      "text": "Il",
+      "start": 25.16,
+      "end": 25.52
+    },
+    {
+      "text": "prit",
+      "start": 25.52,
+      "end": 25.92
+    },
+    {
+      "text": "sa",
+      "start": 25.92,
+      "end": 26.52
+    },
+    {
+      "text": "règle",
+      "start": 26.52,
+      "end": 26.88
+    },
+    {
+      "text": "pour",
+      "start": 26.88,
+      "end": 27.24
+    },
+    {
+      "text": "tracer",
+      "start": 27.24,
+      "end": 28.12
+    },
+    {
+      "text": "une",
+      "start": 28.12,
+      "end": 28.16
+    },
+    {
+      "text": "droite",
+      "start": 28.16,
+      "end": 28.84
+    },
+    {
+      "text": "de",
+      "start": 28.84,
+      "end": 29.0
+    },
+    {
+      "text": "10",
+      "start": 29.0,
+      "end": 29.6
+    },
+    {
+      "text": "cm,",
+      "start": 29.6,
+      "end": 31.56
+    },
+    {
+      "text": "il",
+      "start": 31.56,
+      "end": 31.76
+    },
+    {
+      "text": "fit",
+      "start": 31.76,
+      "end": 32.12
+    },
+    {
+      "text": "une",
+      "start": 32.12,
+      "end": 32.4
+    },
+    {
+      "text": "croix",
+      "start": 32.4,
+      "end": 33.2
+    },
+    {
+      "text": "au",
+      "start": 33.2,
+      "end": 33.6
+    },
+    {
+      "text": "milieu",
+      "start": 33.6,
+      "end": 34.36
+    },
+    {
+      "text": "puis",
+      "start": 34.36,
+      "end": 35.24
+    },
+    {
+      "text": "en",
+      "start": 35.24,
+      "end": 35.52
+    },
+    {
+      "text": "posant",
+      "start": 35.52,
+      "end": 36.08
+    },
+    {
+      "text": "la",
+      "start": 36.08,
+      "end": 36.32
+    },
+    {
+      "text": "pointe",
+      "start": 36.32,
+      "end": 36.56
+    },
+    {
+      "text": "de",
+      "start": 36.56,
+      "end": 36.68
+    },
+    {
+      "text": "son",
+      "start": 36.68,
+      "end": 37.24
+    },
+    {
+      "text": "compas",
+      "start": 37.24,
+      "end": 37.68
+    },
+    {
+      "text": "sur",
+      "start": 37.68,
+      "end": 38.08
+    },
+    {
+      "text": "celle-ci,",
+      "start": 38.08,
+      "end": 38.68
+    },
+    {
+      "text": "il",
+      "start": 38.68,
+      "end": 39.56
+    },
+    {
+      "text": "traça",
+      "start": 39.56,
+      "end": 40.08
+    },
+    {
+      "text": "un",
+      "start": 40.08,
+      "end": 40.4
+    },
+    {
+      "text": "cercle",
+      "start": 40.4,
+      "end": 41.04
+    },
+    {
+      "text": "de",
+      "start": 41.04,
+      "end": 41.44
+    },
+    {
+      "text": "5",
+      "start": 41.44,
+      "end": 42.08
+    },
+    {
+      "text": "cm",
+      "start": 42.08,
+      "end": 42.76
+    },
+    {
+      "text": "de",
+      "start": 42.76,
+      "end": 43.28
+    },
+    {
+      "text": "rayon.",
+      "start": 43.28,
+      "end": 43.92
+    },
+    {
+      "text": "Il",
+      "start": 43.92,
+      "end": 44.36
+    },
+    {
+      "text": "était",
+      "start": 44.36,
+      "end": 45.0
+    },
+    {
+      "text": "certain",
+      "start": 45.0,
+      "end": 45.24
+    },
+    {
+      "text": "d'avoir",
+      "start": 45.24,
+      "end": 45.84
+    },
+    {
+      "text": "trouvé",
+      "start": 45.84,
+      "end": 46.36
+    },
+    {
+      "text": "la",
+      "start": 46.36,
+      "end": 46.6
+    },
+    {
+      "text": "bonne",
+      "start": 46.6,
+      "end": 46.84
+    },
+    {
+      "text": "solution.",
+      "start": 46.84,
+      "end": 48.16
+    },
+    {
+      "text": "Il",
+      "start": 48.16,
+      "end": 48.48
+    },
+    {
+      "text": "passa",
+      "start": 48.48,
+      "end": 49.08
+    },
+    {
+      "text": "ensuite",
+      "start": 49.08,
+      "end": 49.56
+    },
+    {
+      "text": "à",
+      "start": 49.56,
+      "end": 50.48
+    },
+    {
+      "text": "son",
+      "start": 50.48,
+      "end": 50.76
+    },
+    {
+      "text": "exercice",
+      "start": 50.76,
+      "end": 51.48
+    },
+    {
+      "text": "de",
+      "start": 51.48,
+      "end": 51.68
+    },
+    {
+      "text": "chimie.",
+      "start": 51.68,
+      "end": 51.76
+    },
+    {
+      "text": "On",
+      "start": 51.76,
+      "end": 51.94
+    },
+    {
+      "text": "lui",
+      "start": 51.94,
+      "end": 52.12
+    },
+    {
+      "text": "indiquait",
+      "start": 52.12,
+      "end": 52.76
+    },
+    {
+      "text": "la",
+      "start": 52.76,
+      "end": 53.0
+    },
+    {
+      "text": "règle",
+      "start": 53.0,
+      "end": 53.2
+    },
+    {
+      "text": "à",
+      "start": 53.2,
+      "end": 53.96
+    },
+    {
+      "text": "suivre",
+      "start": 53.96,
+      "end": 54.48
+    },
+    {
+      "text": "pour",
+      "start": 54.48,
+      "end": 54.84
+    },
+    {
+      "text": "faire",
+      "start": 54.84,
+      "end": 55.4
+    },
+    {
+      "text": "une",
+      "start": 55.4,
+      "end": 55.56
+    },
+    {
+      "text": "solution",
+      "start": 55.56,
+      "end": 56.24
+    },
+    {
+      "text": "de",
+      "start": 56.24,
+      "end": 56.52
+    },
+    {
+      "text": "sel",
+      "start": 56.52,
+      "end": 57.0
+    },
+    {
+      "text": "à",
+      "start": 57.0,
+      "end": 57.2
+    },
+    {
+      "text": "10%.",
+      "start": 57.2,
+      "end": 58.72
+    },
+    {
+      "text": "Il",
+      "start": 58.72,
+      "end": 59.04
+    },
+    {
+      "text": "prit",
+      "start": 59.04,
+      "end": 59.36
+    },
+    {
+      "text": "donc",
+      "start": 59.36,
+      "end": 59.72
+    },
+    {
+      "text": "50",
+      "start": 59.72,
+      "end": 60.48
+    },
+    {
+      "text": "g",
+      "start": 60.48,
+      "end": 60.72
+    },
+    {
+      "text": "de",
+      "start": 60.72,
+      "end": 60.88
+    },
+    {
+      "text": "sel",
+      "start": 60.88,
+      "end": 61.8
+    },
+    {
+      "text": "et",
+      "start": 61.8,
+      "end": 62.24
+    },
+    {
+      "text": "les",
+      "start": 62.24,
+      "end": 62.64
+    },
+    {
+      "text": "versa",
+      "start": 62.64,
+      "end": 63.24
+    },
+    {
+      "text": "dans",
+      "start": 63.24,
+      "end": 63.52
+    },
+    {
+      "text": "450",
+      "start": 63.52,
+      "end": 64.84
+    },
+    {
+      "text": "g",
+      "start": 64.84,
+      "end": 65.28
+    },
+    {
+      "text": "d'eau.",
+      "start": 65.28,
+      "end": 65.64
+    },
+    {
+      "text": "Le",
+      "start": 65.64,
+      "end": 66.28
+    },
+    {
+      "text": "dernier",
+      "start": 66.28,
+      "end": 67.0
+    },
+    {
+      "text": "exercice",
+      "start": 67.0,
+      "end": 67.8
+    },
+    {
+      "text": "demandait",
+      "start": 67.8,
+      "end": 68.44
+    },
+    {
+      "text": "d'associer",
+      "start": 68.44,
+      "end": 69.2
+    },
+    {
+      "text": "les",
+      "start": 69.2,
+      "end": 69.32
+    },
+    {
+      "text": "photos",
+      "start": 69.32,
+      "end": 69.64
+    },
+    {
+      "text": "de",
+      "start": 69.64,
+      "end": 70.04
+    },
+    {
+      "text": "différents",
+      "start": 70.04,
+      "end": 70.92
+    },
+    {
+      "text": "animaux",
+      "start": 70.92,
+      "end": 71.88
+    },
+    {
+      "text": "avec",
+      "start": 71.88,
+      "end": 72.52
+    },
+    {
+      "text": "le",
+      "start": 72.52,
+      "end": 73.0
+    },
+    {
+      "text": "milieu",
+      "start": 73.0,
+      "end": 73.36
+    },
+    {
+      "text": "dans",
+      "start": 73.36,
+      "end": 73.66
+    },
+    {
+      "text": "lequel",
+      "start": 73.66,
+      "end": 73.96
+    },
+    {
+      "text": "ils",
+      "start": 73.96,
+      "end": 74.16
+    },
+    {
+      "text": "vivent",
+      "start": 74.16,
+      "end": 75.32
+    },
+    {
+      "text": "habituellement.",
+      "start": 75.32,
+      "end": 76.44
+    },
+    {
+      "text": "Les",
+      "start": 76.44,
+      "end": 77.36
+    },
+    {
+      "text": "photos",
+      "start": 77.36,
+      "end": 77.84
+    },
+    {
+      "text": "représentaient",
+      "start": 77.84,
+      "end": 78.56
+    },
+    {
+      "text": "un",
+      "start": 78.56,
+      "end": 79.0
+    },
+    {
+      "text": "lion,",
+      "start": 79.0,
+      "end": 79.36
+    },
+    {
+      "text": "un",
+      "start": 79.36,
+      "end": 80.08
+    },
+    {
+      "text": "ours",
+      "start": 80.08,
+      "end": 80.84
+    },
+    {
+      "text": "blanc",
+      "start": 80.84,
+      "end": 81.72
+    },
+    {
+      "text": "et",
+      "start": 81.72,
+      "end": 81.88
+    },
+    {
+      "text": "un",
+      "start": 81.88,
+      "end": 82.2
+    },
+    {
+      "text": "panda.",
+      "start": 82.2,
+      "end": 82.88
+    },
+    {
+      "text": "En",
+      "start": 82.88,
+      "end": 83.48
+    },
+    {
+      "text": "face",
+      "start": 83.48,
+      "end": 84.24
+    },
+    {
+      "text": "se",
+      "start": 84.24,
+      "end": 84.76
+    },
+    {
+      "text": "trouvaient",
+      "start": 84.76,
+      "end": 85.2
+    },
+    {
+      "text": "des",
+      "start": 85.2,
+      "end": 85.44
+    },
+    {
+      "text": "photos",
+      "start": 85.44,
+      "end": 85.68
+    },
+    {
+      "text": "de",
+      "start": 85.68,
+      "end": 85.82
+    },
+    {
+      "text": "la",
+      "start": 85.82,
+      "end": 85.96
+    },
+    {
+      "text": "banquise,",
+      "start": 85.96,
+      "end": 86.52
+    },
+    {
+      "text": "de",
+      "start": 86.52,
+      "end": 86.92
+    },
+    {
+      "text": "la",
+      "start": 86.92,
+      "end": 87.48
+    },
+    {
+      "text": "savane",
+      "start": 87.48,
+      "end": 88.72
+    },
+    {
+      "text": "et",
+      "start": 88.72,
+      "end": 89.16
+    },
+    {
+      "text": "d'une",
+      "start": 89.16,
+      "end": 89.44
+    },
+    {
+      "text": "forêt",
+      "start": 89.44,
+      "end": 90.08
+    },
+    {
+      "text": "de",
+      "start": 90.08,
+      "end": 90.24
+    },
+    {
+      "text": "bambous",
+      "start": 90.24,
+      "end": 90.68
+    },
+    {
+      "text": "traversée",
+      "start": 90.68,
+      "end": 91.64
+    },
+    {
+      "text": "par",
+      "start": 91.64,
+      "end": 91.82666666666667
+    },
+    {
+      "text": "les",
+      "start": 91.82666666666667,
+      "end": 92.01333333333334
+    },
+    {
+      "text": "rayons",
+      "start": 92.01333333333334,
+      "end": 92.2
+    },
+    {
+      "text": "du",
+      "start": 92.2,
+      "end": 92.4
+    },
+    {
+      "text": "soleil.",
+      "start": 92.4,
+      "end": 93.44
+    },
+    {
+      "text": "Trop",
+      "start": 93.44,
+      "end": 94.0
+    },
+    {
+      "text": "facile",
+      "start": 94.0,
+      "end": 95.2
+    },
+    {
+      "text": "!",
+      "start": 95.2,
+      "end": 95.68
+    },
+    {
+      "text": "Pierre",
+      "start": 95.68,
+      "end": 96.16
+    },
+    {
+      "text": "était",
+      "start": 96.16,
+      "end": 96.36
+    },
+    {
+      "text": "tout",
+      "start": 96.36,
+      "end": 96.56
+    },
+    {
+      "text": "content.",
+      "start": 96.56,
+      "end": 96.92
+    },
+    {
+      "text": "En",
+      "start": 96.92,
+      "end": 97.32
+    },
+    {
+      "text": "moins",
+      "start": 97.32,
+      "end": 98.36
+    },
+    {
+      "text": "de",
+      "start": 98.36,
+      "end": 98.52
+    },
+    {
+      "text": "deux",
+      "start": 98.52,
+      "end": 98.92
+    },
+    {
+      "text": "minutes,",
+      "start": 98.92,
+      "end": 99.28
+    },
+    {
+      "text": "il",
+      "start": 99.28,
+      "end": 99.76
+    },
+    {
+      "text": "avait",
+      "start": 99.76,
+      "end": 100.64
+    },
+    {
+      "text": "réussi",
+      "start": 100.64,
+      "end": 101.2
+    },
+    {
+      "text": "le",
+      "start": 101.2,
+      "end": 101.4
+    },
+    {
+      "text": "test.",
+      "start": 101.4,
+      "end": 102.64
+    }
+  ],
+  "audio_duration": 102.64
+}

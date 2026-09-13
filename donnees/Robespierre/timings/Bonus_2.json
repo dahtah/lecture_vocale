@@ -1,0 +1,890 @@
+{
+  "words": [
+    {
+      "text": "Phrases",
+      "start": 0.0,
+      "end": 0.8
+    },
+    {
+      "text": "ou",
+      "start": 0.8,
+      "end": 1.06
+    },
+    {
+      "text": "",
+      "start": 1.06,
+      "end": 1.32
+    },
+    {
+      "text": "a",
+      "start": 1.32,
+      "end": 1.72
+    },
+    {
+      "text": "le",
+      "start": 1.72,
+      "end": 2.12
+    },
+    {
+      "text": "sens",
+      "start": 2.12,
+      "end": 2.56
+    },
+    {
+      "text": "de",
+      "start": 2.56,
+      "end": 2.76
+    },
+    {
+      "text": "",
+      "start": 2.76,
+      "end": 3.84
+    },
+    {
+      "text": "Phrases",
+      "start": 3.84,
+      "end": 4.4
+    },
+    {
+      "text": "(e,f,g",
+      "start": 4.4,
+      "end": 5.12
+    },
+    {
+      "text": "ou",
+      "start": 5.12,
+      "end": 5.32
+    },
+    {
+      "text": "h)",
+      "start": 5.32,
+      "end": 6.0
+    },
+    {
+      "text": "et",
+      "start": 6.0,
+      "end": 6.36
+    },
+    {
+      "text": "(e,",
+      "start": 6.36,
+      "end": 6.6
+    },
+    {
+      "text": "f,",
+      "start": 6.6,
+      "end": 7.68
+    },
+    {
+      "text": "g",
+      "start": 7.68,
+      "end": 7.96
+    },
+    {
+      "text": "ou",
+      "start": 7.96,
+      "end": 8.16
+    },
+    {
+      "text": "h).",
+      "start": 8.16,
+      "end": 9.24
+    },
+    {
+      "text": "e.",
+      "start": 9.24,
+      "end": 10.12
+    },
+    {
+      "text": "Ma",
+      "start": 10.12,
+      "end": 10.44
+    },
+    {
+      "text": "petite",
+      "start": 10.44,
+      "end": 10.88
+    },
+    {
+      "text": "sœur",
+      "start": 10.88,
+      "end": 11.64
+    },
+    {
+      "text": "à",
+      "start": 11.64,
+      "end": 12.68
+    },
+    {
+      "text": "la",
+      "start": 12.68,
+      "end": 13.04
+    },
+    {
+      "text": "varicelle,",
+      "start": 13.04,
+      "end": 13.48
+    },
+    {
+      "text": "elle",
+      "start": 13.48,
+      "end": 13.76
+    },
+    {
+      "text": "est",
+      "start": 13.76,
+      "end": 14.0
+    },
+    {
+      "text": "couverte",
+      "start": 14.0,
+      "end": 14.52
+    },
+    {
+      "text": "de",
+      "start": 14.52,
+      "end": 14.72
+    },
+    {
+      "text": "boutons",
+      "start": 14.72,
+      "end": 14.96
+    },
+    {
+      "text": "qui",
+      "start": 14.96,
+      "end": 15.28
+    },
+    {
+      "text": "démangent.",
+      "start": 15.28,
+      "end": 16.92
+    },
+    {
+      "text": "Elle",
+      "start": 16.92,
+      "end": 17.28
+    },
+    {
+      "text": "doit",
+      "start": 17.28,
+      "end": 17.52
+    },
+    {
+      "text": "se",
+      "start": 17.52,
+      "end": 18.0
+    },
+    {
+      "text": "couvrir",
+      "start": 18.0,
+      "end": 18.4
+    },
+    {
+      "text": "de",
+      "start": 18.4,
+      "end": 18.56
+    },
+    {
+      "text": "crème",
+      "start": 18.56,
+      "end": 19.2
+    },
+    {
+      "text": "pour",
+      "start": 19.2,
+      "end": 19.56
+    },
+    {
+      "text": "ne",
+      "start": 19.56,
+      "end": 19.6
+    },
+    {
+      "text": "pas",
+      "start": 19.6,
+      "end": 19.84
+    },
+    {
+      "text": "se",
+      "start": 19.84,
+      "end": 20.2
+    },
+    {
+      "text": "gratter",
+      "start": 20.2,
+      "end": 20.92
+    },
+    {
+      "text": "continuellement.",
+      "start": 20.92,
+      "end": 22.36
+    },
+    {
+      "text": "f.",
+      "start": 22.36,
+      "end": 23.6
+    },
+    {
+      "text": "Arrête",
+      "start": 23.6,
+      "end": 24.4
+    },
+    {
+      "text": "d'appuyer",
+      "start": 24.4,
+      "end": 25.16
+    },
+    {
+      "text": "sur",
+      "start": 25.16,
+      "end": 25.6
+    },
+    {
+      "text": "tous",
+      "start": 25.6,
+      "end": 25.88
+    },
+    {
+      "text": "les",
+      "start": 25.88,
+      "end": 26.12
+    },
+    {
+      "text": "boutons,",
+      "start": 26.12,
+      "end": 26.52
+    },
+    {
+      "text": "me",
+      "start": 26.52,
+      "end": 27.28
+    },
+    {
+      "text": "dit",
+      "start": 27.28,
+      "end": 27.56
+    },
+    {
+      "text": "mon",
+      "start": 27.56,
+      "end": 27.92
+    },
+    {
+      "text": "père,",
+      "start": 27.92,
+      "end": 29.12
+    },
+    {
+      "text": "je",
+      "start": 29.12,
+      "end": 29.4
+    },
+    {
+      "text": "voudrais",
+      "start": 29.4,
+      "end": 29.8
+    },
+    {
+      "text": "bien",
+      "start": 29.8,
+      "end": 30.16
+    },
+    {
+      "text": "voir",
+      "start": 30.16,
+      "end": 30.56
+    },
+    {
+      "text": "le",
+      "start": 30.56,
+      "end": 30.64
+    },
+    {
+      "text": "film",
+      "start": 30.64,
+      "end": 31.2
+    },
+    {
+      "text": "en",
+      "start": 31.2,
+      "end": 31.4
+    },
+    {
+      "text": "entier.",
+      "start": 31.4,
+      "end": 31.84
+    },
+    {
+      "text": "»",
+      "start": 31.84,
+      "end": 32.52
+    },
+    {
+      "text": "Il",
+      "start": 32.52,
+      "end": 32.84
+    },
+    {
+      "text": "tend",
+      "start": 32.84,
+      "end": 32.96
+    },
+    {
+      "text": "alors",
+      "start": 32.96,
+      "end": 33.4
+    },
+    {
+      "text": "la",
+      "start": 33.4,
+      "end": 33.92
+    },
+    {
+      "text": "main",
+      "start": 33.92,
+      "end": 34.2
+    },
+    {
+      "text": "vers",
+      "start": 34.2,
+      "end": 34.52
+    },
+    {
+      "text": "moi",
+      "start": 34.52,
+      "end": 35.48
+    },
+    {
+      "text": "et",
+      "start": 35.48,
+      "end": 35.6
+    },
+    {
+      "text": "je",
+      "start": 35.6,
+      "end": 35.88
+    },
+    {
+      "text": "lui",
+      "start": 35.88,
+      "end": 36.12
+    },
+    {
+      "text": "donne",
+      "start": 36.12,
+      "end": 36.56
+    },
+    {
+      "text": "la",
+      "start": 36.56,
+      "end": 37.540000000000006
+    },
+    {
+      "text": "télécommande.",
+      "start": 37.540000000000006,
+      "end": 38.52
+    },
+    {
+      "text": "J'aurai",
+      "start": 38.52,
+      "end": 39.12
+    },
+    {
+      "text": "pourtant",
+      "start": 39.12,
+      "end": 39.4
+    },
+    {
+      "text": "bien",
+      "start": 39.4,
+      "end": 39.84
+    },
+    {
+      "text": "aimé",
+      "start": 39.84,
+      "end": 40.24
+    },
+    {
+      "text": "appuyer",
+      "start": 40.24,
+      "end": 40.68
+    },
+    {
+      "text": "sur",
+      "start": 40.68,
+      "end": 41.32
+    },
+    {
+      "text": "les",
+      "start": 41.32,
+      "end": 41.8
+    },
+    {
+      "text": "boutons",
+      "start": 41.8,
+      "end": 42.16
+    },
+    {
+      "text": "rouges,",
+      "start": 42.16,
+      "end": 42.64
+    },
+    {
+      "text": "bleus",
+      "start": 42.64,
+      "end": 43.32
+    },
+    {
+      "text": "et",
+      "start": 43.32,
+      "end": 43.8
+    },
+    {
+      "text": "verts",
+      "start": 43.8,
+      "end": 44.0
+    },
+    {
+      "text": "pour",
+      "start": 44.0,
+      "end": 44.32
+    },
+    {
+      "text": "savoir",
+      "start": 44.32,
+      "end": 45.12
+    },
+    {
+      "text": "à",
+      "start": 45.12,
+      "end": 45.64
+    },
+    {
+      "text": "quoi",
+      "start": 45.64,
+      "end": 46.0
+    },
+    {
+      "text": "ils",
+      "start": 46.0,
+      "end": 46.28
+    },
+    {
+      "text": "servent.",
+      "start": 46.28,
+      "end": 47.28
+    },
+    {
+      "text": "g.",
+      "start": 47.28,
+      "end": 48.6
+    },
+    {
+      "text": "Pour",
+      "start": 48.6,
+      "end": 49.56
+    },
+    {
+      "text": "terminer",
+      "start": 49.56,
+      "end": 50.6
+    },
+    {
+      "text": "cette",
+      "start": 50.6,
+      "end": 51.2
+    },
+    {
+      "text": "veste,",
+      "start": 51.2,
+      "end": 51.52
+    },
+    {
+      "text": "le",
+      "start": 51.52,
+      "end": 51.96
+    },
+    {
+      "text": "couturier",
+      "start": 51.96,
+      "end": 52.8
+    },
+    {
+      "text": "ajoute",
+      "start": 52.8,
+      "end": 53.36
+    },
+    {
+      "text": "de",
+      "start": 53.36,
+      "end": 53.6
+    },
+    {
+      "text": "beaux",
+      "start": 53.6,
+      "end": 53.88
+    },
+    {
+      "text": "boutons",
+      "start": 53.88,
+      "end": 54.56
+    },
+    {
+      "text": "de",
+      "start": 54.56,
+      "end": 54.88
+    },
+    {
+      "text": "nacre.",
+      "start": 54.88,
+      "end": 55.96
+    },
+    {
+      "text": "La",
+      "start": 55.96,
+      "end": 56.28
+    },
+    {
+      "text": "cliente",
+      "start": 56.28,
+      "end": 57.0
+    },
+    {
+      "text": "est",
+      "start": 57.0,
+      "end": 57.16
+    },
+    {
+      "text": "satisfaite,",
+      "start": 57.16,
+      "end": 58.16
+    },
+    {
+      "text": "c'est",
+      "start": 58.16,
+      "end": 58.44
+    },
+    {
+      "text": "elle",
+      "start": 58.44,
+      "end": 58.48
+    },
+    {
+      "text": "qui",
+      "start": 58.48,
+      "end": 59.32
+    },
+    {
+      "text": "les",
+      "start": 59.32,
+      "end": 59.72
+    },
+    {
+      "text": "avait",
+      "start": 59.72,
+      "end": 60.16
+    },
+    {
+      "text": "choisis",
+      "start": 60.16,
+      "end": 60.84
+    },
+    {
+      "text": "en",
+      "start": 60.84,
+      "end": 61.04
+    },
+    {
+      "text": "même",
+      "start": 61.04,
+      "end": 61.44
+    },
+    {
+      "text": "temps",
+      "start": 61.44,
+      "end": 61.72
+    },
+    {
+      "text": "que",
+      "start": 61.72,
+      "end": 62.0
+    },
+    {
+      "text": "le",
+      "start": 62.0,
+      "end": 62.04
+    },
+    {
+      "text": "tissu.",
+      "start": 62.04,
+      "end": 62.76
+    },
+    {
+      "text": "h.",
+      "start": 62.76,
+      "end": 64.24
+    },
+    {
+      "text": "C'est",
+      "start": 64.24,
+      "end": 65.24
+    },
+    {
+      "text": "le",
+      "start": 65.24,
+      "end": 65.64
+    },
+    {
+      "text": "printemps",
+      "start": 65.64,
+      "end": 66.2
+    },
+    {
+      "text": "les",
+      "start": 66.2,
+      "end": 66.36
+    },
+    {
+      "text": "boutons",
+      "start": 66.36,
+      "end": 66.64
+    },
+    {
+      "text": "de",
+      "start": 66.64,
+      "end": 66.96
+    },
+    {
+      "text": "roses",
+      "start": 66.96,
+      "end": 67.64
+    },
+    {
+      "text": "vont",
+      "start": 67.64,
+      "end": 67.88
+    },
+    {
+      "text": "s'ouvrir.",
+      "start": 67.88,
+      "end": 68.72
+    },
+    {
+      "text": "Bientôt,",
+      "start": 68.72,
+      "end": 70.0
+    },
+    {
+      "text": "les",
+      "start": 70.0,
+      "end": 70.68
+    },
+    {
+      "text": "pétales",
+      "start": 70.68,
+      "end": 71.6
+    },
+    {
+      "text": "apparaitront",
+      "start": 71.6,
+      "end": 72.6
+    },
+    {
+      "text": "et",
+      "start": 72.6,
+      "end": 73.04
+    },
+    {
+      "text": "on",
+      "start": 73.04,
+      "end": 73.84
+    },
+    {
+      "text": "pourra",
+      "start": 73.84,
+      "end": 74.28
+    },
+    {
+      "text": "sentir",
+      "start": 74.28,
+      "end": 74.72
+    },
+    {
+      "text": "le",
+      "start": 74.72,
+      "end": 75.12
+    },
+    {
+      "text": "parfum",
+      "start": 75.12,
+      "end": 75.76
+    },
+    {
+      "text": "des",
+      "start": 75.76,
+      "end": 75.84
+    },
+    {
+      "text": "fleurs.",
+      "start": 75.84,
+      "end": 76.84
+    },
+    {
+      "text": "i.",
+      "start": 76.84,
+      "end": 77.32
+    },
+    {
+      "text": "Dans",
+      "start": 77.32,
+      "end": 77.69333333333333
+    },
+    {
+      "text": "la",
+      "start": 77.69333333333333,
+      "end": 78.06666666666666
+    },
+    {
+      "text": "voiture",
+      "start": 78.06666666666666,
+      "end": 78.44
+    },
+    {
+      "text": "de",
+      "start": 78.44,
+      "end": 79.04
+    },
+    {
+      "text": "mon",
+      "start": 79.04,
+      "end": 79.52
+    },
+    {
+      "text": "grand-père,",
+      "start": 79.52,
+      "end": 80.32
+    },
+    {
+      "text": "il",
+      "start": 80.32,
+      "end": 80.82
+    },
+    {
+      "text": "y",
+      "start": 80.82,
+      "end": 81.32
+    },
+    {
+      "text": "a",
+      "start": 81.32,
+      "end": 81.52
+    },
+    {
+      "text": "même",
+      "start": 81.52,
+      "end": 81.76
+    },
+    {
+      "text": "un",
+      "start": 81.76,
+      "end": 81.92
+    },
+    {
+      "text": "bouton",
+      "start": 81.92,
+      "end": 82.08
+    },
+    {
+      "text": "pour",
+      "start": 82.08,
+      "end": 82.32
+    },
+    {
+      "text": "dégivrer",
+      "start": 82.32,
+      "end": 82.76
+    },
+    {
+      "text": "les",
+      "start": 82.76,
+      "end": 83.12
+    },
+    {
+      "text": "rétroviseurs.",
+      "start": 83.12,
+      "end": 84.52
+    },
+    {
+      "text": "Quand",
+      "start": 84.52,
+      "end": 84.92
+    },
+    {
+      "text": "on",
+      "start": 84.92,
+      "end": 85.32
+    },
+    {
+      "text": "appuie",
+      "start": 85.32,
+      "end": 85.6
+    },
+    {
+      "text": "dessus,",
+      "start": 85.6,
+      "end": 86.36
+    },
+    {
+      "text": "la",
+      "start": 86.36,
+      "end": 87.0
+    },
+    {
+      "text": "glace",
+      "start": 87.0,
+      "end": 87.32
+    },
+    {
+      "text": "se",
+      "start": 87.32,
+      "end": 87.76
+    },
+    {
+      "text": "met",
+      "start": 87.76,
+      "end": 88.16
+    },
+    {
+      "text": "à",
+      "start": 88.16,
+      "end": 88.56
+    },
+    {
+      "text": "fondre.",
+      "start": 88.56,
+      "end": 88.88
+    },
+    {
+      "text": "Comment",
+      "start": 88.88,
+      "end": 89.56
+    },
+    {
+      "text": "ai-je",
+      "start": 89.56,
+      "end": 89.64
+    },
+    {
+      "text": "fait",
+      "start": 89.64,
+      "end": 90.36
+    },
+    {
+      "text": "?",
+      "start": 90.36,
+      "end": 90.64
+    }
+  ],
+  "audio_duration": 90.64
+}

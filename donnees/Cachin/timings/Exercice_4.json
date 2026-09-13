@@ -1,0 +1,505 @@
+{
+  "words": [
+    {
+      "text": "Stratégie",
+      "start": 0.0,
+      "end": 1.24
+    },
+    {
+      "text": "du",
+      "start": 1.24,
+      "end": 1.44
+    },
+    {
+      "text": "bibliothécaire,",
+      "start": 1.44,
+      "end": 3.16
+    },
+    {
+      "text": "fiche",
+      "start": 3.16,
+      "end": 3.92
+    },
+    {
+      "text": "2",
+      "start": 3.92,
+      "end": 5.0
+    },
+    {
+      "text": "Lis",
+      "start": 5.0,
+      "end": 5.32
+    },
+    {
+      "text": "chaque",
+      "start": 5.32,
+      "end": 5.84
+    },
+    {
+      "text": "phrase",
+      "start": 5.84,
+      "end": 6.6
+    },
+    {
+      "text": "puis",
+      "start": 6.6,
+      "end": 6.84
+    },
+    {
+      "text": "choisis",
+      "start": 6.84,
+      "end": 7.44
+    },
+    {
+      "text": "la",
+      "start": 7.44,
+      "end": 7.68
+    },
+    {
+      "text": "bonne",
+      "start": 7.68,
+      "end": 8.28
+    },
+    {
+      "text": "réponse.",
+      "start": 8.28,
+      "end": 10.04
+    },
+    {
+      "text": "Note",
+      "start": 10.04,
+      "end": 10.44
+    },
+    {
+      "text": "les",
+      "start": 10.44,
+      "end": 10.76
+    },
+    {
+      "text": "indices",
+      "start": 10.76,
+      "end": 11.36
+    },
+    {
+      "text": "qui",
+      "start": 11.36,
+      "end": 11.6
+    },
+    {
+      "text": "t’ont",
+      "start": 11.6,
+      "end": 11.8
+    },
+    {
+      "text": "permis",
+      "start": 11.8,
+      "end": 12.28
+    },
+    {
+      "text": "de",
+      "start": 12.28,
+      "end": 12.44
+    },
+    {
+      "text": "faire",
+      "start": 12.44,
+      "end": 12.88
+    },
+    {
+      "text": "ton",
+      "start": 12.88,
+      "end": 13.12
+    },
+    {
+      "text": "choix.",
+      "start": 13.12,
+      "end": 13.72
+    },
+    {
+      "text": "4.",
+      "start": 13.72,
+      "end": 15.6
+    },
+    {
+      "text": "C’était",
+      "start": 15.6,
+      "end": 16.16
+    },
+    {
+      "text": "une",
+      "start": 16.16,
+      "end": 16.52
+    },
+    {
+      "text": "toute",
+      "start": 16.52,
+      "end": 16.88
+    },
+    {
+      "text": "petite",
+      "start": 16.88,
+      "end": 17.4
+    },
+    {
+      "text": "maison",
+      "start": 17.4,
+      "end": 17.64
+    },
+    {
+      "text": "aux",
+      "start": 17.64,
+      "end": 18.12
+    },
+    {
+      "text": "murs",
+      "start": 18.12,
+      "end": 18.64
+    },
+    {
+      "text": "gris",
+      "start": 18.64,
+      "end": 19.36
+    },
+    {
+      "text": "et",
+      "start": 19.36,
+      "end": 19.48
+    },
+    {
+      "text": "aux",
+      "start": 19.48,
+      "end": 19.76
+    },
+    {
+      "text": "volets",
+      "start": 19.76,
+      "end": 20.2
+    },
+    {
+      "text": "verts.",
+      "start": 20.2,
+      "end": 21.4
+    },
+    {
+      "text": "Elle",
+      "start": 21.4,
+      "end": 21.68
+    },
+    {
+      "text": "se",
+      "start": 21.68,
+      "end": 21.96
+    },
+    {
+      "text": "trouvait",
+      "start": 21.96,
+      "end": 22.56
+    },
+    {
+      "text": "à",
+      "start": 22.56,
+      "end": 22.92
+    },
+    {
+      "text": "l’écart",
+      "start": 22.92,
+      "end": 23.32
+    },
+    {
+      "text": "du",
+      "start": 23.32,
+      "end": 23.52
+    },
+    {
+      "text": "village",
+      "start": 23.52,
+      "end": 24.28
+    },
+    {
+      "text": "que",
+      "start": 24.28,
+      "end": 24.4
+    },
+    {
+      "text": "l’on",
+      "start": 24.4,
+      "end": 24.64
+    },
+    {
+      "text": "devinait",
+      "start": 24.64,
+      "end": 25.2
+    },
+    {
+      "text": "à",
+      "start": 25.2,
+      "end": 25.36
+    },
+    {
+      "text": "peine,",
+      "start": 25.36,
+      "end": 26.6
+    },
+    {
+      "text": "ce",
+      "start": 26.6,
+      "end": 27.2
+    },
+    {
+      "text": "matin-là,",
+      "start": 27.2,
+      "end": 27.88
+    },
+    {
+      "text": "très",
+      "start": 27.88,
+      "end": 29.16
+    },
+    {
+      "text": "loin,",
+      "start": 29.16,
+      "end": 29.6
+    },
+    {
+      "text": "au",
+      "start": 29.6,
+      "end": 29.8
+    },
+    {
+      "text": "bord",
+      "start": 29.8,
+      "end": 30.12
+    },
+    {
+      "text": "de",
+      "start": 30.12,
+      "end": 30.2
+    },
+    {
+      "text": "la",
+      "start": 30.2,
+      "end": 30.72
+    },
+    {
+      "text": "rivière",
+      "start": 30.72,
+      "end": 31.32
+    },
+    {
+      "text": "gelée.",
+      "start": 31.32,
+      "end": 32.28
+    },
+    {
+      "text": "On",
+      "start": 32.28,
+      "end": 32.52
+    },
+    {
+      "text": "ne",
+      "start": 32.52,
+      "end": 32.76
+    },
+    {
+      "text": "voyait",
+      "start": 32.76,
+      "end": 33.12
+    },
+    {
+      "text": "même",
+      "start": 33.12,
+      "end": 33.52
+    },
+    {
+      "text": "plus",
+      "start": 33.52,
+      "end": 33.56
+    },
+    {
+      "text": "le",
+      "start": 33.56,
+      "end": 33.88
+    },
+    {
+      "text": "chemin",
+      "start": 33.88,
+      "end": 34.44
+    },
+    {
+      "text": "qui",
+      "start": 34.44,
+      "end": 34.66
+    },
+    {
+      "text": "court",
+      "start": 34.66,
+      "end": 34.88
+    },
+    {
+      "text": "entre",
+      "start": 34.88,
+      "end": 35.24
+    },
+    {
+      "text": "les",
+      "start": 35.24,
+      "end": 35.56
+    },
+    {
+      "text": "champs",
+      "start": 35.56,
+      "end": 36.48
+    },
+    {
+      "text": "et",
+      "start": 36.48,
+      "end": 36.68
+    },
+    {
+      "text": "traverse",
+      "start": 36.68,
+      "end": 37.44
+    },
+    {
+      "text": "la",
+      "start": 37.44,
+      "end": 37.64
+    },
+    {
+      "text": "prairie.",
+      "start": 37.64,
+      "end": 38.32
+    },
+    {
+      "text": "Dans",
+      "start": 38.32,
+      "end": 38.84
+    },
+    {
+      "text": "cette",
+      "start": 38.84,
+      "end": 39.2
+    },
+    {
+      "text": "phrase,",
+      "start": 39.2,
+      "end": 40.16
+    },
+    {
+      "text": "le",
+      "start": 40.16,
+      "end": 40.28
+    },
+    {
+      "text": "mot",
+      "start": 40.28,
+      "end": 40.666666666666664
+    },
+    {
+      "text": "«",
+      "start": 40.666666666666664,
+      "end": 41.053333333333335
+    },
+    {
+      "text": "court",
+      "start": 41.053333333333335,
+      "end": 41.44
+    },
+    {
+      "text": "»",
+      "start": 41.44,
+      "end": 42.26
+    },
+    {
+      "text": "signifie",
+      "start": 42.26,
+      "end": 43.08
+    },
+    {
+      "text": ":",
+      "start": 43.08,
+      "end": 43.32
+    },
+    {
+      "text": "•",
+      "start": 43.32,
+      "end": 43.559999999999995
+    },
+    {
+      "text": "aller",
+      "start": 43.559999999999995,
+      "end": 43.8
+    },
+    {
+      "text": "dans",
+      "start": 43.8,
+      "end": 44.24
+    },
+    {
+      "text": "une",
+      "start": 44.24,
+      "end": 44.28
+    },
+    {
+      "text": "direction",
+      "start": 44.28,
+      "end": 45.08
+    },
+    {
+      "text": "déterminéee",
+      "start": 45.08,
+      "end": 45.28
+    },
+    {
+      "text": "•",
+      "start": 45.28,
+      "end": 45.32
+    },
+    {
+      "text": "se",
+      "start": 45.32,
+      "end": 45.8
+    },
+    {
+      "text": "déplacer",
+      "start": 45.8,
+      "end": 46.4
+    },
+    {
+      "text": "rapidement",
+      "start": 46.4,
+      "end": 47.24
+    },
+    {
+      "text": "•",
+      "start": 47.24,
+      "end": 47.64
+    },
+    {
+      "text": "faire",
+      "start": 47.64,
+      "end": 48.04
+    },
+    {
+      "text": "trop",
+      "start": 48.04,
+      "end": 48.56
+    },
+    {
+      "text": "vite",
+      "start": 48.56,
+      "end": 49.04
+    },
+    {
+      "text": "Les",
+      "start": 49.04,
+      "end": 49.92
+    },
+    {
+      "text": "indices:",
+      "start": 49.92,
+      "end": 51.12
+    }
+  ],
+  "audio_duration": 51.12
+}

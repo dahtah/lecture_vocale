@@ -1,0 +1,945 @@
+{
+  "words": [
+    {
+      "text": "Je",
+      "start": 0.0,
+      "end": 0.64
+    },
+    {
+      "text": "fais",
+      "start": 0.64,
+      "end": 1.08
+    },
+    {
+      "text": "attention,",
+      "start": 1.08,
+      "end": 2.44
+    },
+    {
+      "text": "un",
+      "start": 2.44,
+      "end": 2.8
+    },
+    {
+      "text": "mot",
+      "start": 2.8,
+      "end": 3.0
+    },
+    {
+      "text": "peut",
+      "start": 3.0,
+      "end": 3.32
+    },
+    {
+      "text": "avoir",
+      "start": 3.32,
+      "end": 3.88
+    },
+    {
+      "text": "plusieurs",
+      "start": 3.88,
+      "end": 4.44
+    },
+    {
+      "text": "sens.",
+      "start": 4.44,
+      "end": 6.04
+    },
+    {
+      "text": "Lis",
+      "start": 6.04,
+      "end": 6.32
+    },
+    {
+      "text": "les",
+      "start": 6.32,
+      "end": 6.64
+    },
+    {
+      "text": "textes",
+      "start": 6.64,
+      "end": 7.12
+    },
+    {
+      "text": "puis",
+      "start": 7.12,
+      "end": 7.48
+    },
+    {
+      "text": "trouve",
+      "start": 7.48,
+      "end": 7.92
+    },
+    {
+      "text": "les",
+      "start": 7.92,
+      "end": 8.32
+    },
+    {
+      "text": "phrases",
+      "start": 8.32,
+      "end": 9.48
+    },
+    {
+      "text": "dans",
+      "start": 9.48,
+      "end": 9.88
+    },
+    {
+      "text": "lesquelles",
+      "start": 9.88,
+      "end": 10.4
+    },
+    {
+      "text": "le",
+      "start": 10.4,
+      "end": 10.68
+    },
+    {
+      "text": "mot",
+      "start": 10.68,
+      "end": 11.4
+    },
+    {
+      "text": "en",
+      "start": 11.4,
+      "end": 11.72
+    },
+    {
+      "text": "gras",
+      "start": 11.72,
+      "end": 12.56
+    },
+    {
+      "text": "a",
+      "start": 12.56,
+      "end": 12.88
+    },
+    {
+      "text": "le",
+      "start": 12.88,
+      "end": 13.08
+    },
+    {
+      "text": "sens",
+      "start": 13.08,
+      "end": 13.48
+    },
+    {
+      "text": "indiqué.",
+      "start": 13.48,
+      "end": 14.4
+    },
+    {
+      "text": "glace",
+      "start": 14.4,
+      "end": 15.0
+    },
+    {
+      "text": "a",
+      "start": 15.0,
+      "end": 15.12
+    },
+    {
+      "text": "le",
+      "start": 15.12,
+      "end": 15.28
+    },
+    {
+      "text": "sens",
+      "start": 15.28,
+      "end": 15.96
+    },
+    {
+      "text": "de",
+      "start": 15.96,
+      "end": 16.28
+    },
+    {
+      "text": "miroir",
+      "start": 16.28,
+      "end": 17.0
+    },
+    {
+      "text": ":",
+      "start": 17.0,
+      "end": 17.32
+    },
+    {
+      "text": "Phrases",
+      "start": 17.32,
+      "end": 17.92
+    },
+    {
+      "text": "(a,b,c",
+      "start": 17.92,
+      "end": 18.8
+    },
+    {
+      "text": "ou",
+      "start": 18.8,
+      "end": 18.96
+    },
+    {
+      "text": "d)",
+      "start": 18.96,
+      "end": 19.48
+    },
+    {
+      "text": "et",
+      "start": 19.48,
+      "end": 19.72
+    },
+    {
+      "text": "(a,",
+      "start": 19.72,
+      "end": 20.28
+    },
+    {
+      "text": "b,",
+      "start": 20.28,
+      "end": 20.84
+    },
+    {
+      "text": "c",
+      "start": 20.84,
+      "end": 21.4
+    },
+    {
+      "text": "ou",
+      "start": 21.4,
+      "end": 21.52
+    },
+    {
+      "text": "d).",
+      "start": 21.52,
+      "end": 22.28
+    },
+    {
+      "text": "a.",
+      "start": 22.28,
+      "end": 23.12
+    },
+    {
+      "text": "Le",
+      "start": 23.12,
+      "end": 23.4
+    },
+    {
+      "text": "matin,",
+      "start": 23.4,
+      "end": 23.8
+    },
+    {
+      "text": "en",
+      "start": 23.8,
+      "end": 25.0
+    },
+    {
+      "text": "me",
+      "start": 25.0,
+      "end": 25.52
+    },
+    {
+      "text": "levant,",
+      "start": 25.52,
+      "end": 26.28
+    },
+    {
+      "text": "je",
+      "start": 26.28,
+      "end": 26.84
+    },
+    {
+      "text": "regarde",
+      "start": 26.84,
+      "end": 27.4
+    },
+    {
+      "text": "dans",
+      "start": 27.4,
+      "end": 27.76
+    },
+    {
+      "text": "la",
+      "start": 27.76,
+      "end": 27.84
+    },
+    {
+      "text": "glace.",
+      "start": 27.84,
+      "end": 29.28
+    },
+    {
+      "text": "Mes",
+      "start": 29.28,
+      "end": 29.56
+    },
+    {
+      "text": "cheveux",
+      "start": 29.56,
+      "end": 30.2
+    },
+    {
+      "text": "sont",
+      "start": 30.2,
+      "end": 30.68
+    },
+    {
+      "text": "tout",
+      "start": 30.68,
+      "end": 31.12
+    },
+    {
+      "text": "ébouriffés.",
+      "start": 31.12,
+      "end": 32.88
+    },
+    {
+      "text": "J'ai",
+      "start": 32.88,
+      "end": 33.36
+    },
+    {
+      "text": "beau",
+      "start": 33.36,
+      "end": 33.72
+    },
+    {
+      "text": "les",
+      "start": 33.72,
+      "end": 33.76
+    },
+    {
+      "text": "coiffer,",
+      "start": 33.76,
+      "end": 34.84
+    },
+    {
+      "text": "je",
+      "start": 34.84,
+      "end": 35.08
+    },
+    {
+      "text": "les",
+      "start": 35.08,
+      "end": 35.32
+    },
+    {
+      "text": "vois",
+      "start": 35.32,
+      "end": 35.48
+    },
+    {
+      "text": "se",
+      "start": 35.48,
+      "end": 35.84
+    },
+    {
+      "text": "redresser",
+      "start": 35.84,
+      "end": 36.76
+    },
+    {
+      "text": "après",
+      "start": 36.76,
+      "end": 37.0
+    },
+    {
+      "text": "chaque",
+      "start": 37.0,
+      "end": 37.56
+    },
+    {
+      "text": "coup",
+      "start": 37.56,
+      "end": 37.76
+    },
+    {
+      "text": "de",
+      "start": 37.76,
+      "end": 37.84
+    },
+    {
+      "text": "peigne.",
+      "start": 37.84,
+      "end": 38.32
+    },
+    {
+      "text": "b.",
+      "start": 38.32,
+      "end": 39.36
+    },
+    {
+      "text": "Au",
+      "start": 39.36,
+      "end": 39.72
+    },
+    {
+      "text": "restaurant,",
+      "start": 39.72,
+      "end": 41.96
+    },
+    {
+      "text": "sur",
+      "start": 41.96,
+      "end": 42.44
+    },
+    {
+      "text": "la",
+      "start": 42.44,
+      "end": 43.28
+    },
+    {
+      "text": "terrasse,",
+      "start": 43.28,
+      "end": 44.12
+    },
+    {
+      "text": "le",
+      "start": 44.12,
+      "end": 44.36
+    },
+    {
+      "text": "petit",
+      "start": 44.36,
+      "end": 44.76
+    },
+    {
+      "text": "garçon",
+      "start": 44.76,
+      "end": 45.32
+    },
+    {
+      "text": "mange",
+      "start": 45.32,
+      "end": 45.72
+    },
+    {
+      "text": "une",
+      "start": 45.72,
+      "end": 45.84
+    },
+    {
+      "text": "glace.",
+      "start": 45.84,
+      "end": 47.4
+    },
+    {
+      "text": "Mais",
+      "start": 47.4,
+      "end": 47.68
+    },
+    {
+      "text": "le",
+      "start": 47.68,
+      "end": 47.8
+    },
+    {
+      "text": "soleil",
+      "start": 47.8,
+      "end": 48.56
+    },
+    {
+      "text": "la",
+      "start": 48.56,
+      "end": 48.84
+    },
+    {
+      "text": "fait",
+      "start": 48.84,
+      "end": 48.96
+    },
+    {
+      "text": "fondre",
+      "start": 48.96,
+      "end": 49.8
+    },
+    {
+      "text": "et",
+      "start": 49.8,
+      "end": 50.0
+    },
+    {
+      "text": "rapidement",
+      "start": 50.0,
+      "end": 50.68
+    },
+    {
+      "text": "il",
+      "start": 50.68,
+      "end": 51.0
+    },
+    {
+      "text": "n'y",
+      "start": 51.0,
+      "end": 51.12
+    },
+    {
+      "text": "a",
+      "start": 51.12,
+      "end": 51.36
+    },
+    {
+      "text": "plus",
+      "start": 51.36,
+      "end": 51.4
+    },
+    {
+      "text": "qu'une",
+      "start": 51.4,
+      "end": 52.32
+    },
+    {
+      "text": "flaque",
+      "start": 52.32,
+      "end": 52.8
+    },
+    {
+      "text": "de",
+      "start": 52.8,
+      "end": 53.04
+    },
+    {
+      "text": "crème",
+      "start": 53.04,
+      "end": 53.8
+    },
+    {
+      "text": "au",
+      "start": 53.8,
+      "end": 53.96
+    },
+    {
+      "text": "fond",
+      "start": 53.96,
+      "end": 54.6
+    },
+    {
+      "text": "de",
+      "start": 54.6,
+      "end": 54.96
+    },
+    {
+      "text": "sa",
+      "start": 54.96,
+      "end": 55.24
+    },
+    {
+      "text": "coupe.",
+      "start": 55.24,
+      "end": 55.92
+    },
+    {
+      "text": "c.",
+      "start": 55.92,
+      "end": 57.0
+    },
+    {
+      "text": "Le",
+      "start": 57.0,
+      "end": 58.2
+    },
+    {
+      "text": "skieur",
+      "start": 58.2,
+      "end": 59.2
+    },
+    {
+      "text": "a",
+      "start": 59.2,
+      "end": 59.44
+    },
+    {
+      "text": "dérapé",
+      "start": 59.44,
+      "end": 60.12
+    },
+    {
+      "text": "sur",
+      "start": 60.12,
+      "end": 60.32
+    },
+    {
+      "text": "la",
+      "start": 60.32,
+      "end": 60.64
+    },
+    {
+      "text": "glace.",
+      "start": 60.64,
+      "end": 61.44
+    },
+    {
+      "text": "Il",
+      "start": 61.44,
+      "end": 62.04
+    },
+    {
+      "text": "s'approche",
+      "start": 62.04,
+      "end": 62.96
+    },
+    {
+      "text": "dangereusement",
+      "start": 62.96,
+      "end": 63.8
+    },
+    {
+      "text": "des",
+      "start": 63.8,
+      "end": 63.96
+    },
+    {
+      "text": "barrières",
+      "start": 63.96,
+      "end": 64.72
+    },
+    {
+      "text": "qui",
+      "start": 64.72,
+      "end": 65.0
+    },
+    {
+      "text": "bordent",
+      "start": 65.0,
+      "end": 65.36
+    },
+    {
+      "text": "la",
+      "start": 65.36,
+      "end": 65.72
+    },
+    {
+      "text": "piste.",
+      "start": 65.72,
+      "end": 66.32
+    },
+    {
+      "text": "La",
+      "start": 66.32,
+      "end": 66.56
+    },
+    {
+      "text": "neige",
+      "start": 66.56,
+      "end": 68.32
+    },
+    {
+      "text": "est",
+      "start": 68.32,
+      "end": 68.53999999999999
+    },
+    {
+      "text": "si",
+      "start": 68.53999999999999,
+      "end": 68.76
+    },
+    {
+      "text": "dure",
+      "start": 68.76,
+      "end": 68.9
+    },
+    {
+      "text": "qu'il",
+      "start": 68.9,
+      "end": 69.04
+    },
+    {
+      "text": "a",
+      "start": 69.04,
+      "end": 69.2
+    },
+    {
+      "text": "du",
+      "start": 69.2,
+      "end": 69.36
+    },
+    {
+      "text": "mal",
+      "start": 69.36,
+      "end": 69.68
+    },
+    {
+      "text": "à",
+      "start": 69.68,
+      "end": 70.24
+    },
+    {
+      "text": "éviter",
+      "start": 70.24,
+      "end": 71.08
+    },
+    {
+      "text": "la",
+      "start": 71.08,
+      "end": 71.25999999999999
+    },
+    {
+      "text": "chute.",
+      "start": 71.25999999999999,
+      "end": 71.44
+    },
+    {
+      "text": "Au",
+      "start": 71.44,
+      "end": 72.2
+    },
+    {
+      "text": "dernier",
+      "start": 72.2,
+      "end": 72.84
+    },
+    {
+      "text": "moment,",
+      "start": 72.84,
+      "end": 73.48
+    },
+    {
+      "text": "il",
+      "start": 73.48,
+      "end": 74.12
+    },
+    {
+      "text": "arrive",
+      "start": 74.12,
+      "end": 74.56
+    },
+    {
+      "text": "à",
+      "start": 74.56,
+      "end": 75.16
+    },
+    {
+      "text": "se",
+      "start": 75.16,
+      "end": 75.44
+    },
+    {
+      "text": "rétablir.",
+      "start": 75.44,
+      "end": 76.12
+    },
+    {
+      "text": "d.",
+      "start": 76.12,
+      "end": 77.08
+    },
+    {
+      "text": "La",
+      "start": 77.08,
+      "end": 78.0
+    },
+    {
+      "text": "visite",
+      "start": 78.0,
+      "end": 78.64
+    },
+    {
+      "text": "du",
+      "start": 78.64,
+      "end": 78.72
+    },
+    {
+      "text": "château",
+      "start": 78.72,
+      "end": 79.16
+    },
+    {
+      "text": "de",
+      "start": 79.16,
+      "end": 79.2
+    },
+    {
+      "text": "Versailles",
+      "start": 79.2,
+      "end": 80.4
+    },
+    {
+      "text": "se",
+      "start": 80.4,
+      "end": 80.72
+    },
+    {
+      "text": "termine",
+      "start": 80.72,
+      "end": 81.24
+    },
+    {
+      "text": "dans",
+      "start": 81.24,
+      "end": 81.36
+    },
+    {
+      "text": "la",
+      "start": 81.36,
+      "end": 81.68
+    },
+    {
+      "text": "galerie",
+      "start": 81.68,
+      "end": 82.2
+    },
+    {
+      "text": "des",
+      "start": 82.2,
+      "end": 82.36
+    },
+    {
+      "text": "glaces.",
+      "start": 82.36,
+      "end": 83.24
+    },
+    {
+      "text": "Elles",
+      "start": 83.24,
+      "end": 84.12
+    },
+    {
+      "text": "couvrent",
+      "start": 84.12,
+      "end": 84.48
+    },
+    {
+      "text": "les",
+      "start": 84.48,
+      "end": 84.84
+    },
+    {
+      "text": "murs",
+      "start": 84.84,
+      "end": 85.16
+    },
+    {
+      "text": "du",
+      "start": 85.16,
+      "end": 85.28
+    },
+    {
+      "text": "sol",
+      "start": 85.28,
+      "end": 85.88
+    },
+    {
+      "text": "au",
+      "start": 85.88,
+      "end": 85.92
+    },
+    {
+      "text": "plafond.",
+      "start": 85.92,
+      "end": 86.6
+    },
+    {
+      "text": "Les",
+      "start": 86.6,
+      "end": 87.52
+    },
+    {
+      "text": "visiteurs",
+      "start": 87.52,
+      "end": 88.44
+    },
+    {
+      "text": "sont",
+      "start": 88.44,
+      "end": 88.84
+    },
+    {
+      "text": "éblouis",
+      "start": 88.84,
+      "end": 89.48
+    },
+    {
+      "text": "par",
+      "start": 89.48,
+      "end": 89.92
+    },
+    {
+      "text": "les",
+      "start": 89.92,
+      "end": 90.12
+    },
+    {
+      "text": "lumières",
+      "start": 90.12,
+      "end": 90.64
+    },
+    {
+      "text": "qui",
+      "start": 90.64,
+      "end": 90.84
+    },
+    {
+      "text": "s'y",
+      "start": 90.84,
+      "end": 91.28
+    },
+    {
+      "text": "reflètent",
+      "start": 91.28,
+      "end": 91.92
+    },
+    {
+      "text": "et",
+      "start": 91.92,
+      "end": 92.12
+    },
+    {
+      "text": "par",
+      "start": 92.12,
+      "end": 92.36
+    },
+    {
+      "text": "les",
+      "start": 92.36,
+      "end": 92.48
+    },
+    {
+      "text": "peintures",
+      "start": 92.48,
+      "end": 93.36
+    },
+    {
+      "text": "qui",
+      "start": 93.36,
+      "end": 93.8
+    },
+    {
+      "text": "décorent",
+      "start": 93.8,
+      "end": 94.28
+    },
+    {
+      "text": "le",
+      "start": 94.28,
+      "end": 94.62
+    },
+    {
+      "text": "plafond.",
+      "start": 94.62,
+      "end": 94.96
+    },
+    {
+      "text": "Comment",
+      "start": 94.96,
+      "end": 95.68
+    },
+    {
+      "text": "ai-je",
+      "start": 95.68,
+      "end": 95.92
+    },
+    {
+      "text": "fait",
+      "start": 95.92,
+      "end": 96.56
+    },
+    {
+      "text": "?",
+      "start": 96.56,
+      "end": 96.88
+    }
+  ],
+  "audio_duration": 96.88
+}

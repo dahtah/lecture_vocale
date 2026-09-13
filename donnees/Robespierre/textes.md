@@ -28,3 +28,105 @@ Noune se leva et passa la tête hors de la tente.
 Malina nouait des poils de blaireau sur un petit bâton .
 « A quoi ça sert ? » demanda Noune intrigué.
 « Cela sert à étaler la couleur. Tout le clan va se réunir dans la grande caverne où l’on va peindre les animaux que nous retrouverons au printemps prochain. »
+
+# Bonus 1
+
+Je fais attention, un mot peut avoir plusieurs sens.
+Lis les textes puis trouve les phrases dans lesquelles le mot en gras a le sens indiqué.
+Phrases dans lesquelles "glace" a le sens de miroir :
+
+Phrases (a,b,c ou d) et (a, b, c ou d).
+
+a. Le matin, en me levant, je regarde dans la glace. Mes cheveux sont tout
+ébouriffés. J'ai beau les coiffer, je les vois se redresser après chaque coup de
+peigne.
+
+b. Au restaurant, sur la terrasse, le petit garçon mange une glace. Mais le
+soleil la fait fondre et rapidement il n'y a plus qu'une flaque de crème au fond
+de sa coupe.
+
+c. Le skieur a dérapé sur la glace. Il s'approche dangereusement des barrières
+qui bordent la piste. La neige est si dure qu'il a du mal à éviter la chute. Au
+dernier moment, il arrive à se rétablir. 
+
+d. La visite du château de Versailles se termine dans la galerie des glaces.
+Elles couvrent les murs du sol au plafond. Les visiteurs sont éblouis par les
+lumières qui s'y reflètent et par les peintures qui décorent le plafond. Comment
+ai-je fait ?
+
+
+# Bonus 2
+
+
+Phrases ou "bouton" a le sens de "touche". 
+
+Phrases (e,f,g ou h) et (e, f, g ou h).
+
+
+e. Ma petite sœur à la varicelle, elle est couverte de boutons qui démangent.
+Elle doit se couvrir de crème pour ne pas se gratter continuellement.
+
+f. Arrête d'appuyer sur tous les boutons, me dit mon père, je voudrais bien voir
+le film en entier. » Il tend alors la main vers moi et je lui donne la
+télécommande. J'aurai pourtant bien aimé appuyer sur les boutons rouges, bleus
+et verts pour savoir à quoi ils servent.
+
+g. Pour terminer cette veste, le couturier ajoute de beaux boutons de nacre. La
+cliente est satisfaite, c'est elle qui les avait choisis en même temps que le
+tissu.
+
+h. C'est le printemps les boutons de roses vont s'ouvrir. Bientôt, les pétales
+apparaitront et on pourra sentir le parfum des fleurs. i. Dans la voiture de mon
+grand-père, il y a même un bouton pour dégivrer les rétroviseurs. Quand on
+appuie dessus, la glace se met à fondre. Comment ai-je fait ?
+
+# Bonus 3
+
+Je fais attention, un mot peut avoir plusieurs sens.
+
+Le Bibliothécaire - Stratégie 2
+
+Entoure les quatre mots qui apparaissent avec deux sens différents dans le
+texte. Complète le tableau.
+
+Pierre commença par son exercice de géométrie. Il prit sa règle pour tracer une
+droite de 10 cm, il fit une croix au milieu puis en posant la pointe de son
+compas sur celle-ci, il traça un cercle de 5 cm de rayon. Il était certain
+d'avoir trouvé la bonne solution. 
+
+Il passa ensuite à son exercice de chimie. On lui indiquait la règle à suivre
+pour faire une solution de sel à 10%. Il prit donc 50 g de sel et les versa dans
+450 g d'eau.
+
+Le dernier exercice demandait d'associer les photos de différents animaux avec
+le milieu dans lequel ils vivent habituellement. Les photos représentaient un
+lion, un ours blanc et un panda. En face se trouvaient des photos de la
+banquise, de la savane et d'une forêt de bambous traversée par les rayons du
+soleil. Trop facile ! Pierre était tout content. En moins de deux minutes, il
+avait réussi le test.
+
+
+
+# Bonus 4
+
+Je fais attention, un mot peut avoir plusieurs sens.
+
+Le Bibliothécaire - Stratégie 2
+
+Entoure les quatre mots qui apparaissent avec deux
+sens différents dans le texte. Complète le tableau.
+
+Après avoir fait mes courses, je sortis du centre commercial avec mon charriot
+débordant d'articles variés. Déjà deux jours que je me nourrissais des restes
+encore présents au fond de mes placards, il était temps de faire des achats.
+J'avais garé ma voiture à peu près au centre du parking mais impossible de
+savoir exactement où elle était.
+
+Pourtant, je devais la retrouver rapidement car mon journal m'avait chargé
+d'écrire un article sur la course dont le départ devait être donné dans moins
+d'une heure. Je faisais le tour du parking depuis dix minutes quand enfin je la
+vis. Je jetai mes achats dans le coffre et sautai derrière le volant. Même si la
+route était dégagée, il faudrait un véritable tour de magie pour que j'arrive
+avant le départ des coureurs.
+
+
