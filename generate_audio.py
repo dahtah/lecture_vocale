@@ -19,6 +19,7 @@ import os
 import re
 import sys
 import argparse
+import subprocess
 import wave
 from pathlib import Path
 
@@ -96,11 +97,14 @@ def get_synthesis_config(speed):
 
 
 def generate_audio(text, output_path, model_path, speed=DEFAULT_SPEED):
-    """Génère un fichier audio avec Piper TTS en utilisant l'API Python."""
+    """Génère un fichier audio avec Piper TTS en WAV, puis convertit en Opus."""
     global piper_voice
     
     output_path = Path(output_path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Chemin temporaire pour le fichier WAV
+    temp_wav_path = output_path.with_suffix('.wav')
     
     try:
         # Charger le modèle si ce n'est pas déjà fait
@@ -109,14 +113,45 @@ def generate_audio(text, output_path, model_path, speed=DEFAULT_SPEED):
         # Obtenir la configuration de synthèse avec la vitesse spécifiée
         syn_config = get_synthesis_config(speed)
         
-        # Générer l'audio directement avec l'API Python
-        with wave.open(str(output_path), 'wb') as wav_file:
+        # Générer l'audio en WAV avec Piper
+        with wave.open(str(temp_wav_path), 'wb') as wav_file:
             voice.synthesize_wav(
                 text=text,
                 wav_file=wav_file,
                 syn_config=syn_config,
                 set_wav_format=True
             )
+        
+        if not temp_wav_path.exists():
+            print(f"Erreur: {temp_wav_path} non généré")
+            return False
+        
+        # Convertir en Opus avec ffmpeg
+        try:
+            subprocess.run(
+                [
+                    'ffmpeg',
+                    '-i', str(temp_wav_path),
+                    '-c:a', 'libopus',
+                    '-b:a', '64k',
+                    '-vbr', 'on',
+                    '-y',  # Écraser sans demander
+                    str(output_path)
+                ],
+                check=True,
+                capture_output=True,
+                text=True
+            )
+            
+            # Supprimer le fichier WAV temporaire
+            temp_wav_path.unlink()
+            
+        except subprocess.CalledProcessError as e:
+            print(f"Erreur lors de la conversion en Opus: {e.stderr}")
+            return False
+        except FileNotFoundError:
+            print("Erreur: ffmpeg n'est pas installé. Installez-le avec: sudo apt install ffmpeg")
+            return False
         
         if not output_path.exists():
             print(f"Erreur: {output_path} non généré")
@@ -129,6 +164,9 @@ def generate_audio(text, output_path, model_path, speed=DEFAULT_SPEED):
         print(f"Erreur: {e}")
         import traceback
         traceback.print_exc()
+        # Nettoyer le fichier WAV temporaire en cas d'erreur
+        if temp_wav_path.exists():
+            temp_wav_path.unlink()
         return False
 
 
@@ -151,7 +189,7 @@ def generate_for_school(school_name, speed=DEFAULT_SPEED):
     
     success = 0
     for safe_title, data in textes.items():
-        output_path = audio_dir / f"{safe_title}.wav"
+        output_path = audio_dir / f"{safe_title}.opus"
         print(f"  Génération de '{data['original_title']}'...")
         
         if generate_audio(data['content'], output_path, MODEL_PATH, speed):

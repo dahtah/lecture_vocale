@@ -69,7 +69,7 @@ lecture_vocale/
 └── donnees/
     ├── Cachin/
     │   ├── textes.md        # Textes source
-    │   ├── audio/          # Fichiers .wav générés
+    │   ├── audio/          # Fichiers .opus générés
     │   └── timings/        # Fichiers .json de timings
     └── Robespierre/
         ├── textes.md
@@ -132,19 +132,6 @@ python3 generate_timings.py Cachin
 - **Génération audio** : ~1-2s par mot avec Piper TTS
 - **Génération timings** : ~20-30s par fichier avec aeneas
 - **Surlignage** : Temps réel, précis au millième de seconde
-
-## 📊 Précision des timings
-
-Avec **aeneas** (alignement forcé) :
-- ✅ Pas d'erreurs de transcription (utilise le texte original)
-- ✅ Timings parfaits pour chaque mot
-- ✅ Durée audio exactement correspondante
-- ✅ Tous les mots ont au moins 20ms de durée
-
-Avec **whisperX** (reconnaissance vocale) :
-- ⚠️ Peut avoir des erreurs de transcription
-- ⚠️ Nécessite un alignement avec le texte original
-- ✅ Timings généralement bons
 
 ## 🎓 Cas d'usage pédagogique
 

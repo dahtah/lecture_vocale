@@ -14,10 +14,11 @@ Développer une application web permettant aux enfants de suivre une lecture aud
 ### Backend / Génération de contenu
 - [x] **Structure des données** : Dossier `donnees/` avec sous-dossiers par école (Cachin, Robespierre)
 - [x] **Stockage des textes** : Fichiers `textes.md` avec séparation par titres (`#`)
-- [x] **Génération audio** : `generate_audio.py` utilise Piper TTS pour créer des fichiers `.wav`
+- [x] **Génération audio** : `generate_audio.py` utilise Piper TTS pour créer des fichiers `.opus` (compressés)
   - Modèle : `fr_FR-gilles-low.onnx`
   - 6 fichiers audio générés pour Cachin
   - 2 fichiers audio générés pour Robespierre
+  - **Format** : Opus (64k VBR) pour une taille réduite (~90% plus léger que WAV)
 - [x] **Génération des timings** : `generate_timings.py` utilise WhisperX via CLI
   - 6 fichiers JSON générés pour Cachin (timings précis, décalage résolu)
   - 2 fichiers JSON générés pour Robespierre
@@ -115,18 +116,18 @@ lecture_vocale/
 └── donnees/
     ├── Cachin/
     │   ├── textes.md        # Textes source (markdown)
-    │   ├── audio/           # Fichiers .wav générés par Piper
-    │   │   ├── Larbre_qui_chante.wav
-    │   │   ├── Exercice_Jour_1.wav
+    │   ├── audio/           # Fichiers .opus générés par Piper + ffmpeg
+    │   │   ├── Larbre_qui_chante.opus
+    │   │   ├── Exercice_Jour_1.opus
     │   │   └── ...
-    │   └── timings/         # Fichiers .json générés par Whisper
+    │   └── timings/         # Fichiers .json générés par aeneas
     │       ├── Larbre_qui_chante.json
     │       ├── Exercice_Jour_1.json
     │       └── ...
     └── Robespierre/
         ├── textes.md
         ├── audio/
-        │   └── Texte_*.wav
+        │   └── Texte_*.opus
         └── timings/
             └── Texte_*.json
 ```

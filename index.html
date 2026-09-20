@@ -342,13 +342,13 @@
   function getPresetAudioFilename(title) {
     // Convertir un titre en nom de fichier sûr
     if (!title) return null;
-    return title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.wav';
+    return title.replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/\s+/g, '_') + '.opus';
   }
 
   function getPresetTimingsFilename(title) {
     // Convertir un titre en nom de fichier de timings JSON
     if (!title) return null;
-    return title.replace(/[^\w\s-]/g, '').trim().replace(/\s+/g, '_') + '.json';
+    return title.replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/\s+/g, '_') + '.json';
   }
 
   async function loadTimings(school, title) {

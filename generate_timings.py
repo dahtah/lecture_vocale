@@ -76,7 +76,7 @@ def parse_textes_md(filepath):
 def get_audio_filename(title):
     safe = re.sub(r'[^\w\s-]', '', title).strip()
     safe = re.sub(r'\s+', '_', safe)
-    return f"{safe}.wav"
+    return f"{safe}.opus"
 
 
 def get_timings_filename(title):

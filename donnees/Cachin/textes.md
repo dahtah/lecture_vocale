@@ -1,320 +1,128 @@
-# L'arbre qui chante
+# Partie 1 – Lecture normale
+
+Le temps passa. La neige se mit à fondre et les pluies de printemps lavèrent sur
+le flanc de la colline les dernières traces de l’hiver. Les enfants avaient
+oublié le père Vincendon lorsqu’un soir, en rentrant de l’école, ils
+s’aperçurent qu’il manquait quelque chose au paysage.
+
+C’était le gros érable. À sa place, il n’y avait qu’une large souche, quelques
+brindilles, des morceaux d’écorce et de la sciure qui ressemblait à un petit tas
+de neige oublié là par le soleil.
+
+— C’est peut-être Grand-père qui a coupé l’arbre, dit Gérard. Il n’aurait
+pas dû. Monsieur Vincendon avait promis de le faire chanter.
+— Tu y crois ? demanda Isabelle.
+— Oui, parce que c’est monsieur Vincendon qui l’a promis.
+— Mais Grand-mère prétend que l’arbre mort ne peut plus chanter
+autrement que dans le feu.
+— Il ne faut pas qu’on le brûle, dit le garçon. Viens, viens vite !
+
+Ils se mirent à courir vers la maison. Ils posèrent en passant leurs cartables
+au pied de l’escalier, et ils filèrent vers le bûcher qui est une petite cabane
+de bois que Grand-père a construite au fond du jardin.
+
+La porte était grande ouverte et la charrette arrêtée devant l’entrée. Les
+enfants coururent, coururent très vite. Lorsqu’ils arrivèrent, ils étaient
+rouges et essoufflés. Grand-père et Vincendon sortaient du bûcher. Un tronçon de
+l’érable était encore sur la charrette. Les enfants regardèrent Vincendon avec
+une lueur de reproche dans leurs yeux clairs, mais le vieillard sourit sous sa
+moustache. Il s’approcha de la charrette, et se mit à caresser le tronc de
+l’érable comme il eût fait avec un chien.
 
-C’était un matin de janvier. Un de ces beaux matins blancs et secs pareils à ces vieux montagnards qui ont du givre à leurs moustaches et des yeux pétillants de soleil. Il avait neigé toute la nuit à gros flocons serrés. Puis, le jour venu, un grand souffle de vent du nord avait débarbouillé le ciel. Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé. Entre les arbres, les ombres étaient bleues. Les sapins ployaient encore sous leur charge de neige, car le vent de l’aube n’avait soufflé que pour chasser les nuages.
-Isabelle et Gérard habitaient là, tout près du bois, dans la maison de leurs grands-parents. C’était une toute petite maison aux murs gris et aux volets verts. Elle se trouvait à l’écart du village que l’on devinait à peine, ce matin-là, très loin, au bord de la rivière gelée.
-On ne voyait même plus le chemin qui court entre les champs et traverse la prairie. De la fenêtre, les deux enfants essayaient de le suivre du regard. Ils le trouvèrent très facilement jusqu’au premier tournant, près du gros érable mort depuis deux ans et que le grand-père ne s’était pas encore décidé à couper, mais, plus loin, tout se confondait.
-Tandis qu’ils regardaient ainsi, le nez collé à la vitre, Isabelle et Gérard virent passer un oiseau, puis un autre, puis tout un vol qui se percha sur la treille d’où tombèrent des paquets de neige.
-    • Ils ont froid, dit Isabelle. Il faut leur donner des graines ou du pain.  
-Elle prépara des graines, et Gérard ouvrit la fenêtre.
-    • Ferme vite, cria Grand-père, tu vas faire entrer tout l’hiver dans la cuisine !
-Les enfants se mirent à rire. Comme si l’hiver pouvait entrer dans une maison !
-Isabelle jeta ses graines sur le sentier que Grand-Père avait balayé pour aller jusqu’au bûcher chercher du bois. Grand-mère se mit à tousser et souleva les cercles de fonte de la cuisinière pour enfourner une énorme bûche dans le foyer.
-Dès que la fenêtre fut refermée, deux oiseaux quittèrent la treille pour venir picorer. Les autres semblaient inquiets, mais, comme rien ne bougeait, ils s’envolèrent à leur tour tandis que d’autres tombaient du toit, tout droit, presque sans battre des ailes.
-    • Ils n’auront jamais assez de graines, dit Isabelle. Il en vient de plus en plus.
-    • Mais si, mais si ! cria Grand-mère. Si tu leur donnes tout, ce sont mes poules qui n’auront plus rien !
-    • Et si tu continues, tu finiras par attirer tous les oiseaux de la forêt, renchérit Grand-père.
-Isabelle se résigna et revint à la fenêtre. Elle resta un long moment à côté de son frère, essuyant la vitre quand la buée l’empêchait de voir. Soudain, elle empoigna le bras de Gérard en disant :
-    • Regarde, sur le chemin !
+Les mains de Vincendon sont grosses, avec des doigts larges et épais, avec des
+ongles tout relevés et qui ont une drôle de forme. Quand Vincendon caresse le
+bois, on dirait qu’il le passe au papier de verre tant ses paumes sont râpeuses.
+Lorsqu’il vous serre la main on se figure toujours qu’il porte des gants de fer
+comme en mettaient les chevaliers du Moyen Âge.
 
-Gérard leva les yeux. Là-bas, plus loin que le gros érable mort, un animal curieux avançait dans la neige. Il ressemblait beaucoup au petit lapin mécanique que le Père Noël avait apporté à Gérard quelques années plus tôt. Comme le jouet, il sautillait, vacillait de droite à gauche et s’arrêtait à chaque instant. Toujours comme le lapin, il était vêtu de poils gris et portait de longues oreilles qui se rejoignaient au sommet de son crâne.
+Il caressa donc le bois et cligna de l’œil en disant :
+— Ne vous faites pas de souci, il chantera. Je vous l’ai promis, et je
+tiens toujours mes promesses.
+— Il chantera dans le fourneau, ricana Grand-père. Exactement
+comme tous les arbres qui meurent. Le faire chanter comme ça, c’est
+facile.
 
----
+Grand-père devait plaisanter. Pourtant Vincendon fit mine de se fâcher.
+— Tais-toi donc ! cria-t-il. Tu n’y connais rien. Moi, je te dis qu’il
+chantera mieux encore que lorsqu’il vivait les pieds dans la terre et la
+tête au soleil. Mieux que les jours où il était tout chargé d’oiseaux et
+tout habité de vent.
 
-# Exercice Jour 1
+Les enfants écoutaient ce langage curieux. Comme ils semblaient douter de lui,
+Vincendon les prit chacun par un bras, et il les serra fort avec ses grosses
+mains dures. Il serrait très fort, presque à faire mal, mais cette force qui
+était en lui avait quelque chose de rassurant. Il retourna vers la charrette, et
+continua de palper le gros tronc couché sur les planches.
 
-STRATEGIE du BIBLIOTHECAIRE 
+Il se penchait, tapotait du doigt, écoutait, se redressait en hochant la tête,
+exactement comme fait le docteur lorsqu’on est au lit avec une grosse fièvre.
+Mais Vincendon n’avait pas l’air inquiet. Il continua d’ausculter son arbre,
+répétant seulement de loin en loin :
 
-Consigne : Lis chaque texte puis écris ta réponse. Note aussi les indices que tu as utilisés pour trouver ce que veut dire ce mot. 
+— C’est bien... C’est très bien... Il est sain... Il chantera... Vous verrez
+ce que je vous dis, il chantera mieux encore que lorsqu’il avait des
+oiseaux plein les bras.
 
-1) Il avait neigé toute la nuit à gros flocons serrés. Entre les arbres, les ombres étaient bleues. Les sapins ployaient encore sous leur charge de neige. 
+# Partie 2 – Lecture normale
 
-ployaient  signifie :  écris ta réponse
-Les  indices : écris ta réponse  
+Le lendemain, tout avait disparu. Il ne restait plus dans le bûcher que
+quelques branches et un bon tas de sciure. Les enfants se mirent à
+chercher. Enfin, au grenier, ils finirent par retrouver l’érable. Mais
+cette fois, ils furent très déçus. L’arbre était méconnaissable, tout
+débité en grosses planches, il avait vraiment un air d’arbre mort.
 
-2 Il avait neigé toute la nuit à gros flocons serrés. (...) Entre les arbres, les ombres étaient bleues. Les sapins ployaient encore sous leur charge de neige, car le vent de l’aube n’avait soufflé que pour chasser les nuages.
+— Monsieur Vincendon s’est moqué de nous, dit Isabelle. Il ne fera
+jamais chanter cet arbre. D’ailleurs, est-ce que quelqu’un peut faire
+chanter un arbre mort ? Il faudrait un sorcier. Et ce Vincendon n’est
+pas un sorcier.
 
-l’aube  signifie :  écris ta réponse  
-Les  indices : écris ta réponse  
+— Qu’en sais-tu ?
 
+Isabelle regarda son frère, l’air effrayé.
 
-3 Tandis qu’ils regardaient ainsi, le nez collé à la vitre, Isabelle et Gérard virent passer un oiseau, puis un autre, puis tout un vol qui se percha sur la treille d’où tombèrent des paquets de neige.
+— Tu crois qu’il serait sorcier ? fit-elle.
 
-Le  mot  treille  signifie :  écris ta réponse  
-Les  indices :  écris ta réponse  
+Gérard prit à son tour un air important pour répondre :
 
-4 Dès que la fenêtre fut refermée, deux oiseaux quittèrent la treille pour venir picorer. (…)
-— Ils n’auront jamais assez de graines, dit Isabelle. Il en vient de plus en plus.
-— Mais si, mais si ! cria Grand-mère. Si tu leur donnes tout, ce sont mes poules qui n’auront plus rien !
+— Ce n’est pas impossible. Je crois savoir des choses... des choses.
+En fait, il se vantait pour paraître mieux informé et plus débrouillard
+que sa sœur, car il ne savait rien de plus que vous et moi sur le père
+Vincendon.
 
-Le  mot  picorer  signifie :  écris ta réponse  
-Les  indices : écris ta réponse  
+Mais le printemps est tout plein de vie, et les enfants oublièrent très
+vite le vieil arbre. Avant la montée de la sève, Grand-père était allé
+dans la forêt, et il avait rapporté deux petits érables qu’il avait plantés
+au bord du chemin, de chaque côté de la vieille souche. À présent, ces
+petits arbres avaient des feuilles, et c’était eux qui commençaient à
+chanter avec le vent, venu du fond de l’horizon en poussant dans le
+ciel bleu de gros nuages blancs.
 
-# Exercice Jour 2
+# Les pronoms sujets et compléments
 
-Lis  chaque  texte  puis  écris  ta  réponse.   Note aussi  les  indices  que  tu  as  utilisés  pour  trouver  ce  que  veut  dire  ce  mot.
+Lis la phrase. Un groupe nominal est répété. 
 
-5 — Ils n’auront jamais assez de graines, dit Isabelle. Il en vient de plus en plus. — Mais si, mais si ! cria Grand-mère. Si tu leur donnes tout, ce sont mes poules qui n’auront plus rien ! — Et si tu continues, tu finiras par attirer tous les oiseaux de la forêt, renchérit Grand-père. 
-renchérit signifie : écris ta réponse
-Les  indices :  écris ta réponse
+Remplace le groupe nominal par le pronom qui convient pour éviter la répétition. 
 
-6 Il ressemblait beaucoup au petit lapin mécanique que le Père Noël avait apporté à Gérard quelques années plus tôt. Comme le jouet, il sautillait, vacillait de droite à gauche et s’arrêtait à chaque instant.   
-vacillait signifie : écris ta réponse
-Les  indices :  écris ta réponse
+Vérifie en relisant ta phrase que le pronom est le bon. 
 
+Explique comment tu as fais.
 
-# Exercice Jour 3
+1) Le père Vincendon n’était pas un homme comme les autres : le père Vincendon était amoureux du bois. 
+Je remplace « le père Vincendon » par : 
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
 
-Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
-1 Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
-Dans cette phrase, le mot pied a le sens de : choisis la bonne réponse
-a. partie du corps humain située à l’extrémité des jambes
-b. ensemble d’une plante
-c. partie le plus bas d’un endroit
+2) Les murs de son atelier étaient garnis d’outils posés sur les rayons. Les murs de sont ateliers étaient pleins de rabots, de scies, de ciseaux, de compas. 
+Je remplace « les murs de son atelier» par : 
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
 
-2 Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
-Dans cette phrase, le mot endormie a le sens de : choisis la bonne réponse
-a. qui est lent, paresseux. 
-b. qui se trouve dans un état de sommeil.
+3) Les deux petits érables semblaient morts, mais Gérard et Isabelle savaient que les deux petits érables venaient seulement de s’endormir pour l’hiver.
+Je remplace « les deux petits érables » par : 
+Je vérifie en relisant ma phrase. Comment ai-je fait ?
 
-3 Grand-mère se mit à tousser et souleva les cercles de fonte de la cuisinière pour enfourner une énorme bûche dans le foyer.
-Dans cette phrase, le mot cuisinière a le sens de : choisis la bonne réponse
-a. la personne qui cuisine, qui prépare, qui cuit la nourriture.
-b. l’épouse d’un cuisinier
-c. le fourneau de cuisine servant à chauffer ou faire cuire les aliments. 
+4) Le paysage au pied de la montagne est très beau en hiver. Beaucoup de promeneurs veulent voir le paysage.
 
+5) Les oiseaux frileux s’abritent sur la vieille treille. Grand-Mère répare la vieille treille.
 
-# Exercice Jour 4
+6) L’érable est un arbre majestueux. Les canadiens utilisent l’érable pour fabriquer un sirop sucré.
 
-Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
-4 C’était une toute petite maison aux murs gris et aux volets verts. Elle se trouvait à l’écart du village que l’on devinait à peine, ce matin-là, très loin, au bord de la rivière gelée. On ne voyait même plus le chemin qui court entre les champs et traverse la prairie.
-Dans cette phrase, le mot « court » signifie : choisis ta réponse
-aller dans une direction déterminéee
-se déplacer rapidement
-faire trop vite
-Les  indices : écris ta réponse
-
-
-5 — Entrez ! La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine.
-Dans cette phrase, le mot « bise » signifie : choisis ta réponse
- un baiser sur la joue
- un vent sec et froid
- le nom d’un champignon
-Les  indices :  écris ta réponse
-
-# Exercice Bonus
-
-Indique  pour  chaque  mot  ou  expression  en  gris  un  mot  ou  une  expression  qui  veut  dire  la  même  chose.  Explique  ton  raisonnement.  
-
-1  En  entrant  dans  la grande  salle  du château,  le valet  alluma  les candélabres.  Aussitôt  une douce  lumière  tremblotante  éclaira  la pièce.
-
-Candelabres  signifie : écris ta réponse
-Les  indices :  écris ta réponse 
-
-2  Le voleur  entra  par  une fenêtre  laissée  ouverte.  Il cassa  une vitrine  et  subtilisa  la couronne  de  diamants  qui  se  trouvait  à  l'intérieur.  Toutes  les sirènes  se  mirent  à  hurler  en  même  temps,  mais  c'était  déjà  trop  tard,  il avait  disparu  et  les diamants  avec  lui.  
-subtilisa  signifie : écris ta réponse
-Les  indices :  écris ta réponse
-
-3  Chaque  jour,  sans  jamais  être  rassasiée,  la baleine  avale  des tonnes  de  crevettes.  
-rassasiée  signifie : écris ta réponse
-Les  indices :  écris ta réponse
-4  La chèvre  blanche,  heureuse,  se  vautrait  dans  l'herbe  fine  et  savoureuse,  les pattes  en  l'air,  et  roulait  le long  des talus.  
-se  vautrait  signifie : écris ta réponse
-Les  indices : écris ta réponse
-
-5  La neige  est  tombée  en  grande  quantité,  elle recouvre  tout  le paysage,  tout  est  blanc,  sans  trace.  J'aimais  admirer  ce paysage  immaculé.  
-immaculé signifie : écris ta réponse
-Les  indices : écris ta réponse
-
-# L'arbre qui chante II
-
-Gérard leva les yeux. Là-bas, plus loin que le gros érable mort, un animal curieux avançait dans la neige. Il ressemblait beaucoup au petit lapin mécanique que le Père Noël avait apporté à Gérard quelques années plus tôt. Comme le jouet, il sautillait, vacillait de droite à gauche et s’arrêtait à chaque instant. Toujours comme le lapin, il était vêtu de poils gris et portait de longues oreilles qui se rejoignaient au sommet de son crâne.
-Cette apparition était tellement surprenante que les enfants oublièrent les oiseaux. Ils restaient bouche bée, observant sans mot dire cet animal étrange dont les yeux, par moments, lançaient des éclats de lumière.
-Quand le lapin, qui marchait uniquement sur ses pattes de derrière, eut atteint la haie bordant le jardin, les enfants ne virent plus que sa tête.
-— On dirait qu’il vient ici, murmura Gérard.
-— C’est vrai, il fait le tour du jardin.
-Le lapin disparut et il y eut un long silence un peu angoissant. Les enfants retenaient leur souffle, l’oreille tendue. Bientôt, des pas sonnèrent sur les marches de pierre, et les oiseaux s’envolèrent si brutalement que les enfants sursautèrent.
-— Vous n’avez rien entendu ? demanda Grand-père.
-Les deux petits hochèrent la tête.
-— Qu’est-ce que ça peut bien être ? dit Grand-mère.
-À cette heure-ci, le facteur était encore loin.
-Les grands-parents n’avaient rien vu, et les enfants n’osaient répondre. Ils ne pouvaient tout de même pas dire : « C’est un lapin mécanique grand comme un homme qui arrive tout seul et bat de la semelle sur le palier ! »
-Il y eut encore un frottement contre la pierre, puis on entendit frapper à la porte. Les grands-parents se regardèrent, puis regardèrent la porte. Enfin, comme on frappait plus fort, Grand-père cria :
-— Entrez !
-La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine. Cette fois, c’était le lapin qui apportait l’hiver dans son poil gris. Car c’était bien lui qui se tenait là, debout sur le seuil, tout surpris par la chaleur et l’odeur du feu de bois où cuisait la pâtée des vrais lapins.
-Grand-mère se précipite pour fermer la porte. Et voilà que le lapin se met à parler :
-— Bonjour, bonjour, dit-il. Je viens très tôt, il faut m’excuser, mais…
-Les poils gris s’écartent à la hauteur du visage, de grosses lunettes paraissent, puis un nez tout rouge, puis des moustaches raides comme un balai de crin, puis un visage piqueté de barbe blanche pareille à celle de Grand-père.
-— Mais c’est Vincendon ! s’exclame Grand-père. C’est Vincendon !
-Et c’était vrai ! C’était bien Vincendon. Et ce fut seulement quand il eut ôté son bonnet à oreilles relevées et quitté sa pelisse dont le col montait à hauteur de ses yeux que les enfants eurent la certitude que le lapin mécanique était un homme. Ils ne l’avaient jamais vu, mais Grand-père leur avait souvent parlé de ce vieil ami.
-Le père Vincendon essuyait ses lunettes, il essuyait les larmes qui coulaient de ses yeux en répétant :
-— Je vous vois à peine. La chaleur après le froid me fait toujours pleurer. Et mes lunettes sont couvertes de buée.
-Il n’y voyait pas, mais il pouvait parler et écouter. Bientôt, assis au coin du feu à côté de Grand-père, il se mit à raconter des histoires de sa jeunesse. Grand-père en racontait aussi. Ils parlaient en même temps, personne ne les écoutait, mais ils semblaient heureux tous les deux.
-
-# L'arbre qui chante II - Fiche 1
-
-Stratégie  du  bibliothécaire
-
-
-Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
-
-1. Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
-Dans cette phrase, le mot pied a le sens de :
-a) partie du corps humain située à l’extrémité des jambes
-b)  ensemble d’une plante
-c) partie le plus bas d’un endroit
-
-Les  indices :  
-
-2. Derrière la maison, la forêt qui commence au pied de la montagne s’était endormie dans un grand silence glacé.
-Dans cette phrase, le mot endormie a le sens de :
-a) qui est lent, paresseux. 
-b) qui se trouve dans un état de sommeil.
-Les  indices :  
-
-3. Grand-mère se mit à tousser et souleva les cercles de fonte de la cuisinière pour enfourner une énorme bûche dans le foyer.
-Dans cette phrase, le mot cuisinière a le sens de :
-a) la personne qui cuisine, qui prépare, qui cuit la nourriture.
-b) l’épouse d’un cuisinier
-c) le fourneau de cuisine servant à chauffer ou faire cuire les aliments. 
-Les  indices :  
-
-# L'arbre qui chante II - Fiche 2
-
-Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
-4. C’était une toute petite maison aux murs gris et aux volets verts. Elle se trouvait à l’écart du village que l’on devinait à peine, ce matin-là, très loin, au bord de la rivière gelée. On ne voyait même plus le chemin qui court entre les champs et traverse la prairie.
-Dans cette phrase, le mot « court » signifie :
-a) aller dans une direction déterminéee
-b) se déplacer rapidement
-c) faire trop vite
-Les  indices :  
-
-5. — Entrez ! La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine.
-Dans cette phrase, le mot « bise » signifie :
-a)  un baiser sur la joue
-b)  un vent sec et froid
-c) le nom d’un champignon
-Les  indices :  
-
-
-# Exercice 4 
-
-Stratégie  du  bibliothécaire, fiche 2
-
-Lis chaque phrase puis choisis la bonne réponse. Note les indices qui t’ont permis de faire ton choix.
-
-4. C’était une toute petite maison aux murs gris et aux volets verts. Elle se trouvait à l’écart du village que l’on devinait à peine, ce matin-là, très loin, au bord de la rivière gelée. On ne voyait même plus le chemin qui court entre les champs et traverse la prairie.
-
-Dans cette phrase, le mot « court » signifie :
-• aller dans une direction déterminéee
-•  se déplacer rapidement
-•  faire trop vite
-
-Les  indices: 
-
-# Exercice 5 
-
-5) Entrez ! La porte s’ouvrit lentement, et ce fut tout d’abord une large bouffée de bise qui pénétra dans la cuisine.
-Dans cette phrase, le mot « bise » signifie :
-- un baiser sur la joue
-- un vent sec et froid
-- le nom d’un champignon
-Les  indices :
-
-# Bonus 1
-
-Je fais attention, un mot peut avoir plusieurs sens.
-
-Lis les textes puis trouve les phrases dans lesquelles le mot en gras a le sens indiqué.
-
-glace a le sens de miroir :
-Phrases (a,b,c ou d) et (a, b, c ou d).
-
-a. Le matin, en me levant, je regarde dans la glace. Mes cheveux sont tout
-ébouriffés. J'ai beau les coiffer, je les vois se redresser après chaque coup de
-peigne.
-
-b. Au restaurant, sur la terrasse, le petit garçon mange une glace. Mais le
-soleil la fait fondre et rapidement il n'y a plus qu'une flaque de crème au fond
-de sa coupe.
-
-c. Le skieur a dérapé sur la glace. Il s'approche dangereusement des barrières
-qui bordent la piste. La neige est si dure qu'il a du mal à éviter la chute. Au
-dernier moment, il arrive à se rétablir.
-
-d. La visite du château de Versailles se termine dans la galerie des glaces.
-Elles couvrent les murs du sol au plafond. Les visiteurs sont éblouis par les
-lumières qui s'y reflètent et par les peintures qui décorent le plafond. Comment
-ai-je fait ?
-
-
-# Bonus 2 
-
-"bouton" a le sens de "touche". 
-Phrases (e,f,g ou h) et (e, f, g ou h).
-
-
-e. Ma petite sœur à la varicelle, elle est couverte de boutons qui démangent.
-Elle doit se couvrir de crème pour ne pas se gratter continuellement.
-
-f. Arrête d'appuyer sur tous les boutons, me dit mon père, je voudrais bien voir
-le film en entier. » Il tend alors la main vers moi et je lui donne la
-télécommande. J'aurai pourtant bien aimé appuyer sur les boutons rouges, bleus
-et verts pour savoir à quoi ils servent.
-
-g. Pour terminer cette veste, le couturier ajoute de beaux boutons de nacre. La
-cliente est satisfaite, c'est elle qui les avait choisis en même temps que le
-tissu.
-
-h. C'est le printemps les boutons de roses vont s'ouvrir. Bientôt, les pétales
-apparaitront et on pourra sentir le parfum des fleurs.
-
-i. Dans la voiture de mon grand-père, il y a même un bouton pour dégivrer les
-rétroviseurs. Quand on appuie dessus, la glace se met à fondre. Comment ai-je
-fait ?
-
-
-# Bonus 3
-Je fais attention, un mot peut avoir plusieurs sens.
-
-Le Bibliothécaire - Stratégie 2
-
-
-Entoure les quatre mots qui apparaissent avec deux sens différents dans le
-texte. Complète le tableau.
-
-Pierre commença par son exercice de géométrie. Il prit sa règle pour tracer une
-droite de 10 cm, il fit une croix au milieu puis en posant la pointe de son
-compas sur celle-ci, il traça un cercle de 5 cm de rayon. Il était certain
-d'avoir trouvé la bonne solution.
-
-Il passa ensuite à son exercice de chimie. On lui indiquait la règle à suivre
-pour faire une solution de sel à 10%. Il prit donc 50 g de sel et les versa dans
-450 g d'eau. 
-
-Le dernier exercice demandait d'associer les photos de différents animaux avec
-le milieu dans lequel ils vivent habituellement. Les photos représentaient un
-lion, un ours blanc et un panda. En face se trouvaient des photos de la
-banquise, de la savane et d'une forêt de bambous traversée par les rayons du
-soleil. Trop facile ! Pierre était tout content. En moins de deux minutes, il
-avait réussi le test.
-
-# Bonus 4
-Je fais attention, un mot peut avoir plusieurs sens.
-
-Le Bibliothécaire - Stratégie 2
-
-Entoure les quatre mots qui apparaissent avec deux sens différents dans le
-texte. Complète le tableau.
-
-Après avoir fait mes courses, je sortis du centre commercial avec mon charriot
-débordant d'articles variés. Déjà deux jours que je me nourrissais des restes
-encore présents au fond de mes placards, il était temps de faire des achats.
-J'avais garé ma voiture à peu près au centre du parking mais impossible de
-savoir exactement où elle était.
-
-Pourtant, je devais la retrouver rapidement car mon journal m'avait chargé
-d'écrire un article sur la course dont le départ devait être donné dans moins
-d'une heure. Je faisais le tour du parking depuis dix minutes quand enfin je la
-vis. Je jetai mes achats dans le coffre et sautai derrière le volant. Même si la
-route était dégagée, il faudrait un véritable tour de magie pour que j'arrive
-avant le départ des coureurs.
+7) Les enfants écoutent Vincendon leur expliquer qu’il va faire chanter l’arbre mort. Ils disent à Vincendon qu’ils ne le croient pas. 

@@ -130,3 +130,53 @@ route était dégagée, il faudrait un véritable tour de magie pour que j'arriv
 avant le départ des coureurs.
 
 
+# Vivre aux temps préhistoriques
+
+Il y a très longtemps, bien avant nos maisons, nos routes et nos écrans, des hommes et des femmes vivaient déjà sur la Terre. Ils ne connaissaient ni les livres, ni les cahiers, ni les ordinateurs. Ils n’écrivaient pas leur vie sur du papier. Pour comprendre cette période, les archéologues s'appuient sur des vestiges : ils examinent des os, des outils, des objets cassés, des restes d’animaux, et des dessins peints sur les murs des grottes.
+
+Les premiers humains vivaient en petits groupes et étaient nomades. Ils se déplaçaient souvent, parce qu’ils devaient trouver de la nourriture et chercher un endroit sûr pour la nuit. Ils marchaient longtemps, en suivant les rivières à la recherche d'endroits hospitaliers où ils pourraient trouver nourriture, eau et sécurité.
+
+Pour se nourrir, ils cueillaient des baies, des fruits, des graines et parfois des racines qu’ils déterraient avec soin. Ils chassaient aussi. Pour cela, il fallait être silencieux, rapide et très attentif. Un bruit trop fort pouvait faire fuir le gibier.
+
+Ils fabriquaient des outils avec des pierres taillées. Certains étaient très rudimentaires.
+
+Un simple éclat de pierre pouvait servir à couper, gratter ou percer. Avec le temps, les humains ont appris à mieux façonner ces outils, qui sont devenus plus efficaces et plus sophistiqués.
+
+Une découverte a changé leur vie : le feu. Le soir, sa lumière éclairait le campement. Il réchauffait les corps, aidait à cuire les aliments et tenait certains animaux à distance. Autour du feu, les groupes se réunissaient.On pouvait surveiller les enfants, réparer des objets, et partager les tâches du lendemain.
+
+Peu à peu, les humains ont quitté les grottes et ont construit des abris. Ils utilisaient des branches, des peaux, des pierres et tout ce qu’ils trouvaient dans la nature. Ils observaient le ciel, les saisons, les plantes et les animaux.Ils comprenaient qu’un lieu pouvait être plus chaud,plus sec, ou plus riche en nourriture qu’un autre. Dans certains endroits, ils ont commencé à rester plus longtemps. Ils ont cultivé la terre et gardé des animaux près d’eux. Leur vie a alors changé lentement. Ils sont devenus sédentaires.
+
+Mais la Préhistoire ne raconte pas seulement comment survivre. Elle raconte aussi comment créer. Dans des grottes profondes, des hommes et des femmes ont laissé des peintures sur les parois. On les appelle des peintures pariétales. Ils utilisaient des torches pour vaincre l'obscurité des grottes. Pour peindre, il utilisaient des éléments naturels, comme du charbon ou de l'ocre. Ils dessinaient surtout des animaux : chevaux, bisons, cerfs, aurochs... et parfois des signes que nous de comprenons pas.
+
+La grotte de Lascaux, en France, est l’une des plus célèbres, avec la grotte du Pech Merle. Les artistes de la Préhistoire ne signaient pas leurs œuvres. Nous ignorons leur nom, pourtant leurs gestes sont gravés dans la pierre. Aujourd’hui encore, ces peintures nous impressionnent. Elles nous montrent que les premiers humains étaient observateurs, patients et inventifs. Ils savaient chasser, fabriquer, transporter, protéger, mais aussi imaginer et représenter le monde.
+
+Ces lumières venues des temps très anciens continue encore aujourd’hui à nous aider à comprendre la vie des premiers hommes.
+
+# Les pronoms sujets et compléments
+
+Lis la phrase. Un groupe nominal est répété. 
+Remplace le groupe nominal par le pronom qui convient pour éviter la répétition. 
+Vérifie en relisant ta phrase que le pronom est le bon. 
+Explique comment tu as fais.
+
+1) Dans la grotte du Pech Merle, on découvre des peintures âgées de 29 000 ans. Les peintures représentent des animaux : des mammouths, des bisons ou des chevaux aux corps ponctués.
+Je remplace « les peintures » par : 
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
+
+2) Pendant la préhistoire, les femmes et les hommes décorent les parois des grottes dans lesquelles les femmes et les hommes vivent.
+Je remplace « les femmes et les hommes » par :
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
+
+3) La grotte est découverte par des enfants du pays, en 1922. Afin que la grotte ne s’abime pas, les visites se font en plusieurs fois, par petits groupes.
+Je remplace « la grotte » par :
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
+
+4) La grotte de Pech Merle est célèbre. Beaucoup de touristes veulent visiter la grotte de Pech Merle.
+Je remplace « la grotte de Pech Merle » par : 
+Je vérifie en relisant ma phrase. Comment ai-je fait ? 
+
+5) Les humains préhistoriques vivent dans des grottes. Ils décorent les grottes.
+
+6) Le renne est un animal important. Les humains préhistoriques utilisent le renne pour se nourrir, se fabriquer des vêtements, fabriquer des outils…
+
+7) Les enfants qui ont découvert la grotte connaissent un abbé passionné de préhistoire. Ils confient à l'abbé leur découverte.

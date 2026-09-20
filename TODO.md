@@ -2,7 +2,7 @@
     - mots trop courts sautent lors de la lecture.
     - bug sous Firefox Android: lecture peut démarrer 2 fois? 
 - Back-end:
-    - remplacer wav par format compressé 
+    - [x] remplacer wav par format compressé (Opus) 
     - Evaluer stable-ts (https://pypi.org/project/stable-ts/#user-content-alignment) pour l'alignement
     - Faire une image docker avec piper+aeneas? 
     - Petit GUI pour rajouter/éditer des textes?

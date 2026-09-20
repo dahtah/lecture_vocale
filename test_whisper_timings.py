@@ -14,7 +14,7 @@ load_time = time.time() - start_load
 print(f"Modèles chargés en {load_time:.1f}s")
 
 # Fichier audio de test (court)
-audio_path = "/home/simon/Repos/lecture_vocale/donnees/Cachin/audio/Exercice_Jour_1.wav"
+audio_path = "/home/simon/Repos/lecture_vocale/donnees/Cachin/audio/Exercice_Jour_1.opus"
 print(f"\nTraitement de: {audio_path}")
 
 # Transcrire avec WhisperX
@@ -71,8 +71,8 @@ print(f"\n✓ Résultat sauvegardé dans {output_path}")
 
 # Tester avec le fichier long
 print("\n" + "="*60)
-print("Test avec le fichier long (Larbre_qui_chante.wav)...")
-long_audio = "/home/simon/Repos/lecture_vocale/donnees/Cachin/audio/Larbre_qui_chante.wav"
+print("Test avec le fichier long (Larbre_qui_chante.opus)...")
+long_audio = "/home/simon/Repos/lecture_vocale/donnees/Cachin/audio/Larbre_qui_chante.opus"
 start_long = time.time()
 result_long = model.transcribe(
     long_audio,
