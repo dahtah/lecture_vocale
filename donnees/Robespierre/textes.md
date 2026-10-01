@@ -1,3 +1,23 @@
+# Le cheval de Troie
+
+Depuis plusieurs jours, les Troyens intrigués observaient les Grecs depuis les murs de leur ville. Les soldats d’Ulysse avaient empilé d’énormes tas de bois sur la plage. A présent, ils le sciaient, le découpaient et tapaient dessus à coups de marteaux. Les Troyens se demandaient bien ce que les Grecs avaient en tête.
+Puis, un matin à l’aube, les gardes troyens découvrirent avec stupeur que la plage était déserte. Le campement grec et toute la flotte avaient disparu. Il ne restait plus rien qu’un énorme cheval de bois. « Ils sont partis, la guerre est finie, nous avons gagné, nous avons gagné ! » s’écrièrent les Troyens. Ils ouvrirent alors les portes de la ville et se ruèrent sur la plage. 
+
+Intrigués, ils examinèrent le cheval de bois, tournèrent autour et le tapotèrent. « Pourquoi les Grecs ont-ils laissé ça ? interrogea l’un d’eux. 
+- Ce doit être une offrande pour la déesse Athéna, répondit un autre. Nous devrions la pousser jusqu’en ville. »
+
+Sitôt dit, sitôt fait. Le cheval trôna bientôt au milieu de la Grand-Place de Troie. Ce soir-là une fête fut organisée pour célébrer la fin de la guerre. Après avoir mangé et bu, les Troyens se mirent à chanter et à danser jusqu’à ce qu’ils tombent d’épuisement. Ils allèrent tous se coucher. 
+
+Une fois la ville plongée dans le silence, des craquements se firent entendre à l’intérieur du cheval de bois et une porte secrète s’ouvrit. A l’intérieur se trouvaient les Grecs. « Pas un bruit ! » murmura Ulysse à ses soldats. Il fit alors descendre une corde jusqu’au sol. Une fois que tous les soldats eurent mis pied à terre, ils se dispersèrent dans la ville. Après avoir assommé l’un après l’autre les gardes assoupis, ils ouvrirent toutes grandes les portes de Troie. Durant la nuit, les navires grecs étaient revenus à Troie et l’armée attendait sur la plage. Dès que les portes s’ouvrirent, les soldats envahirent la ville. Avant même que les Troyens n’aient le temps de sortir du lit et de saisir leurs armes, les Grecs les massacrèrent. 
+
+Ils sauvèrent Hélène, s’emparèrent des femmes et des enfants pour en faire des esclaves, volèrent le trésor des Troyens et incendièrent la ville. 
+
+Le plan d’Ulysse avait fonctionné, et la guerre était bel et bien finie. Enfin, les Grecs allaient pouvoir rentrer chez eux. Ils se partagèrent le trésor et prirent la mer avec joie. 
+Au bout de quelques jours, une énorme tempête se déchaîna et le navire d’Ulysse fut séparé des autres. Quand le calme revint, Ulysse et ses hommes étaient seuls. 
+
+A suivre…
+
+
 # Texte 1
 
 Il y a dix-sept mille ans, des hommes et des femmes avaient établi leur campement sous l’avancée d’une grande falaise qui dominait une belle vallée où serpentait une paisible rivière. Leurs tentes étaient faites de peaux de renne et ressemblaient à celles qu’utilisèrent beaucoup plus tard les indiens d’Amérique.
@@ -180,3 +200,5 @@ Je vérifie en relisant ma phrase. Comment ai-je fait ?
 6) Le renne est un animal important. Les humains préhistoriques utilisent le renne pour se nourrir, se fabriquer des vêtements, fabriquer des outils…
 
 7) Les enfants qui ont découvert la grotte connaissent un abbé passionné de préhistoire. Ils confient à l'abbé leur découverte.
+
+

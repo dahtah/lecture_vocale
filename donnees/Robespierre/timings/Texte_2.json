@@ -13,406 +13,406 @@
     {
       "text": "la",
       "start": 1.4,
-      "end": 1.44
+      "end": 1.48
     },
     {
       "text": "petite",
-      "start": 1.44,
-      "end": 1.84
+      "start": 1.48,
+      "end": 2.04
     },
     {
       "text": "goutte",
-      "start": 1.84,
-      "end": 2.12
+      "start": 2.04,
+      "end": 2.28
     },
     {
       "text": "de",
-      "start": 2.12,
-      "end": 2.72
+      "start": 2.28,
+      "end": 2.64
     },
     {
       "text": "sang",
-      "start": 2.72,
-      "end": 3.04
+      "start": 2.64,
+      "end": 3.0
     },
     {
       "text": "qui",
-      "start": 3.04,
-      "end": 3.32
+      "start": 3.0,
+      "end": 3.28
     },
     {
       "text": "perlait",
-      "start": 3.32,
-      "end": 3.84
+      "start": 3.28,
+      "end": 3.76
     },
     {
       "text": "au",
-      "start": 3.84,
-      "end": 3.92
+      "start": 3.76,
+      "end": 3.84
     },
     {
       "text": "bout",
-      "start": 3.92,
-      "end": 4.12
+      "start": 3.84,
+      "end": 4.0
     },
     {
       "text": "de",
-      "start": 4.12,
-      "end": 4.48
+      "start": 4.0,
+      "end": 4.36
     },
     {
       "text": "son",
-      "start": 4.48,
-      "end": 5.28
+      "start": 4.36,
+      "end": 5.16
     },
     {
       "text": "doigt",
-      "start": 5.28,
-      "end": 6.08
+      "start": 5.16,
+      "end": 6.04
     },
     {
       "text": "et,",
-      "start": 6.08,
+      "start": 6.04,
       "end": 6.72
     },
     {
       "text": "vexé,",
       "start": 6.72,
-      "end": 8.12
+      "end": 8.04
     },
     {
       "text": "alla",
-      "start": 8.12,
-      "end": 8.56
+      "start": 8.04,
+      "end": 8.4
     },
     {
       "text": "rejoindre",
-      "start": 8.56,
-      "end": 9.56
+      "start": 8.4,
+      "end": 9.16
     },
     {
       "text": "Mougo.",
-      "start": 9.56,
-      "end": 9.96
+      "start": 9.16,
+      "end": 9.72
     },
     {
       "text": "«",
-      "start": 9.96,
-      "end": 10.46
+      "start": 9.72,
+      "end": 10.24
     },
     {
       "text": "Qu’est-ce",
-      "start": 10.46,
-      "end": 10.96
+      "start": 10.24,
+      "end": 10.76
     },
     {
       "text": "que",
-      "start": 10.96,
-      "end": 11.12
+      "start": 10.76,
+      "end": 10.92
     },
     {
       "text": "tu",
-      "start": 11.12,
-      "end": 11.16
+      "start": 10.92,
+      "end": 11.12
     },
     {
       "text": "fais",
-      "start": 11.16,
-      "end": 11.92
+      "start": 11.12,
+      "end": 11.64
     },
     {
       "text": "?",
-      "start": 11.92,
-      "end": 12.2
+      "start": 11.64,
+      "end": 11.98
     },
     {
       "text": "»,",
-      "start": 12.2,
-      "end": 12.48
+      "start": 11.98,
+      "end": 12.32
     },
     {
       "text": "demanda-t-il",
-      "start": 12.48,
-      "end": 13.88
+      "start": 12.32,
+      "end": 13.64
     },
     {
       "text": "?",
-      "start": 13.88,
-      "end": 14.22
+      "start": 13.64,
+      "end": 13.92
     },
     {
       "text": "«",
-      "start": 14.22,
-      "end": 14.56
+      "start": 13.92,
+      "end": 14.2
     },
     {
       "text": "Je",
+      "start": 14.2,
+      "end": 14.56
+    },
+    {
+      "text": "grave",
       "start": 14.56,
       "end": 15.04
     },
     {
-      "text": "grave",
-      "start": 15.04,
-      "end": 15.52
-    },
-    {
       "text": "un",
-      "start": 15.52,
-      "end": 15.88
+      "start": 15.04,
+      "end": 15.24
     },
     {
       "text": "propulseur.",
-      "start": 15.88,
-      "end": 17.32
+      "start": 15.24,
+      "end": 16.68
     },
     {
       "text": "»,",
-      "start": 17.32,
-      "end": 17.68
+      "start": 16.68,
+      "end": 17.16
     },
     {
       "text": "répondit",
-      "start": 17.68,
-      "end": 18.6
+      "start": 17.16,
+      "end": 17.92
     },
     {
       "text": "l’homme.",
-      "start": 18.6,
-      "end": 19.88
+      "start": 17.92,
+      "end": 19.2
     },
     {
       "text": "Le",
-      "start": 19.88,
-      "end": 20.12
+      "start": 19.2,
+      "end": 19.44
     },
     {
       "text": "petit",
-      "start": 20.12,
-      "end": 20.56
+      "start": 19.44,
+      "end": 19.92
     },
     {
       "text": "garçon",
-      "start": 20.56,
-      "end": 21.4
+      "start": 19.92,
+      "end": 20.56
     },
     {
       "text": "regarda",
-      "start": 21.4,
-      "end": 21.88
+      "start": 20.56,
+      "end": 21.16
     },
     {
       "text": "se",
-      "start": 21.88,
-      "end": 22.16
+      "start": 21.16,
+      "end": 21.4
     },
     {
       "text": "dessiner",
-      "start": 22.16,
-      "end": 22.84
+      "start": 21.4,
+      "end": 22.08
     },
     {
       "text": "sous",
-      "start": 22.84,
-      "end": 23.12
+      "start": 22.08,
+      "end": 22.56
     },
     {
       "text": "le",
-      "start": 23.12,
-      "end": 23.36
+      "start": 22.56,
+      "end": 23.0
     },
     {
       "text": "burin",
-      "start": 23.36,
-      "end": 23.84
+      "start": 23.0,
+      "end": 23.4
     },
     {
       "text": "de",
-      "start": 23.84,
-      "end": 24.32
+      "start": 23.4,
+      "end": 23.44
     },
     {
       "text": "Mougo",
-      "start": 24.32,
-      "end": 25.04
+      "start": 23.44,
+      "end": 24.04
     },
     {
       "text": "un",
-      "start": 25.04,
-      "end": 25.32
+      "start": 24.04,
+      "end": 24.36
     },
     {
       "text": "joli",
-      "start": 25.32,
-      "end": 25.8
+      "start": 24.36,
+      "end": 24.88
     },
     {
       "text": "petit",
-      "start": 25.8,
-      "end": 26.0
+      "start": 24.88,
+      "end": 25.08
     },
     {
       "text": "cheval.",
-      "start": 26.0,
-      "end": 27.24
+      "start": 25.08,
+      "end": 26.32
     },
     {
       "text": "«",
-      "start": 27.24,
-      "end": 27.72
+      "start": 26.32,
+      "end": 26.84
     },
     {
       "text": "Pourquoi",
-      "start": 27.72,
-      "end": 28.2
+      "start": 26.84,
+      "end": 27.36
     },
     {
       "text": "un",
-      "start": 28.2,
-      "end": 28.52
+      "start": 27.36,
+      "end": 27.64
     },
     {
       "text": "cheval",
-      "start": 28.52,
-      "end": 29.48
+      "start": 27.64,
+      "end": 28.68
     },
     {
       "text": "?",
-      "start": 29.48,
-      "end": 29.759999999999998
+      "start": 28.68,
+      "end": 29.053333333333335
     },
     {
       "text": "»",
-      "start": 29.759999999999998,
-      "end": 30.04
+      "start": 29.053333333333335,
+      "end": 29.426666666666666
     },
     {
       "text": "demanda",
-      "start": 30.04,
-      "end": 30.52
+      "start": 29.426666666666666,
+      "end": 29.8
     },
     {
       "text": "Noune.",
-      "start": 30.52,
-      "end": 31.4
+      "start": 29.8,
+      "end": 30.68
     },
     {
       "text": "«",
-      "start": 31.4,
-      "end": 31.64
+      "start": 30.68,
+      "end": 31.1
     },
     {
       "text": "Pour",
-      "start": 31.64,
-      "end": 31.88
+      "start": 31.1,
+      "end": 31.52
     },
     {
       "text": "que",
-      "start": 31.88,
-      "end": 32.08
+      "start": 31.52,
+      "end": 31.7
     },
     {
       "text": "la",
-      "start": 32.08,
-      "end": 32.28
+      "start": 31.7,
+      "end": 31.88
     },
     {
       "text": "sagaie",
-      "start": 32.28,
-      "end": 32.84
+      "start": 31.88,
+      "end": 32.48
     },
     {
       "text": "soit",
-      "start": 32.84,
-      "end": 33.24
+      "start": 32.48,
+      "end": 32.92
     },
     {
       "text": "aussi",
-      "start": 33.24,
-      "end": 33.72
+      "start": 32.92,
+      "end": 33.4
     },
     {
       "text": "rapide",
-      "start": 33.72,
-      "end": 34.24
+      "start": 33.4,
+      "end": 33.96
     },
     {
       "text": "qu’un",
-      "start": 34.24,
-      "end": 34.56
+      "start": 33.96,
+      "end": 34.32
     },
     {
       "text": "cheval",
-      "start": 34.56,
-      "end": 35.4
+      "start": 34.32,
+      "end": 35.08
     },
     {
       "text": "au",
-      "start": 35.4,
-      "end": 35.68
+      "start": 35.08,
+      "end": 35.12
     },
     {
       "text": "galop.",
-      "start": 35.68,
-      "end": 36.0
+      "start": 35.12,
+      "end": 35.72
     },
     {
       "text": "»",
-      "start": 36.0,
-      "end": 36.56
+      "start": 35.72,
+      "end": 36.4
     },
     {
       "text": "Alors,",
-      "start": 36.56,
-      "end": 37.96
+      "start": 36.4,
+      "end": 37.64
     },
     {
       "text": "Noune,",
-      "start": 37.96,
-      "end": 38.88
+      "start": 37.64,
+      "end": 38.56
     },
     {
       "text": "saisissant",
-      "start": 38.88,
-      "end": 40.28
+      "start": 38.56,
+      "end": 39.88
     },
     {
       "text": "deux",
-      "start": 40.28,
-      "end": 40.44
+      "start": 39.88,
+      "end": 40.04
     },
     {
       "text": "bouts",
-      "start": 40.44,
-      "end": 40.56
+      "start": 40.04,
+      "end": 40.16
     },
     {
       "text": "de",
-      "start": 40.56,
-      "end": 40.74
+      "start": 40.16,
+      "end": 40.28
     },
     {
       "text": "bois",
-      "start": 40.74,
-      "end": 40.92
+      "start": 40.28,
+      "end": 40.6
     },
     {
       "text": "qui",
-      "start": 40.92,
-      "end": 41.12
+      "start": 40.6,
+      "end": 40.8
     },
     {
       "text": "traînaient",
-      "start": 41.12,
-      "end": 41.68
+      "start": 40.8,
+      "end": 41.32
     },
     {
       "text": "là,",
-      "start": 41.68,
-      "end": 42.08
+      "start": 41.32,
+      "end": 41.72
     },
     {
       "text": "s’amusa",
-      "start": 42.08,
+      "start": 41.72,
       "end": 43.36
     },
     {
@@ -428,38 +428,38 @@
     {
       "text": "à",
       "start": 44.04,
-      "end": 45.2
+      "end": 45.32
     },
     {
       "text": "faire",
-      "start": 45.2,
-      "end": 45.64
+      "start": 45.32,
+      "end": 45.76
     },
     {
       "text": "semblant",
-      "start": 45.64,
-      "end": 46.12
+      "start": 45.76,
+      "end": 46.2
     },
     {
       "text": "de",
-      "start": 46.12,
-      "end": 46.12
+      "start": 46.2,
+      "end": 46.36
     },
     {
       "text": "lancer",
-      "start": 46.12,
-      "end": 46.12
+      "start": 46.36,
+      "end": 46.52
     },
     {
       "text": "une",
-      "start": 46.12,
-      "end": 46.12
+      "start": 46.52,
+      "end": 46.52
     },
     {
       "text": "sagaie.",
-      "start": 46.12,
-      "end": 46.76
+      "start": 46.52,
+      "end": 46.84
     }
   ],
-  "audio_duration": 46.76
+  "audio_duration": 46.84
 }

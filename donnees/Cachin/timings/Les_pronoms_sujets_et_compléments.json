@@ -3,556 +3,556 @@
     {
       "text": "Lis",
       "start": 0.0,
-      "end": 0.52
+      "end": 0.48
     },
     {
       "text": "la",
-      "start": 0.52,
-      "end": 0.72
+      "start": 0.48,
+      "end": 0.92
     },
     {
       "text": "phrase.",
-      "start": 0.72,
-      "end": 2.36
+      "start": 0.92,
+      "end": 2.76
     },
     {
       "text": "Un",
-      "start": 2.36,
-      "end": 2.84
+      "start": 2.76,
+      "end": 3.24
     },
     {
       "text": "groupe",
-      "start": 2.84,
-      "end": 3.44
+      "start": 3.24,
+      "end": 3.8
     },
     {
       "text": "nominal",
-      "start": 3.44,
-      "end": 4.6
+      "start": 3.8,
+      "end": 4.96
     },
     {
       "text": "est",
-      "start": 4.6,
-      "end": 5.12
+      "start": 4.96,
+      "end": 5.44
     },
     {
       "text": "répété.",
-      "start": 5.12,
-      "end": 6.48
+      "start": 5.44,
+      "end": 6.72
     },
     {
       "text": "Remplace",
-      "start": 6.48,
-      "end": 7.4
+      "start": 6.72,
+      "end": 7.56
     },
     {
       "text": "le",
-      "start": 7.4,
-      "end": 7.72
+      "start": 7.56,
+      "end": 7.92
     },
     {
       "text": "groupe",
-      "start": 7.72,
-      "end": 7.96
+      "start": 7.92,
+      "end": 8.16
     },
     {
       "text": "nominal",
-      "start": 7.96,
-      "end": 9.0
+      "start": 8.16,
+      "end": 9.16
     },
     {
       "text": "par",
-      "start": 9.0,
-      "end": 9.52
+      "start": 9.16,
+      "end": 9.64
     },
     {
       "text": "le",
-      "start": 9.52,
-      "end": 9.6
+      "start": 9.64,
+      "end": 9.72
     },
     {
       "text": "pronom",
-      "start": 9.6,
-      "end": 10.88
+      "start": 9.72,
+      "end": 10.96
     },
     {
       "text": "qui",
-      "start": 10.88,
-      "end": 11.12
+      "start": 10.96,
+      "end": 11.2
     },
     {
       "text": "convient",
-      "start": 11.12,
-      "end": 12.4
+      "start": 11.2,
+      "end": 12.12
     },
     {
       "text": "pour",
-      "start": 12.4,
-      "end": 13.08
+      "start": 12.12,
+      "end": 12.76
     },
     {
       "text": "éviter",
-      "start": 13.08,
-      "end": 13.52
+      "start": 12.76,
+      "end": 13.28
     },
     {
       "text": "la",
-      "start": 13.52,
-      "end": 14.399999999999999
+      "start": 13.28,
+      "end": 14.14
     },
     {
       "text": "répétition.",
-      "start": 14.399999999999999,
-      "end": 15.28
+      "start": 14.14,
+      "end": 15.0
     },
     {
       "text": "Vérifie",
-      "start": 15.28,
-      "end": 16.12
+      "start": 15.0,
+      "end": 16.04
     },
     {
       "text": "en",
-      "start": 16.12,
-      "end": 16.44
+      "start": 16.04,
+      "end": 16.2
     },
     {
       "text": "relisant",
-      "start": 16.44,
-      "end": 16.84
+      "start": 16.2,
+      "end": 16.56
     },
     {
       "text": "ta",
-      "start": 16.84,
-      "end": 17.04
+      "start": 16.56,
+      "end": 16.76
     },
     {
       "text": "phrase",
-      "start": 17.04,
-      "end": 17.6
+      "start": 16.76,
+      "end": 17.4
     },
     {
       "text": "que",
-      "start": 17.6,
-      "end": 17.92
+      "start": 17.4,
+      "end": 17.72
     },
     {
       "text": "le",
-      "start": 17.92,
-      "end": 17.96
+      "start": 17.72,
+      "end": 17.8
     },
     {
       "text": "pronom",
-      "start": 17.96,
-      "end": 19.12
+      "start": 17.8,
+      "end": 18.8
     },
     {
       "text": "est",
-      "start": 19.12,
-      "end": 19.72
+      "start": 18.8,
+      "end": 19.36
     },
     {
       "text": "le",
-      "start": 19.72,
-      "end": 20.56
+      "start": 19.36,
+      "end": 20.04
     },
     {
       "text": "bon.",
-      "start": 20.56,
-      "end": 20.76
+      "start": 20.04,
+      "end": 20.24
     },
     {
       "text": "Explique",
-      "start": 20.76,
-      "end": 21.56
+      "start": 20.24,
+      "end": 21.12
     },
     {
       "text": "comment",
-      "start": 21.56,
-      "end": 22.04
+      "start": 21.12,
+      "end": 21.68
     },
     {
       "text": "tu",
-      "start": 22.04,
-      "end": 22.24
+      "start": 21.68,
+      "end": 21.92
     },
     {
       "text": "as",
-      "start": 22.24,
-      "end": 22.56
+      "start": 21.92,
+      "end": 22.32
     },
     {
       "text": "fais.",
-      "start": 22.56,
-      "end": 23.6
+      "start": 22.32,
+      "end": 23.28
     },
     {
       "text": "1)",
-      "start": 23.6,
-      "end": 23.92
+      "start": 23.28,
+      "end": 23.56
     },
     {
       "text": "Le",
-      "start": 23.92,
-      "end": 24.12
+      "start": 23.56,
+      "end": 23.8
     },
     {
       "text": "père",
-      "start": 24.12,
-      "end": 24.64
+      "start": 23.8,
+      "end": 24.44
     },
     {
       "text": "Vincendon",
-      "start": 24.64,
-      "end": 25.52
+      "start": 24.44,
+      "end": 25.48
     },
     {
       "text": "n’était",
-      "start": 25.52,
-      "end": 25.88
+      "start": 25.48,
+      "end": 25.64
     },
     {
       "text": "pas",
-      "start": 25.88,
-      "end": 26.48
+      "start": 25.64,
+      "end": 26.16
     },
     {
       "text": "un",
-      "start": 26.48,
-      "end": 26.92
+      "start": 26.16,
+      "end": 26.6
     },
     {
       "text": "homme",
-      "start": 26.92,
-      "end": 27.28
+      "start": 26.6,
+      "end": 27.0
     },
     {
       "text": "comme",
-      "start": 27.28,
-      "end": 27.68
+      "start": 27.0,
+      "end": 27.4
     },
     {
       "text": "les",
-      "start": 27.68,
-      "end": 27.92
+      "start": 27.4,
+      "end": 27.64
     },
     {
       "text": "autres",
-      "start": 27.92,
-      "end": 28.12
+      "start": 27.64,
+      "end": 27.84
     },
     {
       "text": ":",
-      "start": 28.12,
-      "end": 28.96
+      "start": 27.84,
+      "end": 28.28
     },
     {
       "text": "le",
-      "start": 28.96,
-      "end": 29.2
+      "start": 28.28,
+      "end": 28.56
     },
     {
       "text": "père",
-      "start": 29.2,
-      "end": 29.84
+      "start": 28.56,
+      "end": 29.16
     },
     {
       "text": "Vincendon",
-      "start": 29.84,
-      "end": 30.84
+      "start": 29.16,
+      "end": 30.2
     },
     {
       "text": "était",
-      "start": 30.84,
-      "end": 31.12
+      "start": 30.2,
+      "end": 30.44
     },
     {
       "text": "amoureux",
-      "start": 31.12,
-      "end": 31.64
+      "start": 30.44,
+      "end": 31.04
     },
     {
       "text": "du",
-      "start": 31.64,
-      "end": 31.8
+      "start": 31.04,
+      "end": 31.24
     },
     {
       "text": "bois.",
-      "start": 31.8,
-      "end": 32.92
+      "start": 31.24,
+      "end": 32.32
     },
     {
       "text": "Je",
-      "start": 32.92,
-      "end": 33.4
+      "start": 32.32,
+      "end": 32.76
     },
     {
       "text": "remplace",
-      "start": 33.4,
-      "end": 34.0
+      "start": 32.76,
+      "end": 33.44
     },
     {
       "text": "«",
-      "start": 34.0,
-      "end": 34.13333333333333
+      "start": 33.44,
+      "end": 33.46
     },
     {
       "text": "le",
-      "start": 34.13333333333333,
-      "end": 34.266666666666666
+      "start": 33.46,
+      "end": 33.480000000000004
     },
     {
       "text": "père",
-      "start": 34.266666666666666,
-      "end": 34.4
+      "start": 33.48,
+      "end": 33.8
     },
     {
       "text": "Vincendon",
-      "start": 34.4,
-      "end": 35.28
+      "start": 33.8,
+      "end": 34.68
     },
     {
       "text": "»",
-      "start": 35.28,
-      "end": 35.620000000000005
+      "start": 34.68,
+      "end": 35.04
     },
     {
       "text": "par",
-      "start": 35.620000000000005,
-      "end": 35.96
+      "start": 35.04,
+      "end": 35.4
     },
     {
       "text": ":",
-      "start": 35.96,
-      "end": 36.44
+      "start": 35.4,
+      "end": 35.76
     },
     {
       "text": "Je",
-      "start": 36.44,
-      "end": 36.92
+      "start": 35.76,
+      "end": 36.12
     },
     {
       "text": "vérifie",
-      "start": 36.92,
-      "end": 38.08
+      "start": 36.12,
+      "end": 37.28
     },
     {
       "text": "en",
-      "start": 38.08,
-      "end": 38.52
+      "start": 37.28,
+      "end": 37.6
     },
     {
       "text": "relisant",
-      "start": 38.52,
-      "end": 38.88
+      "start": 37.6,
+      "end": 38.16
     },
     {
       "text": "ma",
-      "start": 38.88,
-      "end": 39.08
+      "start": 38.16,
+      "end": 38.4
     },
     {
       "text": "phrase.",
-      "start": 39.08,
-      "end": 40.0
+      "start": 38.4,
+      "end": 39.44
     },
     {
       "text": "Comment",
-      "start": 40.0,
-      "end": 41.08
+      "start": 39.44,
+      "end": 40.52
     },
     {
       "text": "ai-je",
-      "start": 41.08,
-      "end": 41.28
+      "start": 40.52,
+      "end": 40.68
     },
     {
       "text": "fait",
-      "start": 41.28,
-      "end": 42.04
+      "start": 40.68,
+      "end": 41.32
     },
     {
       "text": "?",
-      "start": 42.04,
-      "end": 42.46
+      "start": 41.32,
+      "end": 41.739999999999995
     },
     {
       "text": "2)",
-      "start": 42.46,
-      "end": 42.88
+      "start": 41.739999999999995,
+      "end": 42.16
     },
     {
       "text": "Les",
-      "start": 42.88,
+      "start": 42.16,
+      "end": 42.4
+    },
+    {
+      "text": "murs",
+      "start": 42.4,
+      "end": 42.84
+    },
+    {
+      "text": "de",
+      "start": 42.84,
       "end": 43.16
     },
     {
-      "text": "murs",
-      "start": 43.16,
-      "end": 43.44
-    },
-    {
-      "text": "de",
-      "start": 43.44,
-      "end": 43.84
-    },
-    {
       "text": "son",
-      "start": 43.84,
-      "end": 44.24
+      "start": 43.16,
+      "end": 43.6
     },
     {
       "text": "atelier",
-      "start": 44.24,
-      "end": 45.32
+      "start": 43.6,
+      "end": 44.16
     },
     {
       "text": "étaient",
-      "start": 45.32,
-      "end": 45.76
+      "start": 44.16,
+      "end": 44.52
     },
     {
       "text": "garnis",
-      "start": 45.76,
-      "end": 46.32
+      "start": 44.52,
+      "end": 45.04
     },
     {
       "text": "d’outils",
-      "start": 46.32,
-      "end": 46.8
+      "start": 45.04,
+      "end": 45.42
     },
     {
       "text": "posés",
-      "start": 46.8,
-      "end": 47.24
+      "start": 45.42,
+      "end": 45.8
     },
     {
       "text": "sur",
-      "start": 47.24,
-      "end": 47.44
+      "start": 45.8,
+      "end": 46.32
     },
     {
       "text": "les",
-      "start": 47.44,
-      "end": 47.8
+      "start": 46.32,
+      "end": 47.08
     },
     {
       "text": "rayons.",
-      "start": 47.8,
-      "end": 48.28
+      "start": 47.08,
+      "end": 47.8
     },
     {
       "text": "Les",
-      "start": 48.28,
-      "end": 48.72
+      "start": 47.8,
+      "end": 48.2
     },
     {
       "text": "murs",
-      "start": 48.72,
-      "end": 49.24
+      "start": 48.2,
+      "end": 48.68
     },
     {
       "text": "de",
-      "start": 49.24,
-      "end": 49.64
+      "start": 48.68,
+      "end": 49.12
     },
     {
       "text": "sont",
-      "start": 49.64,
-      "end": 50.12
+      "start": 49.12,
+      "end": 49.48
     },
     {
       "text": "ateliers",
-      "start": 50.12,
-      "end": 50.8
+      "start": 49.48,
+      "end": 50.24
     },
     {
       "text": "étaient",
-      "start": 50.8,
-      "end": 50.96
+      "start": 50.24,
+      "end": 50.44
     },
     {
       "text": "pleins",
-      "start": 50.96,
+      "start": 50.44,
+      "end": 50.68
+    },
+    {
+      "text": "de",
+      "start": 50.68,
       "end": 51.2
     },
     {
-      "text": "de",
-      "start": 51.2,
-      "end": 51.52
-    },
-    {
       "text": "rabots,",
-      "start": 51.52,
-      "end": 52.24
+      "start": 51.2,
+      "end": 51.56
     },
     {
       "text": "de",
-      "start": 52.24,
-      "end": 52.36
+      "start": 51.56,
+      "end": 51.92
     },
     {
       "text": "scies,",
-      "start": 52.36,
-      "end": 52.76
+      "start": 51.92,
+      "end": 52.36
     },
     {
       "text": "de",
-      "start": 52.76,
-      "end": 52.92
+      "start": 52.36,
+      "end": 52.48
     },
     {
       "text": "ciseaux,",
-      "start": 52.92,
-      "end": 53.6
+      "start": 52.48,
+      "end": 53.16
     },
     {
       "text": "de",
-      "start": 53.6,
-      "end": 53.76
+      "start": 53.16,
+      "end": 53.32
     },
     {
       "text": "compas.",
-      "start": 53.76,
-      "end": 54.48
+      "start": 53.32,
+      "end": 54.12
     },
     {
       "text": "Je",
-      "start": 54.48,
-      "end": 55.72
+      "start": 54.12,
+      "end": 55.32
     },
     {
       "text": "remplace",
-      "start": 55.72,
-      "end": 56.12
+      "start": 55.32,
+      "end": 56.16
     },
     {
       "text": "«",
-      "start": 56.12,
-      "end": 56.36
+      "start": 56.16,
+      "end": 56.24
     },
     {
       "text": "les",
-      "start": 56.36,
-      "end": 56.88
+      "start": 56.24,
+      "end": 56.84
     },
     {
       "text": "murs",
-      "start": 56.88,
-      "end": 57.16
+      "start": 56.84,
+      "end": 57.12
     },
     {
       "text": "de",
-      "start": 57.16,
-      "end": 57.28
+      "start": 57.12,
+      "end": 57.16
     },
     {
       "text": "son",
-      "start": 57.28,
-      "end": 57.4
+      "start": 57.16,
+      "end": 57.52
     },
     {
       "text": "atelier»",
-      "start": 57.4,
+      "start": 57.52,
       "end": 57.8
     },
     {
@@ -563,161 +563,161 @@
     {
       "text": ":",
       "start": 58.52,
-      "end": 58.8
+      "end": 58.96
     },
     {
       "text": "Je",
-      "start": 58.8,
-      "end": 59.08
+      "start": 58.96,
+      "end": 59.4
     },
     {
       "text": "vérifie",
-      "start": 59.08,
-      "end": 60.16
+      "start": 59.4,
+      "end": 60.64
     },
     {
       "text": "en",
-      "start": 60.16,
-      "end": 60.4
-    },
-    {
-      "text": "relisant",
-      "start": 60.4,
-      "end": 60.8
-    },
-    {
-      "text": "ma",
-      "start": 60.8,
+      "start": 60.64,
       "end": 61.08
     },
     {
-      "text": "phrase.",
+      "text": "relisant",
       "start": 61.08,
-      "end": 62.08
+      "end": 61.44
+    },
+    {
+      "text": "ma",
+      "start": 61.44,
+      "end": 61.76
+    },
+    {
+      "text": "phrase.",
+      "start": 61.76,
+      "end": 62.52
     },
     {
       "text": "Comment",
-      "start": 62.08,
-      "end": 63.16
+      "start": 62.52,
+      "end": 63.48
     },
     {
       "text": "ai-je",
-      "start": 63.16,
-      "end": 63.28
+      "start": 63.48,
+      "end": 63.64
     },
     {
       "text": "fait",
-      "start": 63.28,
-      "end": 63.96
+      "start": 63.64,
+      "end": 64.44
     },
     {
       "text": "?",
-      "start": 63.96,
-      "end": 64.62
+      "start": 64.44,
+      "end": 65.14
     },
     {
       "text": "3)",
-      "start": 64.62,
-      "end": 65.28
+      "start": 65.14,
+      "end": 65.84
     },
     {
       "text": "Les",
-      "start": 65.28,
-      "end": 65.52
+      "start": 65.84,
+      "end": 66.08
     },
     {
       "text": "deux",
-      "start": 65.52,
-      "end": 65.76
+      "start": 66.08,
+      "end": 66.32
     },
     {
       "text": "petits",
-      "start": 65.76,
-      "end": 66.44
+      "start": 66.32,
+      "end": 67.04
     },
     {
       "text": "érables",
-      "start": 66.44,
-      "end": 67.48
+      "start": 67.04,
+      "end": 68.0
     },
     {
       "text": "semblaient",
-      "start": 67.48,
-      "end": 68.24
+      "start": 68.0,
+      "end": 68.72
     },
     {
       "text": "morts,",
-      "start": 68.24,
-      "end": 69.04
+      "start": 68.72,
+      "end": 69.48
     },
     {
       "text": "mais",
-      "start": 69.04,
-      "end": 69.72
+      "start": 69.48,
+      "end": 70.04
     },
     {
       "text": "Gérard",
-      "start": 69.72,
-      "end": 70.72
+      "start": 70.04,
+      "end": 71.12
     },
     {
       "text": "et",
-      "start": 70.72,
-      "end": 71.16
+      "start": 71.12,
+      "end": 71.68
     },
     {
       "text": "Isabelle",
-      "start": 71.16,
-      "end": 72.28
+      "start": 71.68,
+      "end": 72.44
     },
     {
       "text": "savaient",
-      "start": 72.28,
-      "end": 72.84
+      "start": 72.44,
+      "end": 73.0
     },
     {
       "text": "que",
-      "start": 72.84,
-      "end": 73.24
+      "start": 73.0,
+      "end": 73.4
     },
     {
       "text": "les",
-      "start": 73.24,
-      "end": 73.52
+      "start": 73.4,
+      "end": 73.64
     },
     {
       "text": "deux",
-      "start": 73.52,
-      "end": 73.76
+      "start": 73.64,
+      "end": 73.84
     },
     {
       "text": "petits",
-      "start": 73.76,
-      "end": 74.48
+      "start": 73.84,
+      "end": 74.6
     },
     {
       "text": "érables",
-      "start": 74.48,
-      "end": 75.44
+      "start": 74.6,
+      "end": 75.48
     },
     {
       "text": "venaient",
-      "start": 75.44,
+      "start": 75.48,
       "end": 76.12
     },
     {
       "text": "seulement",
       "start": 76.12,
-      "end": 76.8
+      "end": 76.72
     },
     {
       "text": "de",
-      "start": 76.8,
-      "end": 76.88
+      "start": 76.72,
+      "end": 76.84
     },
     {
       "text": "s’endormir",
-      "start": 76.88,
+      "start": 76.84,
       "end": 78.04
     },
     {
@@ -728,463 +728,463 @@
     {
       "text": "l’hiver.",
       "start": 78.6,
-      "end": 79.48
+      "end": 79.36
     },
     {
       "text": "Je",
-      "start": 79.48,
-      "end": 80.52
+      "start": 79.36,
+      "end": 80.48
     },
     {
       "text": "remplace",
-      "start": 80.52,
-      "end": 81.24
+      "start": 80.48,
+      "end": 81.28
     },
     {
       "text": "«",
-      "start": 81.24,
-      "end": 81.36
+      "start": 81.28,
+      "end": 81.32
     },
     {
       "text": "les",
-      "start": 81.36,
-      "end": 81.48
+      "start": 81.32,
+      "end": 81.56
     },
     {
       "text": "deux",
-      "start": 81.48,
-      "end": 81.76
+      "start": 81.56,
+      "end": 81.88
     },
     {
       "text": "petits",
-      "start": 81.76,
-      "end": 82.32
+      "start": 81.88,
+      "end": 82.56
     },
     {
       "text": "érables",
-      "start": 82.32,
-      "end": 83.12
+      "start": 82.56,
+      "end": 83.56
     },
     {
       "text": "»",
-      "start": 83.12,
-      "end": 83.52000000000001
+      "start": 83.56,
+      "end": 83.96000000000001
     },
     {
       "text": "par",
-      "start": 83.52000000000001,
-      "end": 83.92
+      "start": 83.96000000000001,
+      "end": 84.36
     },
     {
       "text": ":",
-      "start": 83.92,
-      "end": 84.22
+      "start": 84.36,
+      "end": 84.74000000000001
     },
     {
       "text": "Je",
-      "start": 84.22,
-      "end": 84.52
+      "start": 84.74000000000001,
+      "end": 85.12
     },
     {
       "text": "vérifie",
-      "start": 84.52,
-      "end": 85.28
+      "start": 85.12,
+      "end": 86.04
     },
     {
       "text": "en",
-      "start": 85.28,
-      "end": 85.96
+      "start": 86.04,
+      "end": 86.48
     },
     {
       "text": "relisant",
-      "start": 85.96,
-      "end": 86.36
+      "start": 86.48,
+      "end": 87.12
     },
     {
       "text": "ma",
-      "start": 86.36,
-      "end": 86.52
+      "start": 87.12,
+      "end": 87.28
     },
     {
       "text": "phrase.",
-      "start": 86.52,
-      "end": 87.52
+      "start": 87.28,
+      "end": 88.24
     },
     {
       "text": "Comment",
-      "start": 87.52,
-      "end": 88.6
+      "start": 88.24,
+      "end": 89.36
     },
     {
       "text": "ai-je",
-      "start": 88.6,
-      "end": 88.72
+      "start": 89.36,
+      "end": 89.48
     },
     {
       "text": "fait",
-      "start": 88.72,
-      "end": 89.44
+      "start": 89.48,
+      "end": 90.2
     },
     {
       "text": "?",
-      "start": 89.44,
-      "end": 89.8
+      "start": 90.2,
+      "end": 90.66
     },
     {
       "text": "4)",
-      "start": 89.8,
-      "end": 90.16
+      "start": 90.66,
+      "end": 91.12
     },
     {
       "text": "Le",
-      "start": 90.16,
-      "end": 90.56
+      "start": 91.12,
+      "end": 91.44
     },
     {
       "text": "paysage",
-      "start": 90.56,
-      "end": 91.4
+      "start": 91.44,
+      "end": 92.32
     },
     {
       "text": "au",
-      "start": 91.4,
-      "end": 91.52000000000001
+      "start": 92.32,
+      "end": 92.36
     },
     {
       "text": "pied",
-      "start": 91.52000000000001,
-      "end": 91.64
+      "start": 92.36,
+      "end": 92.6
     },
     {
       "text": "de",
-      "start": 91.64,
-      "end": 91.92
+      "start": 92.6,
+      "end": 92.92
     },
     {
       "text": "la",
-      "start": 91.92,
-      "end": 92.2
+      "start": 92.92,
+      "end": 93.16
     },
     {
       "text": "montagne",
-      "start": 92.2,
-      "end": 93.08
+      "start": 93.16,
+      "end": 93.96
     },
     {
       "text": "est",
-      "start": 93.08,
-      "end": 93.6
+      "start": 93.96,
+      "end": 94.48
     },
     {
       "text": "très",
-      "start": 93.6,
-      "end": 94.04
+      "start": 94.48,
+      "end": 94.96
     },
     {
       "text": "beau",
-      "start": 94.04,
-      "end": 94.08
+      "start": 94.96,
+      "end": 95.0
     },
     {
       "text": "en",
-      "start": 94.08,
-      "end": 94.68
+      "start": 95.0,
+      "end": 95.52
     },
     {
       "text": "hiver.",
-      "start": 94.68,
-      "end": 95.48
+      "start": 95.52,
+      "end": 96.36
     },
     {
       "text": "Beaucoup",
-      "start": 95.48,
-      "end": 96.32
+      "start": 96.36,
+      "end": 97.16
     },
     {
       "text": "de",
-      "start": 96.32,
-      "end": 96.6
+      "start": 97.16,
+      "end": 97.4
     },
     {
       "text": "promeneurs",
-      "start": 96.6,
-      "end": 97.44
+      "start": 97.4,
+      "end": 98.28
     },
     {
       "text": "veulent",
-      "start": 97.44,
-      "end": 97.92
+      "start": 98.28,
+      "end": 98.52
     },
     {
       "text": "voir",
-      "start": 97.92,
-      "end": 98.32
+      "start": 98.52,
+      "end": 98.92
     },
     {
       "text": "le",
-      "start": 98.32,
-      "end": 98.36
+      "start": 98.92,
+      "end": 98.96
     },
     {
       "text": "paysage.",
-      "start": 98.36,
-      "end": 99.68
+      "start": 98.96,
+      "end": 100.12
     },
     {
       "text": "5)",
-      "start": 99.68,
-      "end": 100.6
+      "start": 100.12,
+      "end": 100.84
     },
     {
       "text": "Les",
-      "start": 100.6,
-      "end": 100.92
+      "start": 100.84,
+      "end": 101.16
     },
     {
       "text": "oiseaux",
-      "start": 100.92,
-      "end": 101.36
+      "start": 101.16,
+      "end": 101.52
     },
     {
       "text": "frileux",
-      "start": 101.36,
-      "end": 101.88
+      "start": 101.52,
+      "end": 102.04
     },
     {
       "text": "s’abritent",
-      "start": 101.88,
-      "end": 102.56
+      "start": 102.04,
+      "end": 102.84
     },
     {
       "text": "sur",
-      "start": 102.56,
-      "end": 102.96
+      "start": 102.84,
+      "end": 103.12
     },
     {
       "text": "la",
-      "start": 102.96,
-      "end": 103.08
+      "start": 103.12,
+      "end": 103.84
     },
     {
       "text": "vieille",
-      "start": 103.08,
-      "end": 103.44
+      "start": 103.84,
+      "end": 104.16
     },
     {
       "text": "treille.",
-      "start": 103.44,
-      "end": 104.24
+      "start": 104.16,
+      "end": 105.04
     },
     {
       "text": "Grand-Mère",
-      "start": 104.24,
-      "end": 105.24
+      "start": 105.04,
+      "end": 106.12
     },
     {
       "text": "répare",
-      "start": 105.24,
-      "end": 105.72
+      "start": 106.12,
+      "end": 106.6
     },
     {
       "text": "la",
-      "start": 105.72,
-      "end": 106.28
+      "start": 106.6,
+      "end": 107.2
     },
     {
       "text": "vieille",
-      "start": 106.28,
-      "end": 106.68
+      "start": 107.2,
+      "end": 107.6
     },
     {
       "text": "treille.",
-      "start": 106.68,
-      "end": 107.72
+      "start": 107.6,
+      "end": 108.56
     },
     {
       "text": "6)",
-      "start": 107.72,
-      "end": 108.92
+      "start": 108.56,
+      "end": 109.4
     },
     {
       "text": "L’érable",
-      "start": 108.92,
-      "end": 109.72
+      "start": 109.4,
+      "end": 110.12
     },
     {
       "text": "est",
-      "start": 109.72,
-      "end": 110.08
+      "start": 110.12,
+      "end": 110.52
     },
     {
       "text": "un",
-      "start": 110.08,
-      "end": 110.4
+      "start": 110.52,
+      "end": 110.76
     },
     {
       "text": "arbre",
-      "start": 110.4,
-      "end": 110.96
+      "start": 110.76,
+      "end": 111.52
     },
     {
       "text": "majestueux.",
-      "start": 110.96,
-      "end": 112.32
+      "start": 111.52,
+      "end": 112.8
     },
     {
       "text": "Les",
-      "start": 112.32,
-      "end": 113.44
+      "start": 112.8,
+      "end": 113.76
     },
     {
       "text": "canadiens",
-      "start": 113.44,
-      "end": 114.52
+      "start": 113.76,
+      "end": 114.64
     },
     {
       "text": "utilisent",
-      "start": 114.52,
-      "end": 115.6
+      "start": 114.64,
+      "end": 115.68
     },
     {
       "text": "l’érable",
-      "start": 115.6,
-      "end": 116.72
+      "start": 115.68,
+      "end": 116.92
     },
     {
       "text": "pour",
-      "start": 116.72,
-      "end": 116.96
+      "start": 116.92,
+      "end": 117.16
     },
     {
       "text": "fabriquer",
-      "start": 116.96,
-      "end": 117.8
+      "start": 117.16,
+      "end": 117.96
     },
     {
       "text": "un",
-      "start": 117.8,
-      "end": 118.08
+      "start": 117.96,
+      "end": 118.32
     },
     {
       "text": "sirop",
-      "start": 118.08,
-      "end": 118.56
+      "start": 118.32,
+      "end": 118.84
     },
     {
       "text": "sucré.",
-      "start": 118.56,
-      "end": 119.44
+      "start": 118.84,
+      "end": 119.72
     },
     {
       "text": "7)",
-      "start": 119.44,
-      "end": 120.52
+      "start": 119.72,
+      "end": 120.84
     },
     {
       "text": "Les",
-      "start": 120.52,
-      "end": 120.88
+      "start": 120.84,
+      "end": 121.24
     },
     {
       "text": "enfants",
-      "start": 120.88,
-      "end": 121.44
+      "start": 121.24,
+      "end": 121.92
     },
     {
       "text": "écoutent",
-      "start": 121.44,
-      "end": 122.16
+      "start": 121.92,
+      "end": 122.56
     },
     {
       "text": "Vincendon",
-      "start": 122.16,
-      "end": 122.76
+      "start": 122.56,
+      "end": 123.24
     },
     {
       "text": "leur",
-      "start": 122.76,
-      "end": 123.28
+      "start": 123.24,
+      "end": 123.64
     },
     {
       "text": "expliquer",
-      "start": 123.28,
-      "end": 123.72
-    },
-    {
-      "text": "qu’il",
-      "start": 123.72,
+      "start": 123.64,
       "end": 124.12
     },
     {
-      "text": "va",
+      "text": "qu’il",
       "start": 124.12,
-      "end": 124.30000000000001
-    },
-    {
-      "text": "faire",
-      "start": 124.30000000000001,
       "end": 124.48
     },
     {
-      "text": "chanter",
+      "text": "va",
       "start": 124.48,
-      "end": 125.32
+      "end": 124.66
+    },
+    {
+      "text": "faire",
+      "start": 124.66,
+      "end": 124.84
+    },
+    {
+      "text": "chanter",
+      "start": 124.84,
+      "end": 125.72
     },
     {
       "text": "l’arbre",
-      "start": 125.32,
-      "end": 126.16
+      "start": 125.72,
+      "end": 126.6
     },
     {
       "text": "mort.",
-      "start": 126.16,
-      "end": 127.0
+      "start": 126.6,
+      "end": 127.24
     },
     {
       "text": "Ils",
-      "start": 127.0,
-      "end": 127.6
+      "start": 127.24,
+      "end": 128.24
     },
     {
       "text": "disent",
-      "start": 127.6,
-      "end": 128.0
+      "start": 128.24,
+      "end": 128.56
     },
     {
       "text": "à",
-      "start": 128.0,
-      "end": 128.84
+      "start": 128.56,
+      "end": 129.36
     },
     {
       "text": "Vincendon",
-      "start": 128.84,
-      "end": 129.12
+      "start": 129.36,
+      "end": 129.64
     },
     {
       "text": "qu’ils",
-      "start": 129.12,
-      "end": 129.32
+      "start": 129.64,
+      "end": 129.8
     },
     {
       "text": "ne",
-      "start": 129.32,
-      "end": 129.44
+      "start": 129.8,
+      "end": 130.08
     },
     {
       "text": "le",
-      "start": 129.44,
-      "end": 129.56
+      "start": 130.08,
+      "end": 130.26
     },
     {
       "text": "croient",
-      "start": 129.56,
-      "end": 129.92
+      "start": 130.26,
+      "end": 130.44
     },
     {
       "text": "pas.",
-      "start": 129.92,
-      "end": 130.56
+      "start": 130.44,
+      "end": 131.12
     }
   ],
-  "audio_duration": 130.56
+  "audio_duration": 131.12
 }
